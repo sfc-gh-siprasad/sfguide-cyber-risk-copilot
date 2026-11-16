@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Try Cyber Risk Copilot | sample data</title>
+<link rel="stylesheet" href="try.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="side">
+    <p class="brand">Cyber Risk Copilot</p>
+    <nav aria-label="Pages">
+      <button class="nav active" data-page="overview">Posture overview</button>
+      <button class="nav" data-page="services">Services and findings</button>
+      <button class="nav" data-page="copilot">Ask the copilot</button>
+    </nav>
+    <p class="note">Hosted example on synthetic data. No Snowflake account needed. Illustrative logic, not production, security, or compliance advice. Not an official Snowflake product.</p>
+    <p class="note"><a href="../">About this example</a> · <a href="https://github.com/sfc-gh-siprasad/sfguide-cyber-risk-copilot">Code</a></p>
+  </aside>
+
+  <main>
+    <section id="overview" class="page" aria-labelledby="h-overview">
+      <h1 id="h-overview">Cyber posture overview</h1>
+      <p class="sub">As of <span data-asof></span> · open means status Open or In Progress <span class="badge">Sample data</span></p>
+      <div class="kpis" id="kpis"></div>
+      <div class="grid">
+        <div class="card"><h2>Open findings by severity</h2><div id="chart-severity" class="chart"></div></div>
+        <div class="card"><h2>Opened and resolved by month</h2><div id="chart-trend" class="chart"></div></div>
+        <div class="card"><h2>How old are open findings?</h2><div id="chart-aging" class="chart"></div></div>
+        <div class="card"><h2>Services with the most open critical findings</h2><div class="scroll"><table id="top-services"></table></div></div>
+      </div>
+    </section>
+
+    <section id="services" class="page" hidden aria-labelledby="h-services">
+      <h1 id="h-services">Services and findings</h1>
+      <p class="sub">Choose a service to see its highest-priority open findings. Ordering uses a simple illustrative score.</p>
+      <div class="filters">
+        <fieldset><legend>Service tier</legend><span id="tier-filters"></span></fieldset>
+      </div>
+      <div class="card"><h2>Services</h2><div class="scroll tall"><table id="service-table"></table></div></div>
+      <label class="pick">Show findings for <select id="service-pick"></select></label>
+      <div class="card"><h2 id="priority-title"></h2><div class="scroll"><table id="priority-table"></table></div></div>
+    </section>
+
+    <section id="copilot" class="page" hidden aria-labelledby="h-copilot">
+      <h1 id="h-copilot">Ask the copilot</h1>
+      <p class="sub"><span class="badge warn">Sample AI response mode</span> Answers are templated from the bundled synthetic data, not live model output. In your Snowflake account a Cortex Agent answers any question.</p>
+      <div id="chat" aria-live="polite"></div>
+      <div id="suggestions"></div>
+    </section>
+  </main>
+</div>
+<script src="data.js"></script>
+<script src="try.js"></script>
+</body>
+</html>

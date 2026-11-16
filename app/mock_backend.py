@@ -78,7 +78,7 @@ def ask(question: str, df: pd.DataFrame, frames: dict) -> dict:
     if "older than" in q or "aging" in q or "aged" in q or "90 days" in q:
         n = int((open_df["open_age_days"] > 90).sum())
         crit = int(((open_df["open_age_days"] > 90) & (open_df["severity"] == "Critical")).sum())
-        t = analytics.aging_buckets(df).groupby("bucket", observed=False)["open_findings"].sum().reset_index()
+        t = analytics.aging_buckets(df).groupby("bucket", observed=False)["Open findings"].sum().reset_index()
         return _ans(f"**{n}** open findings are older than 90 days, including **{crit}** Critical.", t,
                     _policy_hits("monthly posture review aging", frames["policies"], 1))
 

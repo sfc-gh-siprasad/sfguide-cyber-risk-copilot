@@ -2,7 +2,7 @@
 
 A Snow Packs example: ask plain-English questions about cyber posture and get answers backed by governed data and policy documents.
 
-**Landing page:** https://sfc-gh-siprasad.github.io/sfguide-cyber-risk-copilot/
+**Landing page:** https://sfc-gh-siprasad.github.io/sfguide-cyber-risk-copilot/ · **Try it in your browser:** https://sfc-gh-siprasad.github.io/sfguide-cyber-risk-copilot/try/
 
 > **Illustrative example.** All data is synthetic. The logic is illustrative and is not production, security, or compliance advice. This is not an official Snowflake product and is not supported by Snowflake Support. Provided as is under Apache 2.0.
 
@@ -22,6 +22,14 @@ The app runs in two modes from the same code:
 
 - **Sample data (default):** no Snowflake account, no credentials. Chat answers are templated from the bundled data and labelled **Sample AI response**.
 - **Snowflake:** the same app reads the tables the setup scripts create and calls a real Cortex Agent.
+
+## Try it in your browser
+
+https://sfc-gh-siprasad.github.io/sfguide-cyber-risk-copilot/try/ is a static, no-install version of the three screens on the same synthetic data. It has no external dependencies. `try/build_data.py` regenerates `try/data.js` from the app's own analytics and sample answers, so its numbers match the Streamlit app:
+
+```bash
+python3 try/build_data.py
+```
 
 ## Quick start (no Snowflake account)
 
@@ -118,6 +126,7 @@ Try prompts like these in Cortex Code, opened on this repository:
 
 ```text
 index.html, css/        GitHub Pages landing page
+try/                    Hosted no-install example (static HTML/JS + generated data.js)
 app/                    Streamlit app (sample-data and Snowflake modes)
 sql/                    Setup, synthetic data, semantic view, search + agent, cleanup
 data/                   Synthetic CSVs and the generator
