@@ -26,13 +26,19 @@ class LiveUnavailable(Exception):
     pass
 
 
+_CONN = None
+
+
 def _session():
     """Return (kind, handle). Snowpark session inside Snowflake, connector locally."""
+    global _CONN
     try:
         from snowflake.snowpark.context import get_active_session
         return "snowpark", get_active_session()
     except Exception:
         pass
+    if _CONN is not None and not _CONN.is_closed():
+        return "connector", _CONN
     try:
         import snowflake.connector
     except ImportError as exc:
@@ -41,11 +47,12 @@ def _session():
     if not name:
         raise LiveUnavailable("Set SNOWFLAKE_CONNECTION_NAME to a connection in your Snowflake config.")
     try:
-        conn = snowflake.connector.connect(connection_name=name, role=ROLE, warehouse=WAREHOUSE,
-                                           database=DB, schema=SCHEMA)
+        _CONN = snowflake.connector.connect(connection_name=name, role=ROLE, warehouse=WAREHOUSE,
+                                            database=DB, schema=SCHEMA,
+                                            enable_server_session_keep_alive_auto_detection=False)
     except Exception as exc:
         raise LiveUnavailable(f"Could not connect with '{name}': {exc}") from exc
-    return "connector", conn
+    return "connector", _CONN
 
 
 def query(sql: str) -> pd.DataFrame:
