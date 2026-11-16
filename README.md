@@ -1,0 +1,117 @@
+# Cyber Risk Copilot
+
+A Snow Packs example: ask plain-English questions about cyber posture and get answers backed by governed data and policy documents.
+
+**Landing page:** https://sfc-gh-siprasad.github.io/sfguide-cyber-risk-copilot/
+
+> **Illustrative example.** All data is synthetic. The logic is illustrative and is not production, security, or compliance advice. This is not an official Snowflake product and is not supported by Snowflake Support. Provided as is under Apache 2.0.
+
+Owner: Siddharth Prasad · Last reviewed: November 2026
+
+## What you get
+
+A three-page Streamlit app:
+
+| Page | What it shows | Snowflake capability (live mode) |
+| --- | --- | --- |
+| Posture overview | Open findings, open critical, SLA breach rate, age, trends | Semantic view computes the headline numbers |
+| Services and findings | Services ranked by open critical findings; drill into a priority list | Standard tables |
+| Ask the copilot | Chat that answers data questions and quotes policy text | Cortex Agent, Cortex Analyst, Cortex Search |
+
+The app runs in two modes from the same code:
+
+- **Sample data (default):** no Snowflake account, no credentials. Chat answers are templated from the bundled data and labelled **Sample AI response**.
+- **Snowflake:** the same app reads the tables the setup scripts create and calls a real Cortex Agent.
+
+## Quick start (no Snowflake account)
+
+Prerequisite: Python 3 with `pip`. About 5 minutes.
+
+```bash
+git clone https://github.com/sfc-gh-siprasad/sfguide-cyber-risk-copilot.git
+cd sfguide-cyber-risk-copilot
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r app/requirements.txt
+streamlit run app/streamlit_app.py
+```
+
+Open the URL Streamlit prints. Use the suggested questions on the **Ask the copilot** page.
+
+## Run against Snowflake
+
+### Prerequisites
+
+- A Snowflake account with Cortex Analyst, Cortex Search and Cortex Agents available in its region. Edition: Standard works for the tables and semantic view; check the documentation for the Cortex features in your region.
+- A role that can create roles, warehouses and databases (for example `ACCOUNTADMIN`) for the one-time setup in `01_setup.sql`. Everything after that runs as a dedicated least-privilege role, `CYBER_COPILOT_ROLE`.
+- A Snowflake connection configured for the Snowflake connector or CLI.
+
+### Steps
+
+1. Run the scripts in `sql/` in order, in one worksheet or notebook:
+   `01_setup.sql`, `02_data.sql`, `03_semantic_view.sql`, `04_search_agent.sql`.
+2. Install the live-mode packages: `pip install "snowflake-connector-python[pandas]" requests`.
+3. Start the app against your connection:
+
+   ```bash
+   SNOWFLAKE_CONNECTION_NAME=<your_connection> CYBER_COPILOT_MODE=live streamlit run app/streamlit_app.py
+   ```
+
+   You can also switch **Data source** to **Snowflake** in the sidebar.
+4. To run inside Snowflake, create a Streamlit in Snowflake app from the files in `app/` using the `CYBER_COPILOT_WH` warehouse and the `CYBER_COPILOT_ROLE` role.
+
+### What gets created
+
+| Object | Name |
+| --- | --- |
+| Role | `CYBER_COPILOT_ROLE` |
+| Warehouse | `CYBER_COPILOT_WH` (XSMALL, 60 second auto-suspend) |
+| Database / schema | `CYBER_RISK_COPILOT.DATA` |
+| Tables | `TEAMS`, `SERVICES`, `ASSETS`, `FINDINGS`, `POLICY_DOCS` |
+| Semantic view | `CYBER_POSTURE` |
+| Cortex Search service | `POLICY_SEARCH` |
+| Cortex Agent | `CYBER_RISK_COPILOT_AGENT` |
+
+### Cost and time
+
+Setup takes a few minutes. Compute is one XSMALL warehouse that suspends after 60 seconds, plus the Cortex Search service and the model usage of agent questions. Expect a small amount of credits for an evaluation; the exact figure depends on your account and how many questions you ask.
+
+### Cleanup
+
+Run `sql/99_cleanup.sql`. It drops the database (and everything in it), the warehouse and the role.
+
+## The data
+
+`data/generate_data.py` produces everything with a fixed seed, so numbers are identical on every run: 1,400 findings, 221 assets, 24 business services, 8 teams and 10 policy documents. All names are invented. The reporting date is fixed at 1 November 2026.
+
+```bash
+python3 data/generate_data.py   # rewrites data/*.csv and sql/02_data.sql
+```
+
+## Known limitations
+
+- Sample mode answers only the suggested questions and a few keyword matches; it is not a language model.
+- The priority score on the findings page is a simple illustrative formula.
+- Live mode parses the agent's REST response generically; if Cortex Agents change their response format, `app/snowflake_backend.py` may need an update.
+- The headline numbers in live mode come from the semantic view; the charts and tables are computed in the app from the same tables.
+
+## Customize with Cortex Code
+
+Try prompts like these in Cortex Code, opened on this repository:
+
+- "Explain this pack's data model and map it to my schema without changing any objects."
+- "Replace the synthetic data with my development tables. Propose least-privilege access and a validation plan first."
+- "Adjust the SLA days and the priority score weights for my remediation policy, and explain the trade-offs."
+
+## Layout
+
+```text
+index.html, css/        GitHub Pages landing page
+app/                    Streamlit app (sample-data and Snowflake modes)
+sql/                    Setup, synthetic data, semantic view, search + agent, cleanup
+data/                   Synthetic CSVs and the generator
+docs/images/            App screenshots used by the landing page
+```
+
+## License
+
+Apache 2.0. See `LICENSE`.

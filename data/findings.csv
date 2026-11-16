@@ -1,0 +1,1401 @@
+finding_id,asset_id,title,severity,cvss_score,exploit_available,known_exploited,status,source,opened_date,due_date,resolved_date
+F00001,A0169,Weak password policy on service account,Medium,5.6,FALSE,FALSE,Open,External Exposure Scan,2026-10-14,2027-01-12,
+F00002,A0176,Outdated TLS configuration,Medium,5.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-06-20,2026-09-18,
+F00003,A0087,Unauthenticated API endpoint,High,7.5,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-07-09,2026-08-08,
+F00004,A0130,Deserialization flaw in message library,Critical,9.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-27,2026-06-03,2026-06-14
+F00005,A0068,Storage bucket allows public read,Critical,9.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2025-11-29,2025-12-06,2025-12-13
+F00006,A0122,SQL injection in reporting query,Medium,5.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-02-20,2026-05-21,2026-04-21
+F00007,A0151,Outdated open-source dependency with known flaw,Medium,5.3,FALSE,FALSE,Exception,Vulnerability Scanner,2026-08-25,2026-11-23,
+F00008,A0128,Container image uses end-of-life base image,Medium,5.1,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-12,2026-11-10,2026-08-22
+F00009,A0074,Outdated open-source dependency with known flaw,Medium,5.2,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-02-22,2026-05-23,2026-06-09
+F00010,A0103,Cross-site scripting in customer portal,Medium,5.7,FALSE,FALSE,Open,External Exposure Scan,2026-10-01,2026-12-30,
+F00011,A0148,Missing security patch for database engine,High,8.4,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-11,2026-11-10,
+F00012,A0156,Insecure direct object reference,High,8.2,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-02-02,2026-03-04,2026-03-22
+F00013,A0001,Cross-site scripting in customer portal,Medium,5.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-18,2026-08-16,2026-07-24
+F00014,A0077,Remote code execution in web framework,Critical,8.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-30,2026-07-07,2026-07-05
+F00015,A0185,Remote code execution in web framework,High,7.9,TRUE,FALSE,Open,Vulnerability Scanner,2026-07-31,2026-08-30,
+F00016,A0052,Remote code execution in web framework,Critical,8.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-23,2026-07-30,2026-08-01
+F00017,A0163,Privilege escalation in OS kernel,High,7.2,TRUE,FALSE,Open,Vulnerability Scanner,2026-06-07,2026-07-07,
+F00018,A0061,Insecure direct object reference,High,7.4,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-05-09,2026-06-08,2026-07-12
+F00019,A0150,Deserialization flaw in message library,Critical,8.7,FALSE,FALSE,In Progress,External Exposure Scan,2026-04-14,2026-04-21,
+F00020,A0101,Open management port reachable from internet,High,7.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-05-16,2026-06-15,2026-07-09
+F00021,A0041,Verbose error messages disclose stack traces,Low,2.4,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-10,2027-02-06,
+F00022,A0128,Container image uses end-of-life base image,Medium,4.9,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-03-25,2026-06-23,2026-06-06
+F00023,A0124,Container image uses end-of-life base image,Medium,4.8,FALSE,FALSE,Open,Cloud Posture Scanner,2026-02-11,2026-05-12,
+F00024,A0100,Unauthenticated API endpoint,High,7.2,TRUE,TRUE,Open,External Exposure Scan,2026-10-05,2026-11-04,
+F00025,A0202,Storage bucket allows public read,Critical,9.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-15,2026-08-22,2026-09-30
+F00026,A0177,Cross-site scripting in customer portal,Medium,4.7,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-09-16,2026-12-15,
+F00027,A0071,Insecure direct object reference,Low,3.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-18,2026-11-14,2026-06-14
+F00028,A0020,Missing HTTP security headers,Low,2.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-07-17,2027-01-13,
+F00029,A0030,Container image uses end-of-life base image,Medium,5.9,FALSE,FALSE,Resolved,External Exposure Scan,2026-09-24,2026-12-23,2026-10-26
+F00030,A0185,Unauthenticated API endpoint,High,8.1,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-10,2026-11-09,
+F00031,A0042,Outdated TLS configuration,Medium,5.4,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-08-15,2026-11-13,
+F00032,A0074,Container image uses end-of-life base image,Medium,4.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-27,2026-11-25,
+F00033,A0221,Exposed administrative interface,High,7.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-14,2026-06-13,2026-06-27
+F00034,A0012,Deserialization flaw in message library,Critical,10.0,TRUE,TRUE,Open,External Exposure Scan,2026-10-04,2026-10-11,
+F00035,A0023,Missing HTTP security headers,Low,2.5,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-09,2027-02-05,2026-10-11
+F00036,A0185,Verbose error messages disclose stack traces,Low,3.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-17,2027-02-13,2026-10-13
+F00037,A0109,Open management port reachable from internet,High,8.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-05-08,2026-06-07,
+F00038,A0213,Unauthenticated API endpoint,High,7.0,FALSE,FALSE,Open,External Exposure Scan,2026-10-09,2026-11-08,
+F00039,A0088,Outdated TLS configuration,Medium,6.0,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-08-02,2026-10-31,
+F00040,A0178,Container image uses end-of-life base image,Medium,5.8,FALSE,FALSE,Open,Vulnerability Scanner,2026-07-20,2026-10-18,
+F00041,A0093,Unauthenticated API endpoint,High,7.6,FALSE,FALSE,Open,External Exposure Scan,2026-02-19,2026-03-21,
+F00042,A0199,Verbose error messages disclose stack traces,Low,2.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-04-23,2026-10-20,
+F00043,A0046,Container image uses end-of-life base image,Medium,5.8,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-07-10,2026-10-08,2026-10-29
+F00044,A0192,Outdated TLS configuration,Medium,5.9,FALSE,FALSE,Resolved,Cloud Posture Scanner,2025-12-20,2026-03-20,2026-02-22
+F00045,A0027,Deserialization flaw in message library,Critical,9.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-01,2026-04-08,2026-04-07
+F00046,A0208,Outdated open-source dependency with known flaw,Medium,5.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-04,2026-11-02,
+F00047,A0141,Weak password policy on service account,Medium,5.9,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-31,2026-08-29,2026-08-10
+F00048,A0148,Verbose error messages disclose stack traces,Low,2.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-24,2026-12-21,2026-07-16
+F00049,A0028,Remote code execution in web framework,High,8.4,FALSE,FALSE,Open,Vulnerability Scanner,2026-03-29,2026-04-28,
+F00050,A0111,Open management port reachable from internet,High,7.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-02,2026-05-02,2026-05-17
+F00051,A0128,SQL injection in reporting query,Critical,9.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-15,2026-08-22,2026-09-21
+F00052,A0086,Container image uses end-of-life base image,Medium,6.1,FALSE,FALSE,Resolved,External Exposure Scan,2026-07-13,2026-10-11,2026-09-06
+F00053,A0106,SQL injection in reporting query,Critical,10.0,FALSE,FALSE,Open,External Exposure Scan,2026-05-19,2026-05-26,
+F00054,A0140,Unauthenticated API endpoint,High,7.9,FALSE,FALSE,Resolved,External Exposure Scan,2026-10-04,2026-11-03,2026-10-21
+F00055,A0121,Outdated TLS configuration,Medium,5.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-10-05,2027-01-03,2026-10-20
+F00056,A0191,Open management port reachable from internet,High,7.5,FALSE,FALSE,Resolved,External Exposure Scan,2026-01-12,2026-02-11,2026-02-06
+F00057,A0202,Storage bucket allows public read,Critical,8.8,TRUE,TRUE,Open,External Exposure Scan,2026-05-11,2026-05-18,
+F00058,A0172,Unauthenticated API endpoint,High,7.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-05-23,2026-06-22,
+F00059,A0118,Open management port reachable from internet,High,8.1,FALSE,FALSE,Open,External Exposure Scan,2026-08-17,2026-09-16,
+F00060,A0108,Outdated open-source dependency with known flaw,Medium,5.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-04-18,2026-07-17,2026-05-04
+F00061,A0036,Verbose error messages disclose stack traces,Low,3.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2025-11-03,2026-05-02,2026-04-15
+F00062,A0199,Missing security patch for database engine,High,7.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-22,2026-10-22,2026-10-08
+F00063,A0115,Missing security patch for database engine,High,8.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-18,2026-07-18,2026-08-27
+F00064,A0022,Verbose error messages disclose stack traces,Low,2.6,FALSE,FALSE,Open,External Exposure Scan,2026-08-02,2027-01-29,
+F00065,A0133,Open management port reachable from internet,High,7.7,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-05-19,2026-06-18,2026-07-17
+F00066,A0149,SQL injection in reporting query,Medium,5.0,TRUE,TRUE,Open,Vulnerability Scanner,2026-09-12,2026-12-11,
+F00067,A0077,Exposed administrative interface,High,7.4,FALSE,FALSE,Resolved,External Exposure Scan,2026-09-03,2026-10-03,2026-09-18
+F00068,A0029,Insecure direct object reference,High,8.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-22,2026-05-22,2026-06-27
+F00069,A0205,Privilege escalation in OS kernel,High,8.0,TRUE,FALSE,Resolved,External Exposure Scan,2026-05-27,2026-06-26,2026-07-21
+F00070,A0094,Remote code execution in web framework,Critical,9.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-05-28,2026-06-04,2026-06-21
+F00071,A0128,Missing HTTP security headers,Low,2.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-09,2026-12-06,2026-06-26
+F00072,A0162,Insecure direct object reference,High,7.6,FALSE,FALSE,Open,Cloud Posture Scanner,2026-03-19,2026-04-18,
+F00073,A0048,Storage bucket allows public read,Critical,9.7,TRUE,FALSE,Resolved,External Exposure Scan,2026-07-18,2026-07-25,2026-08-03
+F00074,A0150,Container image uses end-of-life base image,Medium,4.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-22,2026-10-20,2026-08-21
+F00075,A0172,Certificate expiring within 30 days,Low,3.2,FALSE,FALSE,Open,Cloud Posture Scanner,2026-07-06,2027-01-02,
+F00076,A0059,Unauthenticated API endpoint,High,7.4,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-05-12,2026-06-11,2026-06-08
+F00077,A0019,Open management port reachable from internet,High,8.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-05,2026-08-04,2026-08-17
+F00078,A0052,Insecure direct object reference,High,7.2,TRUE,FALSE,Open,Cloud Posture Scanner,2026-09-16,2026-10-16,
+F00079,A0171,Outdated TLS configuration,Medium,5.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-25,2026-09-23,
+F00080,A0149,Certificate expiring within 30 days,High,7.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-09-19,2026-10-19,2026-10-17
+F00081,A0183,Missing security patch for database engine,Critical,8.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-03,2026-05-10,2026-06-09
+F00082,A0156,Open management port reachable from internet,High,7.4,FALSE,FALSE,Open,External Exposure Scan,2026-06-27,2026-07-27,
+F00083,A0144,Missing HTTP security headers,Low,2.7,TRUE,TRUE,In Progress,External Exposure Scan,2026-09-25,2027-03-24,
+F00084,A0083,Outdated TLS configuration,Medium,5.0,FALSE,FALSE,In Progress,External Exposure Scan,2026-08-10,2026-11-08,
+F00085,A0020,Open management port reachable from internet,Low,2.6,TRUE,FALSE,Exception,Vulnerability Scanner,2026-07-10,2027-01-06,
+F00086,A0129,Missing security patch for database engine,High,8.2,FALSE,FALSE,Open,External Exposure Scan,2026-04-05,2026-05-05,
+F00087,A0131,Weak password policy on service account,Medium,4.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-26,2026-07-25,2026-08-28
+F00088,A0031,Weak password policy on service account,Medium,4.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-12,2026-09-10,2026-08-30
+F00089,A0147,Insecure direct object reference,High,7.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-29,2026-10-29,
+F00090,A0050,Insecure direct object reference,High,8.5,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-28,2026-09-27,2026-10-10
+F00091,A0181,Insecure direct object reference,High,7.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2025-12-06,2026-01-05,2026-01-05
+F00092,A0220,Exposed administrative interface,Critical,8.5,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-10,2026-08-17,2026-09-03
+F00093,A0041,Exposed administrative interface,High,8.2,FALSE,FALSE,Open,Cloud Posture Scanner,2026-03-21,2026-04-20,
+F00094,A0050,Exposed administrative interface,Low,2.9,FALSE,FALSE,Exception,Vulnerability Scanner,2026-08-22,2027-02-18,
+F00095,A0114,Unauthenticated API endpoint,High,7.3,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-09-01,2026-10-01,
+F00096,A0212,Exposed administrative interface,High,7.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-08,2026-08-07,2026-09-09
+F00097,A0048,Weak password policy on service account,Medium,5.6,TRUE,FALSE,Open,External Exposure Scan,2026-10-02,2026-12-31,
+F00098,A0206,Remote code execution in web framework,Critical,9.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-17,2026-06-24,2026-07-03
+F00099,A0094,Remote code execution in web framework,Critical,9.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-12,2026-07-19,2026-07-31
+F00100,A0195,Privilege escalation in OS kernel,High,7.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-18,2026-07-18,2026-08-12
+F00101,A0107,Missing HTTP security headers,Low,2.6,TRUE,FALSE,Open,Cloud Posture Scanner,2026-09-18,2027-03-17,
+F00102,A0040,Outdated TLS configuration,Critical,9.0,FALSE,FALSE,Open,External Exposure Scan,2026-10-15,2026-10-22,
+F00103,A0089,Container image uses end-of-life base image,Medium,5.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-07-17,2026-10-15,
+F00104,A0199,Verbose error messages disclose stack traces,Medium,4.9,TRUE,FALSE,Resolved,External Exposure Scan,2026-04-16,2026-07-15,2026-06-05
+F00105,A0052,Cross-site scripting in customer portal,Medium,5.3,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-12,2026-08-10,2026-06-20
+F00106,A0101,Weak password policy on service account,Medium,4.6,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-03-17,2026-06-15,
+F00107,A0183,Unauthenticated API endpoint,High,7.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-29,2026-09-28,2026-09-30
+F00108,A0168,Missing HTTP security headers,Low,3.5,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-02,2027-01-29,2026-10-27
+F00109,A0166,Privilege escalation in OS kernel,High,7.2,FALSE,FALSE,Open,External Exposure Scan,2026-08-09,2026-09-08,
+F00110,A0073,Exposed administrative interface,High,7.2,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-23,2026-10-23,
+F00111,A0049,Remote code execution in web framework,Critical,9.2,TRUE,TRUE,Resolved,External Exposure Scan,2026-05-07,2026-05-14,2026-06-23
+F00112,A0171,Outdated TLS configuration,Medium,4.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-02,2026-12-01,2026-10-23
+F00113,A0087,Cross-site scripting in customer portal,Medium,4.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-30,2026-10-28,2026-08-10
+F00114,A0100,Deserialization flaw in message library,Critical,8.7,FALSE,FALSE,Open,External Exposure Scan,2026-08-24,2026-08-31,
+F00115,A0041,Cross-site scripting in customer portal,Medium,4.8,FALSE,FALSE,In Progress,External Exposure Scan,2026-04-29,2026-07-28,
+F00116,A0146,Weak password policy on service account,Medium,6.0,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-10-15,2027-01-13,
+F00117,A0087,Remote code execution in web framework,Critical,9.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-02-09,2026-02-16,2026-03-05
+F00118,A0019,Cross-site scripting in customer portal,Medium,5.1,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-09-02,2026-12-01,
+F00119,A0111,Certificate expiring within 30 days,Low,3.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-17,2026-12-14,2026-08-22
+F00120,A0079,Certificate expiring within 30 days,Low,2.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-25,2027-02-21,2026-09-27
+F00121,A0120,Verbose error messages disclose stack traces,High,8.4,TRUE,FALSE,Resolved,External Exposure Scan,2025-12-25,2026-01-24,2026-02-10
+F00122,A0189,Remote code execution in web framework,Critical,8.7,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-10-07,2026-10-14,2026-10-14
+F00123,A0043,Outdated TLS configuration,Low,3.4,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-01-29,2026-07-28,2026-07-24
+F00124,A0059,Certificate expiring within 30 days,Low,3.2,FALSE,FALSE,Open,External Exposure Scan,2026-08-25,2027-02-21,
+F00125,A0037,Unauthenticated API endpoint,High,8.0,TRUE,TRUE,Resolved,External Exposure Scan,2026-01-08,2026-02-07,2026-03-16
+F00126,A0048,Certificate expiring within 30 days,Low,3.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-01-15,2026-07-14,
+F00127,A0065,Outdated open-source dependency with known flaw,Medium,4.7,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-07-07,2026-10-05,2026-10-04
+F00128,A0072,Weak password policy on service account,Medium,5.5,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-03-13,2026-06-11,
+F00129,A0034,Unauthenticated API endpoint,High,7.9,FALSE,FALSE,Exception,Vulnerability Scanner,2026-03-17,2026-04-16,
+F00130,A0096,Missing security patch for database engine,High,7.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-13,2026-08-12,2026-09-19
+F00131,A0159,Certificate expiring within 30 days,Low,3.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-05-12,2026-11-08,
+F00132,A0006,Outdated TLS configuration,Medium,6.0,FALSE,FALSE,Open,External Exposure Scan,2026-08-16,2026-11-14,
+F00133,A0193,Weak password policy on service account,High,8.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-31,2026-09-30,2026-10-16
+F00134,A0151,Outdated open-source dependency with known flaw,High,8.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-19,2026-10-19,
+F00135,A0206,Privilege escalation in OS kernel,High,7.8,FALSE,FALSE,Open,Cloud Posture Scanner,2026-01-29,2026-02-28,
+F00136,A0093,Container image uses end-of-life base image,Medium,5.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-03-17,2026-06-15,
+F00137,A0088,Insecure direct object reference,Critical,9.8,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-25,2026-10-02,
+F00138,A0194,Cross-site scripting in customer portal,Medium,5.8,FALSE,FALSE,Open,External Exposure Scan,2026-09-09,2026-12-08,
+F00139,A0180,Outdated open-source dependency with known flaw,Medium,5.3,FALSE,FALSE,In Progress,Cloud Posture Scanner,2025-11-17,2026-02-15,
+F00140,A0135,Missing HTTP security headers,Low,3.6,FALSE,FALSE,Open,External Exposure Scan,2026-10-22,2027-04-20,
+F00141,A0097,Unauthenticated API endpoint,High,7.5,FALSE,FALSE,Open,External Exposure Scan,2026-08-18,2026-09-17,
+F00142,A0209,Certificate expiring within 30 days,Low,3.7,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-06-19,2026-12-16,
+F00143,A0065,SQL injection in reporting query,Critical,8.6,FALSE,FALSE,Open,Vulnerability Scanner,2026-07-11,2026-07-18,
+F00144,A0011,Outdated TLS configuration,High,7.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-03-06,2026-04-05,2026-03-13
+F00145,A0189,Privilege escalation in OS kernel,Critical,9.8,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-07-01,2026-07-08,2026-07-23
+F00146,A0195,Cross-site scripting in customer portal,Medium,6.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-04-11,2026-07-10,
+F00147,A0071,Open management port reachable from internet,High,8.2,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-19,2026-07-19,2026-07-17
+F00148,A0152,Outdated TLS configuration,Low,3.4,FALSE,FALSE,Open,Vulnerability Scanner,2026-07-27,2027-01-23,
+F00149,A0007,Certificate expiring within 30 days,Low,2.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2025-12-22,2026-06-20,2026-03-31
+F00150,A0198,Unauthenticated API endpoint,High,7.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-16,2026-05-16,2026-05-16
+F00151,A0013,Privilege escalation in OS kernel,High,8.4,TRUE,FALSE,In Progress,External Exposure Scan,2026-10-04,2026-11-03,
+F00152,A0197,Outdated TLS configuration,Medium,5.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-05-16,2026-08-14,2026-09-15
+F00153,A0178,Unauthenticated API endpoint,High,8.0,TRUE,FALSE,Exception,Vulnerability Scanner,2026-10-05,2026-11-04,
+F00154,A0098,Remote code execution in web framework,Critical,9.4,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-07-20,2026-07-27,
+F00155,A0170,SQL injection in reporting query,Critical,8.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-11,2026-06-18,2026-07-11
+F00156,A0083,Missing HTTP security headers,Low,3.6,FALSE,FALSE,Open,External Exposure Scan,2026-07-25,2027-01-21,
+F00157,A0063,Missing HTTP security headers,Critical,8.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-06-12,2026-06-19,
+F00158,A0190,Verbose error messages disclose stack traces,Low,3.1,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-01-25,2026-07-24,2026-04-17
+F00159,A0067,Insecure direct object reference,High,7.8,TRUE,FALSE,Open,Cloud Posture Scanner,2026-06-09,2026-07-09,
+F00160,A0166,Outdated TLS configuration,Medium,4.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-03,2026-12-02,
+F00161,A0081,Missing security patch for database engine,High,8.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-10-05,2026-11-04,2026-10-30
+F00162,A0072,Certificate expiring within 30 days,Low,2.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-04-02,2026-09-29,
+F00163,A0149,Outdated open-source dependency with known flaw,Medium,6.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-19,2026-12-18,
+F00164,A0019,Remote code execution in web framework,Critical,8.6,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-09-12,2026-09-19,2026-09-20
+F00165,A0106,SQL injection in reporting query,Critical,9.1,FALSE,FALSE,Open,External Exposure Scan,2026-10-04,2026-10-11,
+F00166,A0053,Open management port reachable from internet,High,7.6,FALSE,FALSE,Open,Cloud Posture Scanner,2026-06-02,2026-07-02,
+F00167,A0148,Outdated open-source dependency with known flaw,Medium,6.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-07-16,2026-10-14,
+F00168,A0010,Missing security patch for database engine,High,7.4,TRUE,TRUE,Open,Vulnerability Scanner,2026-04-13,2026-05-13,
+F00169,A0211,Missing security patch for database engine,High,8.4,TRUE,FALSE,Resolved,External Exposure Scan,2026-03-12,2026-04-11,2026-05-04
+F00170,A0032,Container image uses end-of-life base image,Medium,4.8,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-27,2026-12-26,
+F00171,A0090,Cross-site scripting in customer portal,Medium,5.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-10-01,2026-12-30,2026-10-25
+F00172,A0025,Exposed administrative interface,High,7.2,FALSE,FALSE,Open,External Exposure Scan,2026-06-21,2026-07-21,
+F00173,A0131,Missing security patch for database engine,High,7.4,TRUE,TRUE,Resolved,External Exposure Scan,2026-09-27,2026-10-27,2026-10-18
+F00174,A0056,Deserialization flaw in message library,Critical,8.8,FALSE,FALSE,In Progress,External Exposure Scan,2026-05-13,2026-05-20,
+F00175,A0079,Unauthenticated API endpoint,Medium,4.6,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-06-26,2026-09-24,
+F00176,A0042,Cross-site scripting in customer portal,Medium,5.5,FALSE,FALSE,Exception,Vulnerability Scanner,2026-01-21,2026-04-21,
+F00177,A0045,Outdated open-source dependency with known flaw,Medium,5.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-02-03,2026-05-04,2026-05-12
+F00178,A0142,SQL injection in reporting query,Critical,10.0,FALSE,FALSE,Resolved,External Exposure Scan,2025-12-27,2026-01-03,2026-01-09
+F00179,A0047,SQL injection in reporting query,Critical,9.6,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-08-06,2026-08-13,2026-09-16
+F00180,A0089,Remote code execution in web framework,Critical,9.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-05,2026-05-12,2026-06-12
+F00181,A0024,Storage bucket allows public read,Critical,8.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-06,2026-08-13,2026-09-06
+F00182,A0095,Remote code execution in web framework,Critical,8.6,TRUE,FALSE,Resolved,External Exposure Scan,2026-02-21,2026-02-28,2026-03-14
+F00183,A0091,Weak password policy on service account,Medium,5.7,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-09-06,2026-12-05,
+F00184,A0127,Weak password policy on service account,Medium,5.6,FALSE,FALSE,Open,External Exposure Scan,2026-04-13,2026-07-12,
+F00185,A0168,Exposed administrative interface,High,8.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-03,2026-04-02,2026-03-25
+F00186,A0049,Outdated open-source dependency with known flaw,Medium,5.0,FALSE,FALSE,Open,External Exposure Scan,2026-09-17,2026-12-16,
+F00187,A0169,Exposed administrative interface,High,7.4,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-02-22,2026-03-24,2026-04-28
+F00188,A0158,Insecure direct object reference,Medium,5.9,FALSE,FALSE,Open,External Exposure Scan,2026-07-17,2026-10-15,
+F00189,A0107,Deserialization flaw in message library,Critical,9.9,FALSE,FALSE,Exception,Vulnerability Scanner,2026-08-07,2026-08-14,
+F00190,A0157,SQL injection in reporting query,Critical,8.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-22,2026-07-29,2026-08-12
+F00191,A0189,Outdated TLS configuration,Medium,5.1,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-01-31,2026-05-01,2026-06-09
+F00192,A0088,Missing security patch for database engine,High,7.1,TRUE,FALSE,Open,Cloud Posture Scanner,2026-08-03,2026-09-02,
+F00193,A0028,Missing security patch for database engine,High,7.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-28,2026-07-28,
+F00194,A0057,Outdated open-source dependency with known flaw,Medium,5.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-01,2026-08-30,
+F00195,A0015,Outdated TLS configuration,Medium,5.7,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-07-02,2026-09-30,
+F00196,A0218,Outdated open-source dependency with known flaw,Medium,6.1,TRUE,TRUE,Resolved,External Exposure Scan,2026-02-18,2026-05-19,2026-06-26
+F00197,A0026,Insecure direct object reference,High,7.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-23,2026-07-23,2026-08-06
+F00198,A0149,Remote code execution in web framework,Critical,9.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-28,2026-05-05,2026-06-07
+F00199,A0005,Exposed administrative interface,High,7.5,FALSE,FALSE,Open,External Exposure Scan,2026-08-02,2026-09-01,
+F00200,A0117,Cross-site scripting in customer portal,Medium,5.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-12,2026-08-10,2026-06-01
+F00201,A0164,Open management port reachable from internet,High,7.9,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-29,2026-05-29,2026-05-06
+F00202,A0112,Storage bucket allows public read,Critical,9.0,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-05-28,2026-06-04,
+F00203,A0202,Exposed administrative interface,Critical,8.6,TRUE,FALSE,Resolved,External Exposure Scan,2026-02-19,2026-02-26,2026-02-27
+F00204,A0098,Unauthenticated API endpoint,High,8.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-15,2026-09-14,2026-10-17
+F00205,A0191,Unauthenticated API endpoint,Medium,5.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-17,2026-11-15,2026-09-26
+F00206,A0023,Deserialization flaw in message library,Critical,8.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-10,2026-09-17,
+F00207,A0192,Deserialization flaw in message library,Critical,8.9,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-08-05,2026-08-12,
+F00208,A0172,Certificate expiring within 30 days,Low,2.3,FALSE,FALSE,Open,External Exposure Scan,2026-01-21,2026-07-20,
+F00209,A0197,Cross-site scripting in customer portal,Medium,4.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-19,2026-11-17,2026-09-10
+F00210,A0148,Storage bucket allows public read,Critical,9.8,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-02-08,2026-02-15,2026-03-15
+F00211,A0098,Insecure direct object reference,High,8.2,FALSE,FALSE,Open,External Exposure Scan,2026-10-17,2026-11-16,
+F00212,A0200,Unauthenticated API endpoint,High,8.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-16,2026-09-15,2026-08-19
+F00213,A0068,Missing HTTP security headers,Low,3.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-05-23,2026-11-19,2026-09-30
+F00214,A0194,Deserialization flaw in message library,Critical,8.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-12,2026-06-19,2026-07-23
+F00215,A0033,Unauthenticated API endpoint,High,7.1,FALSE,FALSE,In Progress,External Exposure Scan,2026-03-28,2026-04-27,
+F00216,A0216,Certificate expiring within 30 days,Low,3.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-02,2027-03-01,
+F00217,A0090,Outdated TLS configuration,Critical,9.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-17,2026-08-24,
+F00218,A0178,Cross-site scripting in customer portal,Medium,5.3,FALSE,FALSE,Open,External Exposure Scan,2026-10-08,2027-01-06,
+F00219,A0207,Weak password policy on service account,Medium,5.1,FALSE,FALSE,Open,Cloud Posture Scanner,2025-10-05,2026-01-03,
+F00220,A0127,Privilege escalation in OS kernel,Medium,4.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-07,2026-09-05,2026-08-23
+F00221,A0218,Exposed administrative interface,High,7.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2025-12-13,2026-01-12,2026-02-09
+F00222,A0105,Container image uses end-of-life base image,Medium,5.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-04,2026-09-02,2026-09-14
+F00223,A0178,Exposed administrative interface,High,7.4,TRUE,FALSE,Open,External Exposure Scan,2026-09-13,2026-10-13,
+F00224,A0020,Certificate expiring within 30 days,Low,2.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-01-23,2026-07-22,2026-06-17
+F00225,A0033,Remote code execution in web framework,Critical,9.1,TRUE,FALSE,In Progress,Cloud Posture Scanner,2026-08-05,2026-08-12,
+F00226,A0163,Deserialization flaw in message library,Critical,9.9,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-03-23,2026-03-30,2026-04-24
+F00227,A0123,Deserialization flaw in message library,Critical,8.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-23,2026-08-30,2026-09-02
+F00228,A0123,Insecure direct object reference,High,7.1,TRUE,FALSE,In Progress,External Exposure Scan,2025-11-08,2025-12-08,
+F00229,A0013,Outdated TLS configuration,Medium,5.1,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-26,2026-09-24,2026-07-26
+F00230,A0179,Container image uses end-of-life base image,Critical,9.2,TRUE,TRUE,Resolved,Vulnerability Scanner,2025-12-26,2026-01-02,2026-01-14
+F00231,A0060,Deserialization flaw in message library,Critical,8.7,TRUE,TRUE,Resolved,Vulnerability Scanner,2025-12-12,2025-12-19,2026-01-04
+F00232,A0059,Remote code execution in web framework,Critical,8.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-17,2026-08-24,2026-09-03
+F00233,A0175,Missing HTTP security headers,Low,3.7,FALSE,FALSE,Open,External Exposure Scan,2026-10-07,2027-04-05,
+F00234,A0164,Certificate expiring within 30 days,Low,3.2,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-26,2026-12-23,
+F00235,A0165,Unauthenticated API endpoint,High,7.6,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-03,2026-11-02,
+F00236,A0005,Privilege escalation in OS kernel,High,8.1,FALSE,FALSE,Open,External Exposure Scan,2026-06-30,2026-07-30,
+F00237,A0218,Unauthenticated API endpoint,High,7.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-09-16,2026-10-16,2026-10-27
+F00238,A0198,Certificate expiring within 30 days,Low,3.5,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-03-01,2026-08-28,
+F00239,A0172,Storage bucket allows public read,Critical,9.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-18,2026-08-25,2026-08-22
+F00240,A0178,Missing security patch for database engine,High,8.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-06,2026-11-05,
+F00241,A0216,Missing HTTP security headers,Low,2.7,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-02-05,2026-08-04,
+F00242,A0207,Privilege escalation in OS kernel,High,7.6,FALSE,FALSE,Open,External Exposure Scan,2026-07-20,2026-08-19,
+F00243,A0002,Container image uses end-of-life base image,Low,3.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-02-07,2026-08-06,2026-07-21
+F00244,A0038,Cross-site scripting in customer portal,Medium,6.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-12,2026-11-10,
+F00245,A0057,Deserialization flaw in message library,Critical,9.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-03-04,2026-03-11,
+F00246,A0070,Certificate expiring within 30 days,Low,2.8,FALSE,FALSE,Open,External Exposure Scan,2026-06-28,2026-12-25,
+F00247,A0128,SQL injection in reporting query,Critical,8.5,FALSE,FALSE,Open,External Exposure Scan,2026-10-17,2026-10-24,
+F00248,A0062,SQL injection in reporting query,Critical,9.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-01,2026-08-08,2026-09-11
+F00249,A0111,Storage bucket allows public read,Critical,9.4,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-05-26,2026-06-02,
+F00250,A0122,Remote code execution in web framework,Critical,9.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-21,2026-03-28,2026-04-08
+F00251,A0019,Open management port reachable from internet,High,7.2,FALSE,FALSE,Resolved,External Exposure Scan,2025-11-28,2025-12-28,2025-12-01
+F00252,A0132,Missing HTTP security headers,Low,2.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-03,2026-09-30,2026-10-02
+F00253,A0099,Insecure direct object reference,High,8.3,TRUE,FALSE,In Progress,External Exposure Scan,2026-07-24,2026-08-23,
+F00254,A0173,Exposed administrative interface,High,7.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-06,2026-07-06,2026-07-13
+F00255,A0144,Unauthenticated API endpoint,High,8.3,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-07-10,2026-08-09,2026-08-17
+F00256,A0039,Outdated open-source dependency with known flaw,Medium,6.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-01-28,2026-04-28,2026-05-16
+F00257,A0034,Verbose error messages disclose stack traces,Low,2.4,FALSE,FALSE,Open,Vulnerability Scanner,2026-05-25,2026-11-21,
+F00258,A0131,Privilege escalation in OS kernel,High,7.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-03,2026-08-02,2026-07-31
+F00259,A0219,Missing security patch for database engine,High,8.2,FALSE,FALSE,Resolved,External Exposure Scan,2026-07-18,2026-08-17,2026-09-26
+F00260,A0147,Certificate expiring within 30 days,Low,3.2,FALSE,FALSE,Open,External Exposure Scan,2026-10-10,2027-04-08,
+F00261,A0137,Container image uses end-of-life base image,Medium,5.8,TRUE,FALSE,Open,External Exposure Scan,2026-01-11,2026-04-11,
+F00262,A0084,Outdated open-source dependency with known flaw,Medium,6.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-02,2026-12-01,2026-10-04
+F00263,A0120,Container image uses end-of-life base image,Medium,5.2,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-19,2026-12-18,
+F00264,A0103,Privilege escalation in OS kernel,High,8.4,FALSE,FALSE,Resolved,External Exposure Scan,2026-07-10,2026-08-09,2026-09-11
+F00265,A0159,Open management port reachable from internet,Medium,5.8,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-05-20,2026-08-18,
+F00266,A0187,Unauthenticated API endpoint,Medium,5.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-30,2026-10-28,2026-09-14
+F00267,A0046,Insecure direct object reference,High,7.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-10-01,2026-10-31,2026-10-17
+F00268,A0220,Open management port reachable from internet,Critical,9.9,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-26,2026-09-02,
+F00269,A0175,Container image uses end-of-life base image,Medium,5.4,FALSE,FALSE,Resolved,External Exposure Scan,2026-02-09,2026-05-10,2026-05-11
+F00270,A0179,Missing HTTP security headers,Low,3.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-05-28,2026-11-24,
+F00271,A0134,Open management port reachable from internet,High,8.1,TRUE,FALSE,Resolved,External Exposure Scan,2026-06-28,2026-07-28,2026-08-30
+F00272,A0170,Remote code execution in web framework,Critical,8.6,FALSE,FALSE,Open,Cloud Posture Scanner,2026-03-27,2026-04-03,
+F00273,A0046,Weak password policy on service account,Medium,5.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-02,2026-09-30,2026-07-05
+F00274,A0004,Certificate expiring within 30 days,Low,3.3,FALSE,FALSE,Open,External Exposure Scan,2026-10-05,2027-04-03,
+F00275,A0026,Missing security patch for database engine,High,8.0,FALSE,FALSE,Open,External Exposure Scan,2025-10-26,2025-11-25,
+F00276,A0198,Missing security patch for database engine,High,8.1,FALSE,FALSE,Open,External Exposure Scan,2026-05-27,2026-06-26,
+F00277,A0102,Missing HTTP security headers,High,8.1,FALSE,FALSE,Exception,External Exposure Scan,2026-06-05,2026-07-05,
+F00278,A0022,Certificate expiring within 30 days,Low,2.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-01-28,2026-07-27,2026-06-21
+F00279,A0091,Open management port reachable from internet,High,7.5,TRUE,FALSE,Open,Cloud Posture Scanner,2026-09-12,2026-10-12,
+F00280,A0160,Remote code execution in web framework,Critical,9.3,TRUE,TRUE,Open,Cloud Posture Scanner,2026-03-02,2026-03-09,
+F00281,A0035,Open management port reachable from internet,High,8.5,FALSE,FALSE,Open,Cloud Posture Scanner,2025-11-02,2025-12-02,
+F00282,A0160,Certificate expiring within 30 days,High,7.6,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-04-04,2026-05-04,2026-06-08
+F00283,A0012,Deserialization flaw in message library,Critical,9.6,FALSE,FALSE,In Progress,External Exposure Scan,2026-10-01,2026-10-08,
+F00284,A0138,Cross-site scripting in customer portal,Medium,4.9,FALSE,FALSE,Open,External Exposure Scan,2026-02-13,2026-05-14,
+F00285,A0159,Outdated TLS configuration,Medium,5.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-14,2026-10-12,2026-09-01
+F00286,A0174,Open management port reachable from internet,High,7.2,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-10,2026-06-09,2026-07-13
+F00287,A0056,Exposed administrative interface,High,8.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-02-17,2026-03-19,
+F00288,A0117,Exposed administrative interface,High,7.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-09,2026-11-08,
+F00289,A0106,Remote code execution in web framework,Low,2.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-08,2027-02-04,
+F00290,A0003,SQL injection in reporting query,Critical,8.6,TRUE,FALSE,Open,External Exposure Scan,2026-04-12,2026-04-19,
+F00291,A0052,Privilege escalation in OS kernel,Medium,5.9,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-08-19,2026-11-17,
+F00292,A0009,Exposed administrative interface,High,8.3,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-07-01,2026-07-31,
+F00293,A0151,Storage bucket allows public read,Critical,9.6,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-08-10,2026-08-17,2026-08-22
+F00294,A0074,Outdated open-source dependency with known flaw,High,7.6,TRUE,FALSE,Open,Vulnerability Scanner,2026-10-05,2026-11-04,
+F00295,A0155,Container image uses end-of-life base image,Medium,5.6,TRUE,TRUE,Open,Cloud Posture Scanner,2026-09-29,2026-12-28,
+F00296,A0007,Missing security patch for database engine,Medium,5.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2025-12-09,2026-03-09,2026-01-24
+F00297,A0112,Privilege escalation in OS kernel,High,8.5,TRUE,FALSE,Resolved,External Exposure Scan,2026-09-06,2026-10-06,2026-10-10
+F00298,A0180,Certificate expiring within 30 days,Low,3.2,FALSE,FALSE,Open,External Exposure Scan,2026-06-15,2026-12-12,
+F00299,A0078,Exposed administrative interface,High,7.0,FALSE,FALSE,Open,External Exposure Scan,2026-08-11,2026-09-10,
+F00300,A0209,Certificate expiring within 30 days,Low,3.1,FALSE,FALSE,Open,Cloud Posture Scanner,2026-04-23,2026-10-20,
+F00301,A0122,Cross-site scripting in customer portal,Medium,5.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-08,2026-09-06,2026-07-16
+F00302,A0081,Remote code execution in web framework,Critical,9.1,TRUE,FALSE,Open,Vulnerability Scanner,2026-09-27,2026-10-04,
+F00303,A0164,Exposed administrative interface,High,7.5,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-06-15,2026-07-15,2026-08-22
+F00304,A0150,Privilege escalation in OS kernel,High,8.2,FALSE,FALSE,Open,External Exposure Scan,2026-05-29,2026-06-28,
+F00305,A0107,Verbose error messages disclose stack traces,Low,2.9,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-20,2027-02-16,2026-10-04
+F00306,A0178,Outdated TLS configuration,Medium,5.7,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-08-18,2026-11-16,2026-09-22
+F00307,A0011,Verbose error messages disclose stack traces,Low,3.0,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-09-20,2027-03-19,
+F00308,A0040,Cross-site scripting in customer portal,Medium,4.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-14,2026-12-13,2026-10-12
+F00309,A0065,Deserialization flaw in message library,Critical,9.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-10,2026-09-17,2026-09-18
+F00310,A0009,Storage bucket allows public read,Critical,9.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-02-13,2026-02-20,
+F00311,A0003,Storage bucket allows public read,Critical,9.3,TRUE,FALSE,Open,External Exposure Scan,2026-01-17,2026-01-24,
+F00312,A0066,Container image uses end-of-life base image,High,7.3,FALSE,FALSE,Open,External Exposure Scan,2026-05-17,2026-06-16,
+F00313,A0172,Storage bucket allows public read,Critical,9.8,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-08-20,2026-08-27,2026-09-20
+F00314,A0055,Missing security patch for database engine,High,8.2,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-09-29,2026-10-29,2026-10-24
+F00315,A0093,Certificate expiring within 30 days,Low,3.1,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-28,2026-09-24,2026-09-20
+F00316,A0109,Certificate expiring within 30 days,Low,2.4,FALSE,FALSE,In Progress,External Exposure Scan,2026-04-29,2026-10-26,
+F00317,A0209,Privilege escalation in OS kernel,High,7.9,FALSE,FALSE,In Progress,External Exposure Scan,2025-10-24,2025-11-23,
+F00318,A0175,Deserialization flaw in message library,Critical,9.8,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-08-06,2026-08-13,
+F00319,A0199,Open management port reachable from internet,High,7.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-08,2026-08-07,2026-08-09
+F00320,A0143,SQL injection in reporting query,Critical,9.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-05,2026-10-12,
+F00321,A0042,SQL injection in reporting query,Critical,10.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-02-13,2026-02-20,2026-02-25
+F00322,A0049,Open management port reachable from internet,Medium,6.1,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-02-26,2026-05-27,2026-04-06
+F00323,A0213,Certificate expiring within 30 days,Low,2.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-24,2027-02-20,2026-09-18
+F00324,A0133,Exposed administrative interface,High,7.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-06,2026-09-05,2026-10-01
+F00325,A0119,Open management port reachable from internet,High,8.2,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-19,2026-07-19,2026-08-27
+F00326,A0086,Certificate expiring within 30 days,Low,3.3,TRUE,FALSE,In Progress,Vulnerability Scanner,2026-10-17,2027-04-15,
+F00327,A0019,Container image uses end-of-life base image,Medium,5.3,FALSE,FALSE,Open,External Exposure Scan,2026-09-27,2026-12-26,
+F00328,A0187,Outdated open-source dependency with known flaw,Low,3.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-03-29,2026-09-25,2026-10-04
+F00329,A0186,Unauthenticated API endpoint,High,7.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-05-15,2026-06-14,
+F00330,A0190,Remote code execution in web framework,Critical,8.9,FALSE,FALSE,Open,Cloud Posture Scanner,2026-04-01,2026-04-08,
+F00331,A0163,Storage bucket allows public read,Critical,8.5,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-09-11,2026-09-18,
+F00332,A0080,Privilege escalation in OS kernel,High,7.2,TRUE,FALSE,Open,Cloud Posture Scanner,2026-04-09,2026-05-09,
+F00333,A0016,Unauthenticated API endpoint,High,7.9,FALSE,FALSE,Open,External Exposure Scan,2026-06-26,2026-07-26,
+F00334,A0063,Outdated TLS configuration,Medium,5.5,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-08,2026-07-07,2026-04-20
+F00335,A0173,Weak password policy on service account,Medium,5.4,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-13,2027-01-11,
+F00336,A0001,Remote code execution in web framework,High,7.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-01-28,2026-02-27,2026-02-03
+F00337,A0037,Privilege escalation in OS kernel,High,8.2,TRUE,FALSE,Resolved,External Exposure Scan,2026-01-13,2026-02-12,2026-01-23
+F00338,A0185,Privilege escalation in OS kernel,Low,3.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-15,2027-02-11,2026-10-22
+F00339,A0066,Missing HTTP security headers,Critical,8.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-11,2026-06-18,2026-07-03
+F00340,A0030,Deserialization flaw in message library,Critical,8.9,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-03-02,2026-03-09,2026-04-15
+F00341,A0161,Cross-site scripting in customer portal,Medium,4.9,FALSE,FALSE,Resolved,External Exposure Scan,2026-02-26,2026-05-27,2026-03-11
+F00342,A0085,Insecure direct object reference,High,8.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-05,2026-10-05,
+F00343,A0075,Privilege escalation in OS kernel,High,7.1,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-01-21,2026-02-20,2026-03-03
+F00344,A0140,Missing security patch for database engine,High,7.4,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-12,2026-09-11,2026-09-30
+F00345,A0199,Unauthenticated API endpoint,High,7.4,TRUE,FALSE,Open,Vulnerability Scanner,2026-09-16,2026-10-16,
+F00346,A0061,Storage bucket allows public read,Critical,9.4,FALSE,FALSE,Resolved,External Exposure Scan,2026-10-06,2026-10-13,2026-10-08
+F00347,A0125,SQL injection in reporting query,Critical,9.4,TRUE,TRUE,Open,Vulnerability Scanner,2025-12-07,2025-12-14,
+F00348,A0214,Missing HTTP security headers,Low,3.2,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-27,2027-04-25,
+F00349,A0020,Open management port reachable from internet,High,7.9,FALSE,FALSE,Open,External Exposure Scan,2026-09-03,2026-10-03,
+F00350,A0157,Insecure direct object reference,High,7.1,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-04-23,2026-05-23,2026-06-04
+F00351,A0169,Privilege escalation in OS kernel,High,7.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-20,2026-07-20,2026-07-13
+F00352,A0011,Open management port reachable from internet,High,7.2,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-03-08,2026-04-07,2026-03-16
+F00353,A0072,Remote code execution in web framework,Critical,8.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-02-14,2026-02-21,2026-03-19
+F00354,A0205,Unauthenticated API endpoint,High,8.2,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-04-16,2026-05-16,2026-04-29
+F00355,A0213,Missing security patch for database engine,High,7.8,TRUE,FALSE,Resolved,External Exposure Scan,2025-12-25,2026-01-24,2026-02-22
+F00356,A0171,Unauthenticated API endpoint,High,7.2,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-08-24,2026-09-23,2026-10-23
+F00357,A0217,Missing HTTP security headers,Low,2.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-28,2026-12-25,
+F00358,A0065,Outdated open-source dependency with known flaw,Medium,4.8,FALSE,FALSE,Open,External Exposure Scan,2026-03-30,2026-06-28,
+F00359,A0187,Outdated open-source dependency with known flaw,Medium,5.6,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-02-24,2026-05-25,
+F00360,A0076,Missing security patch for database engine,High,7.9,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-05-18,2026-06-17,
+F00361,A0025,SQL injection in reporting query,Critical,9.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-02-27,2026-03-06,2026-04-05
+F00362,A0087,Cross-site scripting in customer portal,Medium,4.9,FALSE,FALSE,Exception,External Exposure Scan,2025-11-03,2026-02-01,
+F00363,A0104,Missing security patch for database engine,High,7.9,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-10-07,2026-11-06,2026-10-31
+F00364,A0079,Cross-site scripting in customer portal,Medium,6.1,FALSE,FALSE,Open,External Exposure Scan,2026-10-10,2027-01-08,
+F00365,A0194,Insecure direct object reference,High,8.4,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-09-18,2026-10-18,2026-10-28
+F00366,A0164,Privilege escalation in OS kernel,High,7.9,FALSE,FALSE,Open,External Exposure Scan,2026-10-12,2026-11-11,
+F00367,A0167,Missing security patch for database engine,High,8.5,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-04-15,2026-05-15,2026-06-05
+F00368,A0200,Weak password policy on service account,Medium,6.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-01-03,2026-04-03,2026-02-02
+F00369,A0148,Outdated open-source dependency with known flaw,Medium,5.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-30,2026-11-28,
+F00370,A0217,Remote code execution in web framework,Critical,8.6,FALSE,FALSE,Open,Vulnerability Scanner,2025-10-29,2025-11-05,
+F00371,A0070,Storage bucket allows public read,Critical,9.4,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-09-12,2026-09-19,2026-10-27
+F00372,A0142,Unauthenticated API endpoint,High,8.1,FALSE,FALSE,Exception,Vulnerability Scanner,2026-07-25,2026-08-24,
+F00373,A0219,Container image uses end-of-life base image,Medium,5.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-20,2026-06-18,2026-04-08
+F00374,A0015,Outdated TLS configuration,Medium,5.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-05-25,2026-08-23,2026-07-20
+F00375,A0177,Exposed administrative interface,High,7.6,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-05-07,2026-06-06,2026-06-23
+F00376,A0106,Cross-site scripting in customer portal,Critical,9.4,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-21,2026-06-28,
+F00377,A0017,Cross-site scripting in customer portal,Medium,5.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-11,2026-06-09,2026-03-14
+F00378,A0118,Verbose error messages disclose stack traces,Low,2.9,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-20,2027-04-18,
+F00379,A0027,Exposed administrative interface,High,7.0,FALSE,FALSE,Open,External Exposure Scan,2026-09-08,2026-10-08,
+F00380,A0116,Privilege escalation in OS kernel,High,7.0,FALSE,FALSE,Open,External Exposure Scan,2026-05-23,2026-06-22,
+F00381,A0067,Verbose error messages disclose stack traces,Low,3.1,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-26,2027-02-22,
+F00382,A0201,Verbose error messages disclose stack traces,Low,2.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-05,2026-10-02,2026-05-31
+F00383,A0196,Container image uses end-of-life base image,Medium,4.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-09-28,2026-12-27,2026-10-29
+F00384,A0106,Remote code execution in web framework,Critical,8.8,TRUE,TRUE,Resolved,External Exposure Scan,2026-07-21,2026-07-28,2026-08-29
+F00385,A0140,Cross-site scripting in customer portal,Medium,5.5,FALSE,FALSE,Resolved,External Exposure Scan,2025-12-10,2026-03-10,2025-12-21
+F00386,A0042,Privilege escalation in OS kernel,High,8.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-02-24,2026-03-26,2026-03-06
+F00387,A0126,Privilege escalation in OS kernel,High,7.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-21,2026-08-20,2026-09-19
+F00388,A0085,Insecure direct object reference,High,8.1,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-03-23,2026-04-22,
+F00389,A0095,Exposed administrative interface,High,7.2,FALSE,FALSE,In Progress,External Exposure Scan,2026-08-19,2026-09-18,
+F00390,A0203,Outdated open-source dependency with known flaw,Medium,4.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-05,2027-01-03,
+F00391,A0044,Remote code execution in web framework,Critical,8.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-10-18,2026-10-25,2026-10-28
+F00392,A0045,Container image uses end-of-life base image,Medium,4.8,FALSE,FALSE,Exception,Vulnerability Scanner,2026-06-01,2026-08-30,
+F00393,A0031,Container image uses end-of-life base image,Low,2.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-17,2026-12-14,2026-11-01
+F00394,A0166,Unauthenticated API endpoint,High,7.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-04-27,2026-05-27,2026-05-31
+F00395,A0151,Exposed administrative interface,High,8.0,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-07-04,2026-08-03,
+F00396,A0029,Unauthenticated API endpoint,Critical,8.6,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-07-22,2026-07-29,2026-07-26
+F00397,A0055,Open management port reachable from internet,High,7.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-11,2026-07-11,2026-07-15
+F00398,A0031,Deserialization flaw in message library,Critical,9.1,TRUE,FALSE,Open,Vulnerability Scanner,2026-03-28,2026-04-04,
+F00399,A0172,Insecure direct object reference,High,7.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-21,2026-04-20,2026-05-13
+F00400,A0133,Insecure direct object reference,High,8.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-02-20,2026-03-22,2026-03-10
+F00401,A0173,Remote code execution in web framework,Critical,8.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-15,2026-05-22,2026-06-12
+F00402,A0176,Open management port reachable from internet,High,8.2,TRUE,FALSE,Open,Cloud Posture Scanner,2026-06-21,2026-07-21,
+F00403,A0068,Outdated TLS configuration,Medium,5.3,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-19,2026-09-17,2026-07-26
+F00404,A0015,Open management port reachable from internet,High,7.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-02-13,2026-03-15,2026-03-12
+F00405,A0048,Verbose error messages disclose stack traces,Low,2.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-16,2027-01-12,2026-09-02
+F00406,A0052,Cross-site scripting in customer portal,Medium,5.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-01-22,2026-04-22,2026-05-13
+F00407,A0214,Remote code execution in web framework,Critical,9.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-22,2026-05-29,2026-06-09
+F00408,A0147,Missing security patch for database engine,High,7.7,TRUE,TRUE,Open,Vulnerability Scanner,2026-10-20,2026-11-19,
+F00409,A0068,Open management port reachable from internet,High,7.6,TRUE,FALSE,Resolved,External Exposure Scan,2026-03-09,2026-04-08,2026-05-03
+F00410,A0122,Storage bucket allows public read,Critical,9.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-07-10,2026-07-17,
+F00411,A0205,Remote code execution in web framework,High,7.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-12,2026-10-12,
+F00412,A0009,SQL injection in reporting query,High,8.3,FALSE,FALSE,Open,Cloud Posture Scanner,2025-12-17,2026-01-16,
+F00413,A0095,SQL injection in reporting query,Critical,9.7,TRUE,FALSE,Open,Cloud Posture Scanner,2026-09-19,2026-09-26,
+F00414,A0196,Verbose error messages disclose stack traces,Critical,8.9,TRUE,FALSE,Open,External Exposure Scan,2026-09-18,2026-09-25,
+F00415,A0159,Outdated open-source dependency with known flaw,Medium,5.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-02,2026-10-31,
+F00416,A0075,Insecure direct object reference,High,7.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-05,2026-06-04,2026-06-02
+F00417,A0044,Outdated open-source dependency with known flaw,Medium,5.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-20,2026-09-18,2026-10-12
+F00418,A0148,Container image uses end-of-life base image,Medium,5.9,TRUE,FALSE,Resolved,External Exposure Scan,2026-01-11,2026-04-11,2026-01-14
+F00419,A0056,Privilege escalation in OS kernel,High,7.2,FALSE,FALSE,Open,External Exposure Scan,2026-08-24,2026-09-23,
+F00420,A0173,Weak password policy on service account,Medium,5.9,FALSE,FALSE,Open,Cloud Posture Scanner,2026-07-26,2026-10-24,
+F00421,A0200,Remote code execution in web framework,Critical,9.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-04-21,2026-04-28,2026-05-03
+F00422,A0146,Cross-site scripting in customer portal,Medium,5.2,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-08-15,2026-11-13,
+F00423,A0133,Certificate expiring within 30 days,High,7.8,TRUE,TRUE,Open,Cloud Posture Scanner,2026-09-01,2026-10-01,
+F00424,A0103,Cross-site scripting in customer portal,Medium,5.8,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-04-03,2026-07-02,
+F00425,A0036,Outdated TLS configuration,Medium,5.6,FALSE,FALSE,In Progress,External Exposure Scan,2026-07-14,2026-10-12,
+F00426,A0040,Certificate expiring within 30 days,Low,2.8,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-03,2027-04-01,
+F00427,A0179,Privilege escalation in OS kernel,High,7.7,TRUE,FALSE,Open,Cloud Posture Scanner,2026-05-27,2026-06-26,
+F00428,A0155,Certificate expiring within 30 days,Low,2.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-16,2027-02-12,
+F00429,A0101,Remote code execution in web framework,Critical,9.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-03,2026-07-10,2026-07-13
+F00430,A0131,Container image uses end-of-life base image,Medium,5.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-14,2026-10-12,2026-07-23
+F00431,A0165,Outdated TLS configuration,Medium,5.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-17,2026-12-16,
+F00432,A0205,Unauthenticated API endpoint,High,7.1,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-24,2026-11-23,
+F00433,A0021,Unauthenticated API endpoint,Critical,9.1,TRUE,FALSE,Resolved,External Exposure Scan,2026-08-08,2026-08-15,2026-09-05
+F00434,A0114,Deserialization flaw in message library,High,8.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-30,2026-09-29,2026-09-12
+F00435,A0090,Outdated open-source dependency with known flaw,Low,3.2,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-23,2027-03-22,
+F00436,A0087,Insecure direct object reference,High,7.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-26,2026-07-26,2026-08-11
+F00437,A0096,Storage bucket allows public read,Medium,4.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-01-04,2026-04-04,2026-02-08
+F00438,A0074,Outdated TLS configuration,High,8.0,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-04-25,2026-05-25,2026-06-09
+F00439,A0136,Remote code execution in web framework,Critical,9.4,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-01-28,2026-02-04,2026-02-27
+F00440,A0135,Privilege escalation in OS kernel,High,7.3,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-03-27,2026-04-26,2026-05-13
+F00441,A0066,SQL injection in reporting query,Critical,8.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-10-15,2026-10-22,2026-10-19
+F00442,A0045,Cross-site scripting in customer portal,Medium,4.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-02-25,2026-05-26,2026-05-11
+F00443,A0211,Insecure direct object reference,Low,3.2,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-05,2027-04-03,
+F00444,A0109,Insecure direct object reference,High,7.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-08,2026-08-07,2026-08-27
+F00445,A0095,Remote code execution in web framework,Critical,8.7,TRUE,TRUE,Resolved,External Exposure Scan,2026-05-30,2026-06-06,2026-07-10
+F00446,A0010,Verbose error messages disclose stack traces,Low,2.4,TRUE,TRUE,In Progress,External Exposure Scan,2026-08-22,2027-02-18,
+F00447,A0079,Verbose error messages disclose stack traces,Critical,9.5,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-10-10,2026-10-17,
+F00448,A0093,Privilege escalation in OS kernel,High,8.3,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-27,2026-09-26,2026-08-29
+F00449,A0123,Insecure direct object reference,High,7.5,FALSE,FALSE,Exception,Vulnerability Scanner,2026-05-03,2026-06-02,
+F00450,A0170,SQL injection in reporting query,Critical,9.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-08,2026-03-15,2026-04-10
+F00451,A0068,Cross-site scripting in customer portal,Medium,4.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-15,2026-11-13,
+F00452,A0071,Outdated TLS configuration,High,7.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-12,2026-07-12,2026-08-16
+F00453,A0216,Unauthenticated API endpoint,High,8.4,TRUE,FALSE,Open,Cloud Posture Scanner,2026-06-29,2026-07-29,
+F00454,A0020,Weak password policy on service account,Medium,5.7,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-08-06,2026-11-04,
+F00455,A0105,Deserialization flaw in message library,Critical,8.6,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-23,2026-09-30,
+F00456,A0063,Outdated open-source dependency with known flaw,Medium,5.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-27,2026-12-26,
+F00457,A0134,Remote code execution in web framework,Critical,8.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-02,2026-04-09,2026-05-18
+F00458,A0007,Insecure direct object reference,High,7.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-03,2026-11-02,
+F00459,A0090,Remote code execution in web framework,Critical,9.8,TRUE,FALSE,Resolved,External Exposure Scan,2026-09-16,2026-09-23,2026-10-05
+F00460,A0025,Missing security patch for database engine,High,7.2,TRUE,FALSE,Open,External Exposure Scan,2026-07-06,2026-08-05,
+F00461,A0099,Cross-site scripting in customer portal,Low,2.6,FALSE,FALSE,In Progress,External Exposure Scan,2026-05-17,2026-11-13,
+F00462,A0074,Storage bucket allows public read,Critical,9.6,FALSE,FALSE,Open,External Exposure Scan,2026-10-07,2026-10-14,
+F00463,A0132,Storage bucket allows public read,Critical,8.9,FALSE,FALSE,Open,External Exposure Scan,2026-06-26,2026-07-03,
+F00464,A0005,Missing HTTP security headers,Low,3.2,TRUE,FALSE,Open,External Exposure Scan,2026-07-07,2027-01-03,
+F00465,A0058,Outdated open-source dependency with known flaw,Medium,5.5,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-08-17,2026-11-15,
+F00466,A0079,Privilege escalation in OS kernel,Low,2.3,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-02-11,2026-08-10,
+F00467,A0182,Exposed administrative interface,High,7.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-28,2026-09-27,2026-10-14
+F00468,A0034,Outdated open-source dependency with known flaw,Medium,5.5,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-01-31,2026-05-01,
+F00469,A0219,Remote code execution in web framework,Critical,9.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-02-10,2026-02-17,2026-02-13
+F00470,A0190,Cross-site scripting in customer portal,Medium,4.6,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-12,2027-01-10,
+F00471,A0092,Deserialization flaw in message library,High,7.2,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-27,2026-07-27,2026-08-15
+F00472,A0149,Weak password policy on service account,Critical,9.5,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-09-12,2026-09-19,2026-10-19
+F00473,A0205,Insecure direct object reference,High,8.2,TRUE,FALSE,Resolved,External Exposure Scan,2025-11-25,2025-12-25,2026-01-10
+F00474,A0212,Container image uses end-of-life base image,Medium,5.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-02,2026-05-31,2026-04-05
+F00475,A0003,Verbose error messages disclose stack traces,High,8.0,TRUE,FALSE,Open,Vulnerability Scanner,2025-11-24,2025-12-24,
+F00476,A0111,Unauthenticated API endpoint,High,7.0,TRUE,FALSE,In Progress,Vulnerability Scanner,2026-08-21,2026-09-20,
+F00477,A0014,Open management port reachable from internet,High,7.5,TRUE,FALSE,Open,Vulnerability Scanner,2026-09-30,2026-10-30,
+F00478,A0084,Outdated open-source dependency with known flaw,Medium,4.8,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-05-21,2026-08-19,
+F00479,A0115,Outdated open-source dependency with known flaw,Medium,5.1,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-06-16,2026-09-14,
+F00480,A0174,Open management port reachable from internet,High,7.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-24,2026-10-24,
+F00481,A0068,Outdated open-source dependency with known flaw,Medium,5.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2025-11-27,2026-02-25,2026-03-27
+F00482,A0193,Missing HTTP security headers,Low,3.5,TRUE,FALSE,Open,Cloud Posture Scanner,2026-04-19,2026-10-16,
+F00483,A0124,Insecure direct object reference,High,8.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-23,2026-10-23,
+F00484,A0202,Unauthenticated API endpoint,High,7.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-27,2026-07-27,2026-08-25
+F00485,A0115,Exposed administrative interface,High,7.1,TRUE,FALSE,Exception,External Exposure Scan,2026-04-12,2026-05-12,
+F00486,A0054,Outdated TLS configuration,Critical,9.4,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-15,2026-08-22,2026-08-29
+F00487,A0122,Storage bucket allows public read,Critical,8.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-24,2026-10-01,2026-10-08
+F00488,A0163,Cross-site scripting in customer portal,Medium,5.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-24,2026-06-22,2026-03-31
+F00489,A0061,Outdated open-source dependency with known flaw,Medium,5.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-28,2026-07-27,2026-09-02
+F00490,A0153,Missing HTTP security headers,Low,3.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-20,2026-10-17,2026-07-16
+F00491,A0143,Cross-site scripting in customer portal,Medium,4.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2025-12-30,2026-03-30,2026-04-11
+F00492,A0161,Privilege escalation in OS kernel,High,7.3,TRUE,FALSE,Open,Cloud Posture Scanner,2025-12-13,2026-01-12,
+F00493,A0219,Remote code execution in web framework,Critical,8.7,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-08-30,2026-09-06,2026-09-28
+F00494,A0153,Verbose error messages disclose stack traces,Medium,5.8,TRUE,TRUE,Resolved,External Exposure Scan,2026-03-10,2026-06-08,2026-06-30
+F00495,A0128,Unauthenticated API endpoint,High,8.4,TRUE,FALSE,Open,External Exposure Scan,2026-05-30,2026-06-29,
+F00496,A0113,Deserialization flaw in message library,Critical,9.8,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-28,2026-08-04,2026-08-11
+F00497,A0085,Exposed administrative interface,High,7.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2025-12-19,2026-01-18,2026-01-07
+F00498,A0047,Exposed administrative interface,High,8.2,TRUE,FALSE,In Progress,External Exposure Scan,2026-08-07,2026-09-06,
+F00499,A0051,Exposed administrative interface,High,8.1,TRUE,FALSE,Open,Vulnerability Scanner,2026-09-18,2026-10-18,
+F00500,A0137,Cross-site scripting in customer portal,Medium,5.6,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-13,2026-12-12,
+F00501,A0064,Outdated TLS configuration,Medium,4.7,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-05-30,2026-08-28,2026-09-09
+F00502,A0198,SQL injection in reporting query,Critical,9.0,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-06-26,2026-07-03,
+F00503,A0187,Storage bucket allows public read,Critical,9.1,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-15,2026-09-22,
+F00504,A0204,Cross-site scripting in customer portal,Medium,5.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-15,2026-09-13,2026-07-10
+F00505,A0124,Container image uses end-of-life base image,Medium,4.8,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-07-02,2026-09-30,
+F00506,A0171,Deserialization flaw in message library,Critical,8.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-28,2026-05-05,2026-05-18
+F00507,A0107,Outdated TLS configuration,Medium,5.8,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-07,2027-01-05,
+F00508,A0193,Outdated TLS configuration,Medium,5.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-11,2026-12-10,2026-10-28
+F00509,A0092,Deserialization flaw in message library,High,8.3,FALSE,FALSE,Open,External Exposure Scan,2026-07-17,2026-08-16,
+F00510,A0218,Privilege escalation in OS kernel,High,7.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-21,2026-09-20,
+F00511,A0210,Deserialization flaw in message library,Critical,8.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-10-01,2026-10-08,2026-10-17
+F00512,A0041,Exposed administrative interface,High,7.3,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-27,2026-07-27,2026-09-03
+F00513,A0076,Cross-site scripting in customer portal,Medium,5.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-10,2026-09-08,2026-06-13
+F00514,A0057,Unauthenticated API endpoint,High,8.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-11,2026-08-10,2026-08-22
+F00515,A0016,Open management port reachable from internet,High,7.8,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-10-04,2026-11-03,
+F00516,A0024,Insecure direct object reference,High,7.3,FALSE,FALSE,Exception,External Exposure Scan,2026-09-26,2026-10-26,
+F00517,A0096,Privilege escalation in OS kernel,Low,3.5,TRUE,FALSE,Open,Cloud Posture Scanner,2026-08-12,2027-02-08,
+F00518,A0165,SQL injection in reporting query,Critical,8.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-30,2026-08-06,2026-08-25
+F00519,A0034,Missing security patch for database engine,Medium,5.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-30,2026-11-28,2026-10-16
+F00520,A0182,Open management port reachable from internet,High,8.5,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-07-19,2026-08-18,2026-09-01
+F00521,A0077,Verbose error messages disclose stack traces,Low,3.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-07,2027-04-05,
+F00522,A0219,Missing HTTP security headers,Low,3.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-05-20,2026-11-16,
+F00523,A0036,Deserialization flaw in message library,Critical,9.4,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-03-14,2026-03-21,2026-04-27
+F00524,A0204,Missing HTTP security headers,Low,2.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-02-13,2026-08-12,2026-09-14
+F00525,A0132,Storage bucket allows public read,High,7.6,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-05,2026-07-05,
+F00526,A0158,Remote code execution in web framework,Critical,9.9,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-24,2026-07-31,2026-08-02
+F00527,A0127,Privilege escalation in OS kernel,High,8.1,TRUE,TRUE,Open,External Exposure Scan,2026-06-17,2026-07-17,
+F00528,A0039,Certificate expiring within 30 days,Low,2.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-05-29,2026-11-25,
+F00529,A0032,Verbose error messages disclose stack traces,Low,3.8,FALSE,FALSE,Open,External Exposure Scan,2026-07-26,2027-01-22,
+F00530,A0084,Insecure direct object reference,High,7.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-09,2026-08-08,2026-07-22
+F00531,A0201,Exposed administrative interface,Critical,9.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-30,2026-07-07,
+F00532,A0212,Remote code execution in web framework,Critical,8.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-28,2026-04-04,2026-04-26
+F00533,A0162,Unauthenticated API endpoint,Low,3.5,FALSE,FALSE,Exception,Cloud Posture Scanner,2025-11-18,2026-05-17,
+F00534,A0089,Open management port reachable from internet,High,8.3,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-04-06,2026-05-06,
+F00535,A0208,Remote code execution in web framework,Critical,9.8,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-19,2026-03-26,2026-04-27
+F00536,A0039,Verbose error messages disclose stack traces,Low,3.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-28,2027-03-27,
+F00537,A0121,Deserialization flaw in message library,Critical,9.0,TRUE,FALSE,Exception,Cloud Posture Scanner,2026-07-25,2026-08-01,
+F00538,A0091,Outdated TLS configuration,Medium,5.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-09,2026-12-08,2026-10-07
+F00539,A0045,Missing HTTP security headers,Low,2.6,FALSE,FALSE,Open,External Exposure Scan,2026-10-03,2027-04-01,
+F00540,A0025,Unauthenticated API endpoint,High,7.1,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-17,2026-04-16,2026-05-26
+F00541,A0045,Cross-site scripting in customer portal,Medium,5.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-24,2026-10-22,2026-09-27
+F00542,A0036,Storage bucket allows public read,Critical,9.8,FALSE,FALSE,Open,External Exposure Scan,2026-08-13,2026-08-20,
+F00543,A0052,Deserialization flaw in message library,Critical,8.7,FALSE,FALSE,Open,External Exposure Scan,2026-10-14,2026-10-21,
+F00544,A0132,Missing HTTP security headers,Low,3.4,FALSE,FALSE,In Progress,External Exposure Scan,2026-06-21,2026-12-18,
+F00545,A0072,Insecure direct object reference,High,7.2,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-05-10,2026-06-09,2026-05-23
+F00546,A0144,Deserialization flaw in message library,Critical,8.5,FALSE,FALSE,Resolved,External Exposure Scan,2026-02-23,2026-03-02,2026-03-13
+F00547,A0093,Weak password policy on service account,Medium,4.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2025-12-08,2026-03-08,2026-03-13
+F00548,A0117,Verbose error messages disclose stack traces,Low,3.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-23,2026-10-20,2026-08-14
+F00549,A0146,Container image uses end-of-life base image,Medium,6.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-02-25,2026-05-26,
+F00550,A0008,Container image uses end-of-life base image,Medium,4.6,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-06-21,2026-09-19,
+F00551,A0187,Weak password policy on service account,Medium,4.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-16,2026-10-14,2026-08-25
+F00552,A0189,Exposed administrative interface,High,8.2,FALSE,FALSE,Open,Vulnerability Scanner,2025-12-25,2026-01-24,
+F00553,A0072,Remote code execution in web framework,Critical,8.7,TRUE,FALSE,Resolved,External Exposure Scan,2026-05-28,2026-06-04,2026-06-19
+F00554,A0095,Certificate expiring within 30 days,Low,2.5,FALSE,FALSE,Open,External Exposure Scan,2026-08-20,2027-02-16,
+F00555,A0195,Insecure direct object reference,High,7.9,FALSE,FALSE,Resolved,External Exposure Scan,2025-11-02,2025-12-02,2025-12-28
+F00556,A0190,Weak password policy on service account,Medium,5.9,FALSE,FALSE,Open,External Exposure Scan,2026-03-30,2026-06-28,
+F00557,A0075,Deserialization flaw in message library,Critical,9.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-01-18,2026-01-25,2026-01-30
+F00558,A0221,Certificate expiring within 30 days,High,8.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-03-31,2026-04-30,
+F00559,A0006,Missing HTTP security headers,Low,3.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-27,2027-03-26,
+F00560,A0197,Cross-site scripting in customer portal,Medium,5.7,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-03-15,2026-06-13,2026-03-30
+F00561,A0187,Deserialization flaw in message library,Critical,8.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-04,2026-06-11,2026-07-19
+F00562,A0089,Missing security patch for database engine,High,7.5,TRUE,FALSE,Open,Cloud Posture Scanner,2026-05-01,2026-05-31,
+F00563,A0124,Cross-site scripting in customer portal,Medium,5.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-10,2026-12-09,
+F00564,A0032,Verbose error messages disclose stack traces,Low,3.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-12,2026-10-09,2026-07-03
+F00565,A0037,Privilege escalation in OS kernel,Medium,5.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-20,2026-12-19,
+F00566,A0060,Verbose error messages disclose stack traces,Low,2.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-15,2027-02-11,
+F00567,A0066,Missing HTTP security headers,Medium,5.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-06,2026-07-05,2026-05-18
+F00568,A0206,Storage bucket allows public read,Critical,9.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-10,2026-09-17,2026-10-10
+F00569,A0210,Deserialization flaw in message library,Critical,9.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-12,2026-06-19,2026-07-04
+F00570,A0213,Outdated TLS configuration,Medium,4.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-02-05,2026-05-06,2026-04-16
+F00571,A0181,Open management port reachable from internet,High,8.4,TRUE,TRUE,Open,Cloud Posture Scanner,2026-08-14,2026-09-13,
+F00572,A0005,SQL injection in reporting query,Critical,8.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-12,2026-08-19,2026-09-11
+F00573,A0150,Open management port reachable from internet,High,7.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-17,2026-06-16,2026-06-27
+F00574,A0162,Open management port reachable from internet,High,8.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-21,2026-06-20,2026-07-06
+F00575,A0033,Storage bucket allows public read,Critical,9.5,FALSE,FALSE,In Progress,External Exposure Scan,2026-09-07,2026-09-14,
+F00576,A0188,Open management port reachable from internet,Low,2.4,FALSE,FALSE,In Progress,External Exposure Scan,2026-10-07,2027-04-05,
+F00577,A0073,Remote code execution in web framework,Critical,9.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-20,2026-10-27,
+F00578,A0024,Open management port reachable from internet,High,8.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-28,2026-10-28,2026-10-01
+F00579,A0203,Weak password policy on service account,Medium,5.7,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-03-09,2026-06-07,2026-07-16
+F00580,A0095,Unauthenticated API endpoint,High,7.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-17,2026-07-17,2026-07-06
+F00581,A0141,Privilege escalation in OS kernel,High,7.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-13,2026-07-13,2026-07-17
+F00582,A0185,Container image uses end-of-life base image,Medium,5.0,FALSE,FALSE,Open,External Exposure Scan,2026-07-24,2026-10-22,
+F00583,A0160,Certificate expiring within 30 days,Low,3.3,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-12,2026-11-08,2026-06-02
+F00584,A0162,Weak password policy on service account,Medium,4.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-02-14,2026-05-15,2026-03-20
+F00585,A0155,Weak password policy on service account,Medium,5.4,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-08-09,2026-11-07,
+F00586,A0185,Missing security patch for database engine,Medium,5.3,FALSE,FALSE,Open,External Exposure Scan,2026-10-15,2027-01-13,
+F00587,A0058,Exposed administrative interface,High,7.1,TRUE,FALSE,Open,Vulnerability Scanner,2026-08-19,2026-09-18,
+F00588,A0151,Certificate expiring within 30 days,Low,2.8,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-09,2026-09-05,2026-04-28
+F00589,A0085,Cross-site scripting in customer portal,Medium,4.9,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-22,2026-06-20,2026-05-30
+F00590,A0083,Missing HTTP security headers,Low,3.0,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-01-20,2026-07-19,
+F00591,A0076,Missing HTTP security headers,Low,2.4,FALSE,FALSE,Open,Vulnerability Scanner,2026-05-29,2026-11-25,
+F00592,A0148,Weak password policy on service account,Medium,6.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-04-11,2026-07-10,2026-04-27
+F00593,A0016,Outdated TLS configuration,Medium,4.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-11,2027-01-09,
+F00594,A0126,Weak password policy on service account,Medium,5.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-30,2026-06-28,2026-04-27
+F00595,A0129,Certificate expiring within 30 days,Low,2.6,FALSE,FALSE,Open,Vulnerability Scanner,2026-05-06,2026-11-02,
+F00596,A0153,Exposed administrative interface,High,7.5,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-05-21,2026-06-20,2026-06-11
+F00597,A0138,Remote code execution in web framework,Critical,9.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-06-13,2026-06-20,
+F00598,A0081,Outdated open-source dependency with known flaw,Medium,5.3,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-02-01,2026-05-02,
+F00599,A0118,Outdated TLS configuration,Medium,5.2,FALSE,FALSE,Open,External Exposure Scan,2026-06-09,2026-09-07,
+F00600,A0013,Storage bucket allows public read,Critical,8.7,TRUE,FALSE,Open,External Exposure Scan,2026-02-01,2026-02-08,
+F00601,A0046,Storage bucket allows public read,Critical,8.6,TRUE,FALSE,Resolved,External Exposure Scan,2026-08-19,2026-08-26,2026-08-26
+F00602,A0101,Exposed administrative interface,High,8.1,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-05-16,2026-06-15,
+F00603,A0083,Container image uses end-of-life base image,Medium,4.7,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-04-03,2026-07-02,
+F00604,A0081,Container image uses end-of-life base image,Medium,5.9,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-03-05,2026-06-03,
+F00605,A0079,Cross-site scripting in customer portal,Medium,5.8,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-14,2026-12-13,2026-09-19
+F00606,A0083,Outdated open-source dependency with known flaw,Medium,5.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-09,2026-10-07,2026-09-14
+F00607,A0220,Unauthenticated API endpoint,Medium,5.9,TRUE,FALSE,Open,Cloud Posture Scanner,2026-10-10,2027-01-08,
+F00608,A0117,Missing security patch for database engine,High,8.5,TRUE,TRUE,Resolved,External Exposure Scan,2025-12-11,2026-01-10,2026-02-15
+F00609,A0075,Certificate expiring within 30 days,Medium,4.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-01-11,2026-04-11,2026-03-28
+F00610,A0098,Storage bucket allows public read,Critical,9.2,TRUE,FALSE,Open,External Exposure Scan,2026-08-16,2026-08-23,
+F00611,A0085,Certificate expiring within 30 days,Low,2.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-10,2026-12-07,2026-10-26
+F00612,A0208,Outdated TLS configuration,Medium,5.3,FALSE,FALSE,Open,External Exposure Scan,2026-10-12,2027-01-10,
+F00613,A0086,Open management port reachable from internet,High,7.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-07-19,2026-08-18,
+F00614,A0047,Weak password policy on service account,Low,2.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-05-22,2026-11-18,
+F00615,A0123,Open management port reachable from internet,High,7.3,TRUE,TRUE,Resolved,External Exposure Scan,2026-02-16,2026-03-18,2026-04-05
+F00616,A0065,Remote code execution in web framework,Critical,9.5,TRUE,TRUE,Open,Vulnerability Scanner,2026-04-04,2026-04-11,
+F00617,A0217,Missing security patch for database engine,High,7.6,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-04-26,2026-05-26,2026-06-10
+F00618,A0138,Deserialization flaw in message library,Critical,8.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-24,2026-08-31,2026-09-03
+F00619,A0069,Deserialization flaw in message library,Medium,5.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-05-24,2026-08-22,2026-08-18
+F00620,A0160,SQL injection in reporting query,Critical,9.9,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-14,2026-07-21,2026-07-29
+F00621,A0028,Certificate expiring within 30 days,Low,3.5,TRUE,TRUE,Open,Cloud Posture Scanner,2026-06-27,2026-12-24,
+F00622,A0212,Certificate expiring within 30 days,Low,3.7,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-03-08,2026-09-04,2026-04-22
+F00623,A0063,Storage bucket allows public read,Critical,8.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-09-10,2026-09-17,2026-09-17
+F00624,A0095,Weak password policy on service account,Medium,5.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-01-31,2026-05-01,2026-05-12
+F00625,A0010,Remote code execution in web framework,Critical,8.6,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-08-03,2026-08-10,
+F00626,A0143,Remote code execution in web framework,Critical,9.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-06,2026-09-13,2026-09-16
+F00627,A0080,Insecure direct object reference,High,8.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-15,2026-07-15,2026-07-20
+F00628,A0068,Privilege escalation in OS kernel,High,7.1,TRUE,FALSE,Open,Vulnerability Scanner,2026-02-27,2026-03-29,
+F00629,A0200,Privilege escalation in OS kernel,High,8.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-23,2026-06-22,2026-06-02
+F00630,A0039,SQL injection in reporting query,Critical,9.2,TRUE,FALSE,Exception,Vulnerability Scanner,2026-04-17,2026-04-24,
+F00631,A0035,Verbose error messages disclose stack traces,Low,2.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-21,2027-03-20,
+F00632,A0214,Certificate expiring within 30 days,Low,3.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-04-28,2026-10-25,2026-09-22
+F00633,A0208,Missing HTTP security headers,Low,2.9,FALSE,FALSE,Open,External Exposure Scan,2026-06-06,2026-12-03,
+F00634,A0156,Missing security patch for database engine,High,7.4,TRUE,FALSE,Open,Cloud Posture Scanner,2026-06-15,2026-07-15,
+F00635,A0047,Insecure direct object reference,High,7.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-28,2026-09-27,
+F00636,A0142,Deserialization flaw in message library,Critical,9.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-24,2026-08-31,2026-08-26
+F00637,A0181,Exposed administrative interface,High,8.4,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-05-07,2026-06-06,2026-05-09
+F00638,A0023,Missing security patch for database engine,High,7.7,FALSE,FALSE,Open,External Exposure Scan,2026-01-06,2026-02-05,
+F00639,A0149,Open management port reachable from internet,High,8.1,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-26,2026-10-26,2026-10-01
+F00640,A0025,Missing HTTP security headers,Low,3.7,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-05-14,2026-11-10,
+F00641,A0005,Outdated TLS configuration,Medium,5.6,FALSE,FALSE,In Progress,External Exposure Scan,2026-06-30,2026-09-28,
+F00642,A0211,Exposed administrative interface,Low,3.6,FALSE,FALSE,Open,External Exposure Scan,2026-02-04,2026-08-03,
+F00643,A0168,Open management port reachable from internet,High,7.8,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-12,2026-08-11,2026-07-28
+F00644,A0130,Deserialization flaw in message library,Critical,9.9,TRUE,FALSE,Open,Cloud Posture Scanner,2026-09-23,2026-09-30,
+F00645,A0136,Certificate expiring within 30 days,Low,3.1,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-08,2026-09-04,2026-09-30
+F00646,A0081,Cross-site scripting in customer portal,Medium,5.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-09-04,2026-12-03,2026-09-28
+F00647,A0114,Cross-site scripting in customer portal,Medium,5.7,FALSE,FALSE,Open,External Exposure Scan,2026-10-10,2027-01-08,
+F00648,A0191,Outdated open-source dependency with known flaw,Medium,4.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-07,2026-12-06,
+F00649,A0103,Open management port reachable from internet,High,8.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-20,2026-10-20,
+F00650,A0016,Cross-site scripting in customer portal,Medium,5.5,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-21,2026-08-19,2026-07-07
+F00651,A0113,Missing HTTP security headers,Low,3.4,FALSE,FALSE,Exception,External Exposure Scan,2026-09-23,2027-03-22,
+F00652,A0154,Container image uses end-of-life base image,Medium,5.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-20,2026-09-18,
+F00653,A0132,Unauthenticated API endpoint,Critical,9.6,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-08-01,2026-08-08,2026-09-17
+F00654,A0175,Cross-site scripting in customer portal,Medium,5.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-08,2026-11-06,2026-09-19
+F00655,A0019,Exposed administrative interface,High,8.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-07-09,2026-08-08,
+F00656,A0062,Missing security patch for database engine,High,8.0,TRUE,TRUE,Open,Vulnerability Scanner,2026-09-21,2026-10-21,
+F00657,A0094,Unauthenticated API endpoint,High,8.1,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-10-05,2026-11-04,
+F00658,A0028,Weak password policy on service account,Medium,5.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-02-20,2026-05-21,
+F00659,A0022,Insecure direct object reference,Low,3.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-04,2027-03-03,
+F00660,A0062,Storage bucket allows public read,Critical,9.3,TRUE,FALSE,Resolved,External Exposure Scan,2026-08-13,2026-08-20,2026-09-17
+F00661,A0129,Insecure direct object reference,High,7.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-03-13,2026-04-12,
+F00662,A0141,Certificate expiring within 30 days,Low,2.9,TRUE,TRUE,Open,Vulnerability Scanner,2026-04-06,2026-10-03,
+F00663,A0022,Deserialization flaw in message library,Critical,9.8,TRUE,FALSE,Resolved,External Exposure Scan,2026-07-07,2026-07-14,2026-07-15
+F00664,A0057,Open management port reachable from internet,High,7.7,TRUE,TRUE,Resolved,External Exposure Scan,2026-08-17,2026-09-16,2026-09-08
+F00665,A0015,Remote code execution in web framework,Medium,5.9,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-09-28,2026-12-27,
+F00666,A0210,Unauthenticated API endpoint,High,8.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-01-19,2026-02-18,2026-02-01
+F00667,A0144,Unauthenticated API endpoint,Low,3.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-04-13,2026-10-10,2026-06-21
+F00668,A0211,Privilege escalation in OS kernel,High,7.2,TRUE,FALSE,Open,External Exposure Scan,2026-06-06,2026-07-06,
+F00669,A0004,Missing HTTP security headers,Low,2.9,FALSE,FALSE,Open,Cloud Posture Scanner,2026-05-18,2026-11-14,
+F00670,A0022,Container image uses end-of-life base image,Medium,5.8,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-14,2027-01-12,
+F00671,A0007,Verbose error messages disclose stack traces,Low,3.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-04-26,2026-10-23,
+F00672,A0157,Certificate expiring within 30 days,Medium,4.9,TRUE,FALSE,In Progress,Vulnerability Scanner,2026-06-27,2026-09-25,
+F00673,A0062,Remote code execution in web framework,Critical,9.3,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-06-28,2026-07-05,
+F00674,A0135,Deserialization flaw in message library,Critical,9.4,FALSE,FALSE,Exception,External Exposure Scan,2026-08-24,2026-08-31,
+F00675,A0188,Insecure direct object reference,High,7.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2025-12-09,2026-01-08,2025-12-22
+F00676,A0045,Verbose error messages disclose stack traces,Low,2.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-02,2027-03-31,
+F00677,A0116,Storage bucket allows public read,Critical,9.4,TRUE,TRUE,Resolved,External Exposure Scan,2026-06-10,2026-06-17,2026-06-26
+F00678,A0064,Container image uses end-of-life base image,Medium,4.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-19,2026-08-17,2026-05-30
+F00679,A0146,Remote code execution in web framework,Critical,8.9,TRUE,FALSE,Resolved,External Exposure Scan,2026-06-13,2026-06-20,2026-07-20
+F00680,A0193,Missing HTTP security headers,Low,3.6,FALSE,FALSE,In Progress,External Exposure Scan,2026-09-01,2027-02-28,
+F00681,A0193,Certificate expiring within 30 days,Low,2.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-23,2027-03-22,
+F00682,A0154,Container image uses end-of-life base image,Medium,5.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-29,2026-10-27,2026-10-19
+F00683,A0150,Exposed administrative interface,High,7.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-01,2026-07-01,2026-07-19
+F00684,A0198,Remote code execution in web framework,Critical,9.2,FALSE,FALSE,Resolved,External Exposure Scan,2026-01-11,2026-01-18,2026-01-28
+F00685,A0043,Exposed administrative interface,High,7.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-12,2026-08-11,2026-08-14
+F00686,A0059,Weak password policy on service account,Medium,5.9,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-26,2026-08-24,2026-09-28
+F00687,A0147,Exposed administrative interface,High,7.3,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-03-02,2026-04-01,2026-03-29
+F00688,A0218,Certificate expiring within 30 days,Medium,6.1,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-10,2026-07-09,2026-07-06
+F00689,A0096,Privilege escalation in OS kernel,High,7.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-25,2026-09-24,2026-08-31
+F00690,A0180,Missing HTTP security headers,Low,3.7,FALSE,FALSE,Exception,External Exposure Scan,2026-03-13,2026-09-09,
+F00691,A0098,Verbose error messages disclose stack traces,Low,3.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-16,2026-12-13,2026-09-27
+F00692,A0107,Cross-site scripting in customer portal,High,8.2,TRUE,TRUE,Open,Vulnerability Scanner,2026-01-27,2026-02-26,
+F00693,A0097,Container image uses end-of-life base image,Medium,5.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-06,2026-12-05,
+F00694,A0207,SQL injection in reporting query,Critical,9.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-15,2026-08-22,2026-08-20
+F00695,A0192,Outdated TLS configuration,Medium,5.0,FALSE,FALSE,In Progress,External Exposure Scan,2026-10-01,2026-12-30,
+F00696,A0205,Weak password policy on service account,High,8.3,TRUE,FALSE,Open,Vulnerability Scanner,2026-09-15,2026-10-15,
+F00697,A0003,Unauthenticated API endpoint,High,7.8,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-10,2026-11-09,
+F00698,A0216,Exposed administrative interface,High,7.4,FALSE,FALSE,Open,External Exposure Scan,2026-09-17,2026-10-17,
+F00699,A0187,Insecure direct object reference,Critical,8.5,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-04-16,2026-04-23,2026-05-25
+F00700,A0068,Outdated open-source dependency with known flaw,Medium,5.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-22,2026-11-20,
+F00701,A0058,Cross-site scripting in customer portal,Medium,5.2,FALSE,FALSE,Open,External Exposure Scan,2026-06-29,2026-09-27,
+F00702,A0021,Deserialization flaw in message library,Low,3.6,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-05,2026-12-02,
+F00703,A0049,Missing security patch for database engine,High,7.2,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-21,2026-11-20,
+F00704,A0025,Verbose error messages disclose stack traces,Low,2.9,FALSE,FALSE,Open,Cloud Posture Scanner,2026-01-30,2026-07-29,
+F00705,A0131,Insecure direct object reference,High,8.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-05-23,2026-06-22,
+F00706,A0089,Certificate expiring within 30 days,Medium,4.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-07,2026-06-05,2026-03-29
+F00707,A0097,Storage bucket allows public read,Critical,9.5,TRUE,TRUE,Resolved,External Exposure Scan,2026-09-04,2026-09-11,2026-10-01
+F00708,A0072,Outdated TLS configuration,Medium,6.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-05,2027-01-03,
+F00709,A0067,Outdated open-source dependency with known flaw,Medium,6.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-23,2026-11-21,
+F00710,A0084,Verbose error messages disclose stack traces,Low,3.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-03-19,2026-09-15,
+F00711,A0043,Insecure direct object reference,High,8.1,FALSE,FALSE,Resolved,External Exposure Scan,2026-02-27,2026-03-29,2026-05-05
+F00712,A0007,SQL injection in reporting query,Critical,9.1,TRUE,FALSE,In Progress,External Exposure Scan,2026-09-06,2026-09-13,
+F00713,A0168,Storage bucket allows public read,Critical,8.7,TRUE,TRUE,Open,External Exposure Scan,2026-10-13,2026-10-20,
+F00714,A0185,Missing HTTP security headers,Low,3.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-25,2027-02-21,
+F00715,A0195,Weak password policy on service account,Medium,5.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-17,2027-01-15,
+F00716,A0048,Weak password policy on service account,Medium,5.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-03,2027-01-01,
+F00717,A0172,Remote code execution in web framework,Critical,9.3,TRUE,FALSE,Resolved,External Exposure Scan,2026-08-15,2026-08-22,2026-09-18
+F00718,A0089,Exposed administrative interface,High,8.0,FALSE,FALSE,Open,Cloud Posture Scanner,2025-12-17,2026-01-16,
+F00719,A0030,Remote code execution in web framework,Critical,9.2,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-14,2026-09-21,2026-10-11
+F00720,A0189,Weak password policy on service account,Medium,5.2,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-24,2026-06-22,2026-06-17
+F00721,A0166,Unauthenticated API endpoint,High,7.7,TRUE,FALSE,Open,Cloud Posture Scanner,2026-07-19,2026-08-18,
+F00722,A0107,Insecure direct object reference,High,7.8,TRUE,TRUE,In Progress,External Exposure Scan,2026-02-28,2026-03-30,
+F00723,A0173,Exposed administrative interface,High,7.2,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-01-25,2026-02-24,2026-02-20
+F00724,A0086,Unauthenticated API endpoint,High,7.1,FALSE,FALSE,In Progress,External Exposure Scan,2026-09-13,2026-10-13,
+F00725,A0043,Deserialization flaw in message library,Critical,9.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-07-19,2026-07-26,2026-08-09
+F00726,A0188,Open management port reachable from internet,High,8.1,TRUE,FALSE,In Progress,Cloud Posture Scanner,2026-06-27,2026-07-27,
+F00727,A0035,Outdated open-source dependency with known flaw,Medium,4.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-20,2026-11-18,2026-10-03
+F00728,A0163,Privilege escalation in OS kernel,High,7.4,FALSE,FALSE,Open,External Exposure Scan,2025-11-20,2025-12-20,
+F00729,A0105,Insecure direct object reference,High,7.4,FALSE,FALSE,Open,Vulnerability Scanner,2026-07-30,2026-08-29,
+F00730,A0085,Insecure direct object reference,High,8.0,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-03-22,2026-04-21,2026-03-30
+F00731,A0045,SQL injection in reporting query,Critical,9.3,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-06-02,2026-06-09,
+F00732,A0221,Verbose error messages disclose stack traces,Low,2.5,FALSE,FALSE,In Progress,External Exposure Scan,2026-03-24,2026-09-20,
+F00733,A0100,Outdated open-source dependency with known flaw,Medium,5.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-29,2026-09-27,2026-08-11
+F00734,A0150,Deserialization flaw in message library,Critical,8.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-19,2026-03-26,2026-03-31
+F00735,A0062,Exposed administrative interface,High,7.2,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-04-20,2026-05-20,2026-06-14
+F00736,A0029,Outdated TLS configuration,Medium,6.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-29,2026-11-27,
+F00737,A0010,Deserialization flaw in message library,Critical,9.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2025-11-20,2025-11-27,2025-12-06
+F00738,A0089,Outdated open-source dependency with known flaw,Medium,6.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-16,2026-12-15,
+F00739,A0093,Deserialization flaw in message library,Critical,9.5,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-09-08,2026-09-15,
+F00740,A0178,Insecure direct object reference,High,7.3,TRUE,FALSE,Open,Vulnerability Scanner,2026-06-10,2026-07-10,
+F00741,A0183,Certificate expiring within 30 days,Low,3.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-24,2027-02-20,
+F00742,A0055,Exposed administrative interface,High,8.3,FALSE,FALSE,Exception,External Exposure Scan,2026-09-14,2026-10-14,
+F00743,A0204,SQL injection in reporting query,Low,3.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-26,2027-03-25,2026-10-30
+F00744,A0132,Outdated open-source dependency with known flaw,Medium,4.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-18,2026-06-16,2026-06-22
+F00745,A0173,Verbose error messages disclose stack traces,Low,3.5,FALSE,FALSE,Open,External Exposure Scan,2026-08-10,2027-02-06,
+F00746,A0169,Insecure direct object reference,High,8.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-07-31,2026-08-30,2026-10-08
+F00747,A0206,Deserialization flaw in message library,Critical,9.8,TRUE,FALSE,Resolved,Vulnerability Scanner,2025-12-20,2025-12-27,2026-02-04
+F00748,A0203,Verbose error messages disclose stack traces,Critical,9.7,TRUE,FALSE,Open,External Exposure Scan,2026-09-21,2026-09-28,
+F00749,A0207,Unauthenticated API endpoint,Critical,9.2,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-16,2026-05-23,2026-06-09
+F00750,A0120,Deserialization flaw in message library,Critical,9.6,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-07-01,2026-07-08,
+F00751,A0201,Exposed administrative interface,High,7.8,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-09-06,2026-10-06,2026-10-21
+F00752,A0021,Cross-site scripting in customer portal,Medium,5.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-29,2026-07-28,2026-07-22
+F00753,A0110,Outdated open-source dependency with known flaw,High,8.4,TRUE,TRUE,Open,External Exposure Scan,2026-01-30,2026-03-01,
+F00754,A0013,Storage bucket allows public read,High,7.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-17,2026-11-16,
+F00755,A0057,Outdated open-source dependency with known flaw,Medium,5.0,TRUE,FALSE,Open,Vulnerability Scanner,2026-07-28,2026-10-26,
+F00756,A0113,SQL injection in reporting query,Medium,6.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-11,2026-10-09,2026-08-27
+F00757,A0025,Container image uses end-of-life base image,Medium,5.9,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-01-16,2026-04-16,2026-04-14
+F00758,A0174,Deserialization flaw in message library,Critical,9.8,FALSE,FALSE,Open,External Exposure Scan,2026-06-24,2026-07-01,
+F00759,A0084,Outdated open-source dependency with known flaw,Medium,5.9,FALSE,FALSE,In Progress,External Exposure Scan,2026-01-31,2026-05-01,
+F00760,A0121,Outdated open-source dependency with known flaw,Medium,5.9,TRUE,TRUE,Resolved,External Exposure Scan,2026-09-10,2026-12-09,2026-10-25
+F00761,A0142,Verbose error messages disclose stack traces,Low,2.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-29,2026-11-25,2026-07-12
+F00762,A0056,Exposed administrative interface,High,8.1,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-10-15,2026-11-14,
+F00763,A0094,Weak password policy on service account,Medium,5.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-09-26,2026-12-25,2026-10-04
+F00764,A0176,Missing HTTP security headers,Low,2.7,FALSE,FALSE,Open,External Exposure Scan,2026-02-02,2026-08-01,
+F00765,A0152,SQL injection in reporting query,Critical,9.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-05,2026-10-12,
+F00766,A0155,Storage bucket allows public read,Critical,8.8,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-09,2026-03-16,2026-04-10
+F00767,A0104,Storage bucket allows public read,Critical,9.0,TRUE,TRUE,Open,Vulnerability Scanner,2026-08-15,2026-08-22,
+F00768,A0135,Weak password policy on service account,Medium,5.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-28,2026-07-27,2026-08-06
+F00769,A0115,Storage bucket allows public read,Critical,9.2,FALSE,FALSE,Resolved,External Exposure Scan,2026-02-06,2026-02-13,2026-03-03
+F00770,A0116,Unauthenticated API endpoint,High,7.5,TRUE,FALSE,Open,Cloud Posture Scanner,2026-08-02,2026-09-01,
+F00771,A0086,Insecure direct object reference,High,7.5,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-04-28,2026-05-28,
+F00772,A0012,Cross-site scripting in customer portal,Medium,5.9,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-29,2026-09-27,2026-10-01
+F00773,A0155,Certificate expiring within 30 days,Low,3.8,FALSE,FALSE,Open,External Exposure Scan,2026-03-13,2026-09-09,
+F00774,A0074,Missing security patch for database engine,High,8.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-02,2026-09-01,2026-09-29
+F00775,A0106,Insecure direct object reference,High,7.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-03,2026-11-02,
+F00776,A0216,Weak password policy on service account,Medium,5.7,FALSE,FALSE,Open,External Exposure Scan,2026-08-12,2026-11-10,
+F00777,A0199,SQL injection in reporting query,Critical,10.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-07,2026-08-14,2026-09-22
+F00778,A0060,Missing HTTP security headers,Low,3.1,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-03-06,2026-09-02,
+F00779,A0005,Open management port reachable from internet,High,7.7,FALSE,FALSE,Open,External Exposure Scan,2026-04-05,2026-05-05,
+F00780,A0059,Privilege escalation in OS kernel,High,8.0,FALSE,FALSE,Open,External Exposure Scan,2026-10-01,2026-10-31,
+F00781,A0193,Unauthenticated API endpoint,Low,3.1,FALSE,FALSE,Open,Cloud Posture Scanner,2026-07-18,2027-01-14,
+F00782,A0047,Deserialization flaw in message library,Critical,9.8,TRUE,FALSE,Resolved,External Exposure Scan,2025-10-26,2025-11-02,2025-10-28
+F00783,A0020,Verbose error messages disclose stack traces,Low,3.6,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-02-20,2026-08-19,2026-03-15
+F00784,A0013,Outdated TLS configuration,Medium,5.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2025-12-17,2026-03-17,2026-01-29
+F00785,A0080,Missing security patch for database engine,High,7.2,TRUE,TRUE,Open,External Exposure Scan,2026-07-23,2026-08-22,
+F00786,A0044,Container image uses end-of-life base image,Medium,5.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-11,2026-10-09,2026-10-13
+F00787,A0056,Insecure direct object reference,High,8.0,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-01-30,2026-03-01,
+F00788,A0143,Remote code execution in web framework,Critical,9.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2025-11-29,2025-12-06,2025-12-17
+F00789,A0209,Outdated TLS configuration,Medium,4.6,FALSE,FALSE,Open,External Exposure Scan,2026-08-13,2026-11-11,
+F00790,A0158,Weak password policy on service account,Medium,5.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-04,2026-07-03,2026-07-23
+F00791,A0075,Cross-site scripting in customer portal,High,7.1,FALSE,FALSE,Resolved,External Exposure Scan,2025-12-10,2026-01-09,2025-12-15
+F00792,A0108,Storage bucket allows public read,Low,2.9,TRUE,FALSE,Open,Vulnerability Scanner,2025-11-24,2026-05-23,
+F00793,A0008,Missing security patch for database engine,High,7.2,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-04-29,2026-05-29,2026-06-16
+F00794,A0106,Deserialization flaw in message library,Critical,9.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-01,2026-08-08,2026-08-21
+F00795,A0117,Privilege escalation in OS kernel,High,7.2,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-06-24,2026-07-24,
+F00796,A0046,Outdated open-source dependency with known flaw,Medium,5.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-04-15,2026-07-14,
+F00797,A0010,Storage bucket allows public read,Critical,9.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-04-05,2026-04-12,
+F00798,A0012,Insecure direct object reference,Critical,8.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-03-10,2026-03-17,2026-03-23
+F00799,A0207,Outdated TLS configuration,Medium,4.9,FALSE,FALSE,Open,External Exposure Scan,2026-02-01,2026-05-02,
+F00800,A0187,Outdated open-source dependency with known flaw,Medium,5.0,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-07-13,2026-10-11,
+F00801,A0217,Outdated open-source dependency with known flaw,Medium,5.1,TRUE,FALSE,Open,Vulnerability Scanner,2026-02-22,2026-05-23,
+F00802,A0088,Deserialization flaw in message library,Critical,9.3,TRUE,TRUE,Resolved,External Exposure Scan,2026-10-06,2026-10-13,2026-10-29
+F00803,A0005,Weak password policy on service account,Medium,6.0,FALSE,FALSE,Open,External Exposure Scan,2026-08-01,2026-10-30,
+F00804,A0168,Outdated open-source dependency with known flaw,Medium,4.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-08,2026-09-06,2026-09-22
+F00805,A0192,Exposed administrative interface,Critical,9.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-17,2026-09-24,2026-09-25
+F00806,A0043,Cross-site scripting in customer portal,Medium,5.9,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-09-20,2026-12-19,
+F00807,A0170,Unauthenticated API endpoint,High,8.2,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-07-16,2026-08-15,2026-07-22
+F00808,A0133,Open management port reachable from internet,Medium,6.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-14,2026-12-13,
+F00809,A0044,Missing HTTP security headers,Low,3.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-24,2027-02-20,
+F00810,A0171,Missing security patch for database engine,High,7.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-19,2026-09-18,2026-09-13
+F00811,A0164,Exposed administrative interface,Critical,8.7,FALSE,FALSE,Open,External Exposure Scan,2026-05-09,2026-05-16,
+F00812,A0073,Outdated TLS configuration,Medium,4.7,TRUE,FALSE,Resolved,Cloud Posture Scanner,2025-11-13,2026-02-11,2026-02-24
+F00813,A0110,Unauthenticated API endpoint,High,8.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-18,2026-07-18,2026-07-07
+F00814,A0111,Weak password policy on service account,Medium,5.4,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-20,2026-08-18,2026-06-07
+F00815,A0118,Remote code execution in web framework,Medium,4.6,FALSE,FALSE,Open,External Exposure Scan,2026-05-18,2026-08-16,
+F00816,A0043,Open management port reachable from internet,High,8.4,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-04,2026-11-03,
+F00817,A0113,Outdated open-source dependency with known flaw,Critical,9.9,FALSE,FALSE,Open,External Exposure Scan,2026-10-19,2026-10-26,
+F00818,A0048,Cross-site scripting in customer portal,Medium,5.5,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-31,2026-08-29,2026-08-20
+F00819,A0073,Exposed administrative interface,High,7.0,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-07-06,2026-08-05,2026-09-13
+F00820,A0079,Missing HTTP security headers,Critical,9.6,TRUE,FALSE,In Progress,Vulnerability Scanner,2026-06-02,2026-06-09,
+F00821,A0062,Missing HTTP security headers,Low,3.6,FALSE,FALSE,Exception,External Exposure Scan,2026-07-11,2027-01-07,
+F00822,A0200,Missing security patch for database engine,Low,3.7,FALSE,FALSE,Open,External Exposure Scan,2026-10-14,2027-04-12,
+F00823,A0010,Unauthenticated API endpoint,High,7.5,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-03-01,2026-03-31,2026-04-28
+F00824,A0061,Certificate expiring within 30 days,Low,2.7,FALSE,FALSE,Open,External Exposure Scan,2026-06-11,2026-12-08,
+F00825,A0150,Certificate expiring within 30 days,Low,2.4,TRUE,FALSE,Resolved,Vulnerability Scanner,2025-10-28,2026-04-26,2026-04-22
+F00826,A0190,Outdated open-source dependency with known flaw,Medium,5.9,FALSE,FALSE,Open,Cloud Posture Scanner,2025-12-30,2026-03-30,
+F00827,A0075,Certificate expiring within 30 days,Low,3.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-14,2027-02-10,
+F00828,A0053,Remote code execution in web framework,Critical,9.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-28,2026-07-05,
+F00829,A0215,Missing HTTP security headers,Low,3.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-13,2027-03-12,
+F00830,A0190,Missing security patch for database engine,High,7.0,FALSE,FALSE,Open,External Exposure Scan,2026-05-20,2026-06-19,
+F00831,A0108,Container image uses end-of-life base image,Medium,5.7,FALSE,FALSE,Open,External Exposure Scan,2026-08-07,2026-11-05,
+F00832,A0181,Privilege escalation in OS kernel,High,7.2,FALSE,FALSE,Resolved,External Exposure Scan,2026-01-31,2026-03-02,2026-03-24
+F00833,A0211,SQL injection in reporting query,Critical,9.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-02-04,2026-02-11,
+F00834,A0120,Cross-site scripting in customer portal,Low,3.5,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-24,2027-02-20,2026-10-19
+F00835,A0025,Remote code execution in web framework,Critical,9.5,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-07-02,2026-07-09,2026-08-17
+F00836,A0077,Weak password policy on service account,Medium,4.6,FALSE,FALSE,Open,Cloud Posture Scanner,2026-07-21,2026-10-19,
+F00837,A0127,Missing security patch for database engine,High,7.2,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-04-03,2026-05-03,
+F00838,A0049,Privilege escalation in OS kernel,High,7.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-02-27,2026-03-29,2026-04-02
+F00839,A0016,Container image uses end-of-life base image,Medium,5.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-24,2026-09-22,
+F00840,A0053,Outdated TLS configuration,Medium,4.9,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-08-21,2026-11-19,
+F00841,A0043,Privilege escalation in OS kernel,High,7.3,TRUE,FALSE,Open,Cloud Posture Scanner,2026-10-08,2026-11-07,
+F00842,A0103,Exposed administrative interface,High,8.1,TRUE,FALSE,Open,Vulnerability Scanner,2026-05-06,2026-06-05,
+F00843,A0198,Weak password policy on service account,Medium,5.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-24,2026-11-22,2026-10-28
+F00844,A0114,Certificate expiring within 30 days,Low,2.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-01-16,2026-07-15,2026-05-14
+F00845,A0133,Exposed administrative interface,High,7.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-12,2026-08-11,2026-07-29
+F00846,A0030,Certificate expiring within 30 days,Medium,5.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-07,2026-12-06,2026-10-06
+F00847,A0153,Open management port reachable from internet,High,8.2,FALSE,FALSE,In Progress,Cloud Posture Scanner,2025-10-19,2025-11-18,
+F00848,A0199,SQL injection in reporting query,Critical,9.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-20,2026-09-27,2026-10-19
+F00849,A0159,Missing HTTP security headers,Low,2.8,FALSE,FALSE,Open,Vulnerability Scanner,2026-04-13,2026-10-10,
+F00850,A0115,Verbose error messages disclose stack traces,Low,2.5,FALSE,FALSE,Open,External Exposure Scan,2026-09-27,2027-03-26,
+F00851,A0135,Remote code execution in web framework,Critical,9.2,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-05-17,2026-05-24,2026-06-01
+F00852,A0077,SQL injection in reporting query,Medium,5.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-09-01,2026-11-30,2026-10-23
+F00853,A0078,Missing security patch for database engine,High,7.4,TRUE,TRUE,Open,External Exposure Scan,2026-10-03,2026-11-02,
+F00854,A0011,Insecure direct object reference,High,7.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-17,2026-10-17,2026-10-29
+F00855,A0137,Weak password policy on service account,Medium,5.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-07-27,2026-10-25,
+F00856,A0033,Outdated TLS configuration,Critical,8.7,FALSE,FALSE,In Progress,External Exposure Scan,2025-12-09,2025-12-16,
+F00857,A0192,Weak password policy on service account,Medium,5.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-15,2026-11-13,
+F00858,A0006,Missing HTTP security headers,Low,3.2,FALSE,FALSE,Open,External Exposure Scan,2026-05-23,2026-11-19,
+F00859,A0022,Container image uses end-of-life base image,Medium,5.4,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-04-08,2026-07-07,2026-04-11
+F00860,A0071,Verbose error messages disclose stack traces,Low,2.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-04-07,2026-10-04,2026-07-27
+F00861,A0111,Missing security patch for database engine,High,7.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-02-24,2026-03-26,2026-04-07
+F00862,A0220,Cross-site scripting in customer portal,Medium,6.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-13,2026-06-11,2026-06-12
+F00863,A0043,Cross-site scripting in customer portal,Medium,5.4,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-06-12,2026-09-10,2026-09-02
+F00864,A0139,Privilege escalation in OS kernel,High,7.8,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-01-03,2026-02-02,
+F00865,A0015,Missing HTTP security headers,Low,2.8,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-01-12,2026-07-11,2026-03-20
+F00866,A0215,Deserialization flaw in message library,Critical,9.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-20,2026-09-27,
+F00867,A0128,Weak password policy on service account,Medium,5.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-05,2026-10-03,2026-07-20
+F00868,A0208,Outdated open-source dependency with known flaw,Critical,8.9,FALSE,FALSE,Resolved,External Exposure Scan,2026-09-23,2026-09-30,2026-10-06
+F00869,A0005,Remote code execution in web framework,Critical,9.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-02-19,2026-02-26,2026-03-01
+F00870,A0153,Insecure direct object reference,High,7.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-17,2026-10-17,
+F00871,A0165,Exposed administrative interface,High,8.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-04-29,2026-05-29,2026-05-21
+F00872,A0120,Cross-site scripting in customer portal,Medium,5.6,FALSE,FALSE,In Progress,External Exposure Scan,2026-09-18,2026-12-17,
+F00873,A0094,SQL injection in reporting query,Critical,8.5,TRUE,TRUE,Exception,External Exposure Scan,2026-09-26,2026-10-03,
+F00874,A0036,Missing security patch for database engine,High,7.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-27,2026-07-27,2026-08-16
+F00875,A0154,Missing security patch for database engine,High,7.2,FALSE,FALSE,Open,External Exposure Scan,2026-09-15,2026-10-15,
+F00876,A0077,SQL injection in reporting query,Critical,9.9,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-04-02,2026-04-09,2026-04-13
+F00877,A0191,Outdated open-source dependency with known flaw,Medium,4.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-15,2026-09-13,2026-08-27
+F00878,A0118,Privilege escalation in OS kernel,High,7.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-09-26,2026-10-26,2026-10-16
+F00879,A0035,Privilege escalation in OS kernel,High,7.3,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-25,2026-08-24,2026-08-21
+F00880,A0079,Open management port reachable from internet,High,7.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-25,2026-05-25,2026-06-27
+F00881,A0198,Deserialization flaw in message library,Critical,9.3,TRUE,FALSE,Open,External Exposure Scan,2026-10-08,2026-10-15,
+F00882,A0115,Storage bucket allows public read,Critical,9.1,FALSE,FALSE,Resolved,External Exposure Scan,2026-01-24,2026-01-31,2026-03-05
+F00883,A0108,Open management port reachable from internet,High,8.4,TRUE,FALSE,Resolved,External Exposure Scan,2026-04-15,2026-05-15,2026-05-26
+F00884,A0220,Outdated TLS configuration,Medium,5.1,FALSE,FALSE,In Progress,Vulnerability Scanner,2025-11-02,2026-01-31,
+F00885,A0021,SQL injection in reporting query,Critical,8.6,TRUE,FALSE,Resolved,External Exposure Scan,2026-10-05,2026-10-12,2026-10-08
+F00886,A0053,Outdated open-source dependency with known flaw,Medium,4.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-07-14,2026-10-12,2026-09-05
+F00887,A0171,Outdated TLS configuration,Medium,6.0,TRUE,TRUE,Exception,Cloud Posture Scanner,2026-05-17,2026-08-15,
+F00888,A0179,Outdated open-source dependency with known flaw,Medium,5.8,FALSE,FALSE,Exception,External Exposure Scan,2026-08-04,2026-11-02,
+F00889,A0178,Verbose error messages disclose stack traces,Low,3.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-09,2027-01-05,2026-07-21
+F00890,A0069,Deserialization flaw in message library,Critical,9.2,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-02-13,2026-02-20,2026-03-08
+F00891,A0207,Remote code execution in web framework,Critical,9.5,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-06-05,2026-06-12,2026-06-24
+F00892,A0035,Certificate expiring within 30 days,Low,2.8,FALSE,FALSE,Open,External Exposure Scan,2026-07-01,2026-12-28,
+F00893,A0213,Remote code execution in web framework,Critical,9.1,TRUE,FALSE,In Progress,Cloud Posture Scanner,2026-10-25,2026-11-01,
+F00894,A0156,Insecure direct object reference,High,8.0,TRUE,FALSE,Open,Cloud Posture Scanner,2026-10-04,2026-11-03,
+F00895,A0035,Weak password policy on service account,Medium,6.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-01-30,2026-04-30,2026-04-08
+F00896,A0150,Weak password policy on service account,Medium,4.8,FALSE,FALSE,Open,Cloud Posture Scanner,2026-05-10,2026-08-08,
+F00897,A0032,Privilege escalation in OS kernel,High,8.2,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-01-07,2026-02-06,2026-02-11
+F00898,A0035,Certificate expiring within 30 days,Low,3.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-01-10,2026-07-09,2026-07-22
+F00899,A0094,Outdated TLS configuration,Medium,5.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-07-09,2026-10-07,
+F00900,A0211,Missing HTTP security headers,Low,3.6,FALSE,FALSE,Open,Cloud Posture Scanner,2026-05-31,2026-11-27,
+F00901,A0032,Open management port reachable from internet,High,7.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-04-05,2026-05-05,2026-05-18
+F00902,A0203,Cross-site scripting in customer portal,Medium,4.8,TRUE,FALSE,Resolved,Cloud Posture Scanner,2025-12-11,2026-03-11,2026-02-08
+F00903,A0206,Open management port reachable from internet,High,8.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-04-18,2026-05-18,2026-04-22
+F00904,A0047,Missing HTTP security headers,Low,2.9,FALSE,FALSE,Open,External Exposure Scan,2026-06-12,2026-12-09,
+F00905,A0207,Cross-site scripting in customer portal,Medium,5.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-01-23,2026-04-23,2026-04-01
+F00906,A0192,Remote code execution in web framework,Critical,9.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-02-23,2026-03-02,2026-04-11
+F00907,A0013,Missing HTTP security headers,Low,3.4,FALSE,FALSE,Resolved,External Exposure Scan,2026-01-30,2026-07-29,2026-06-05
+F00908,A0105,Missing security patch for database engine,High,8.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-10,2026-06-09,2026-06-25
+F00909,A0005,Certificate expiring within 30 days,Low,3.4,FALSE,FALSE,Open,External Exposure Scan,2026-08-11,2027-02-07,
+F00910,A0161,Cross-site scripting in customer portal,Medium,6.0,TRUE,FALSE,Open,Vulnerability Scanner,2026-09-25,2026-12-24,
+F00911,A0148,Insecure direct object reference,High,7.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-02,2026-11-01,
+F00912,A0116,Cross-site scripting in customer portal,Medium,6.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-12,2026-10-10,2026-10-11
+F00913,A0184,Unauthenticated API endpoint,High,7.9,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-28,2026-10-28,
+F00914,A0185,Container image uses end-of-life base image,Medium,5.8,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-18,2026-12-17,2026-10-01
+F00915,A0006,Remote code execution in web framework,Critical,8.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-16,2026-09-23,2026-10-27
+F00916,A0218,Cross-site scripting in customer portal,Low,3.5,TRUE,FALSE,Resolved,External Exposure Scan,2026-02-18,2026-08-17,2026-08-30
+F00917,A0192,Container image uses end-of-life base image,Medium,5.9,FALSE,FALSE,In Progress,External Exposure Scan,2026-07-01,2026-09-29,
+F00918,A0195,Deserialization flaw in message library,Critical,9.6,TRUE,TRUE,Open,Cloud Posture Scanner,2026-08-12,2026-08-19,
+F00919,A0098,Unauthenticated API endpoint,High,7.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-18,2026-10-18,
+F00920,A0216,Certificate expiring within 30 days,Low,3.3,FALSE,FALSE,In Progress,External Exposure Scan,2026-05-24,2026-11-20,
+F00921,A0036,Open management port reachable from internet,High,7.6,TRUE,FALSE,Resolved,External Exposure Scan,2025-12-04,2026-01-03,2025-12-06
+F00922,A0004,Privilege escalation in OS kernel,Critical,9.1,FALSE,FALSE,Open,Cloud Posture Scanner,2026-01-08,2026-01-15,
+F00923,A0084,Outdated open-source dependency with known flaw,Medium,5.5,TRUE,TRUE,Open,External Exposure Scan,2026-06-01,2026-08-30,
+F00924,A0011,Outdated open-source dependency with known flaw,Medium,5.9,FALSE,FALSE,Open,Vulnerability Scanner,2025-12-14,2026-03-14,
+F00925,A0011,Missing HTTP security headers,Critical,9.4,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-06-24,2026-07-01,2026-07-02
+F00926,A0076,Open management port reachable from internet,High,7.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-26,2026-04-25,2026-04-17
+F00927,A0186,SQL injection in reporting query,Critical,9.3,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-20,2026-06-27,2026-07-26
+F00928,A0083,Storage bucket allows public read,High,7.6,TRUE,TRUE,Open,Cloud Posture Scanner,2025-12-13,2026-01-12,
+F00929,A0061,Deserialization flaw in message library,High,8.3,FALSE,FALSE,Open,External Exposure Scan,2025-11-05,2025-12-05,
+F00930,A0067,Container image uses end-of-life base image,Low,3.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-17,2026-10-14,2026-04-26
+F00931,A0205,Missing security patch for database engine,High,8.0,FALSE,FALSE,In Progress,External Exposure Scan,2026-08-12,2026-09-11,
+F00932,A0072,Unauthenticated API endpoint,High,8.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-10,2026-05-10,2026-06-09
+F00933,A0054,Missing security patch for database engine,High,7.5,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-08-16,2026-09-15,2026-09-08
+F00934,A0014,Remote code execution in web framework,Critical,9.7,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-06-22,2026-06-29,
+F00935,A0089,Remote code execution in web framework,Critical,9.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-30,2026-07-07,2026-08-10
+F00936,A0048,Cross-site scripting in customer portal,Medium,5.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-06-29,2026-09-27,
+F00937,A0175,Remote code execution in web framework,Low,3.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-24,2027-02-20,
+F00938,A0168,Cross-site scripting in customer portal,High,8.4,TRUE,FALSE,Open,Vulnerability Scanner,2026-10-15,2026-11-14,
+F00939,A0172,Outdated open-source dependency with known flaw,Medium,5.8,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-02,2026-12-01,
+F00940,A0024,Unauthenticated API endpoint,High,7.3,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-05-26,2026-06-25,2026-07-20
+F00941,A0149,Certificate expiring within 30 days,Low,2.5,TRUE,FALSE,Open,Vulnerability Scanner,2026-01-05,2026-07-04,
+F00942,A0149,Open management port reachable from internet,Low,2.5,FALSE,FALSE,Open,External Exposure Scan,2026-10-12,2027-04-10,
+F00943,A0175,Storage bucket allows public read,Critical,9.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-18,2026-05-25,2026-06-05
+F00944,A0144,Verbose error messages disclose stack traces,Low,2.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-04-03,2026-09-30,
+F00945,A0079,Deserialization flaw in message library,Critical,9.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-07-01,2026-07-08,
+F00946,A0120,Remote code execution in web framework,Critical,9.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-22,2026-10-29,
+F00947,A0063,Storage bucket allows public read,Critical,9.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-28,2026-08-04,2026-08-15
+F00948,A0122,Storage bucket allows public read,Critical,9.4,TRUE,FALSE,Exception,Cloud Posture Scanner,2026-01-31,2026-02-07,
+F00949,A0195,Open management port reachable from internet,High,7.5,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-09-27,2026-10-27,2026-10-11
+F00950,A0134,Exposed administrative interface,High,7.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-18,2026-09-17,2026-10-10
+F00951,A0093,Exposed administrative interface,High,7.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-15,2026-06-14,2026-06-09
+F00952,A0109,Open management port reachable from internet,High,7.9,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-14,2026-06-13,2026-06-28
+F00953,A0109,Storage bucket allows public read,Critical,8.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-04,2026-06-11,2026-06-17
+F00954,A0094,Insecure direct object reference,High,7.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-23,2026-07-23,2026-07-28
+F00955,A0120,Outdated TLS configuration,Medium,6.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-21,2026-11-19,
+F00956,A0163,Missing HTTP security headers,Low,3.8,FALSE,FALSE,Open,External Exposure Scan,2026-04-12,2026-10-09,
+F00957,A0030,Outdated TLS configuration,Medium,5.3,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-10,2026-10-08,2026-07-17
+F00958,A0206,Weak password policy on service account,Medium,5.7,FALSE,FALSE,In Progress,External Exposure Scan,2026-10-06,2027-01-04,
+F00959,A0185,SQL injection in reporting query,Critical,8.8,TRUE,FALSE,Open,Vulnerability Scanner,2026-07-20,2026-07-27,
+F00960,A0133,Outdated open-source dependency with known flaw,Medium,5.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-11,2026-08-09,2026-06-09
+F00961,A0017,Exposed administrative interface,High,7.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-05,2026-11-04,
+F00962,A0076,Certificate expiring within 30 days,Low,2.4,FALSE,FALSE,Resolved,External Exposure Scan,2026-01-25,2026-07-24,2026-08-02
+F00963,A0114,Privilege escalation in OS kernel,High,7.1,FALSE,FALSE,Resolved,Vulnerability Scanner,2025-12-17,2026-01-16,2026-01-13
+F00964,A0151,Open management port reachable from internet,High,7.1,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-01-16,2026-02-15,
+F00965,A0004,Deserialization flaw in message library,Critical,8.6,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-06-13,2026-06-20,2026-07-02
+F00966,A0156,Unauthenticated API endpoint,High,8.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-03,2026-09-02,2026-10-05
+F00967,A0056,Insecure direct object reference,High,7.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-05-30,2026-06-29,2026-07-19
+F00968,A0100,Open management port reachable from internet,High,7.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-07-06,2026-08-05,2026-08-18
+F00969,A0182,Certificate expiring within 30 days,Low,2.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-06-28,2026-12-25,
+F00970,A0060,Exposed administrative interface,High,7.2,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-07-07,2026-08-06,
+F00971,A0107,Insecure direct object reference,High,8.1,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-05-20,2026-06-19,2026-07-28
+F00972,A0074,Outdated open-source dependency with known flaw,Low,2.4,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-06,2026-10-03,2026-04-28
+F00973,A0054,Missing HTTP security headers,Low,3.7,FALSE,FALSE,In Progress,External Exposure Scan,2026-06-20,2026-12-17,
+F00974,A0022,Verbose error messages disclose stack traces,High,7.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-10-15,2026-11-14,2026-10-29
+F00975,A0032,Verbose error messages disclose stack traces,Low,3.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-28,2026-09-24,2026-08-19
+F00976,A0119,Certificate expiring within 30 days,Low,3.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-01-28,2026-07-27,2026-02-24
+F00977,A0166,SQL injection in reporting query,Critical,9.7,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-08-04,2026-08-11,
+F00978,A0068,Open management port reachable from internet,High,8.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-16,2026-09-15,
+F00979,A0114,Outdated TLS configuration,Medium,5.5,FALSE,FALSE,In Progress,External Exposure Scan,2025-12-03,2026-03-03,
+F00980,A0135,Deserialization flaw in message library,Critical,9.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-04,2026-09-11,2026-09-20
+F00981,A0159,Missing HTTP security headers,Low,3.6,TRUE,FALSE,Resolved,External Exposure Scan,2026-03-27,2026-09-23,2026-04-07
+F00982,A0093,Exposed administrative interface,High,7.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-25,2026-09-24,2026-09-20
+F00983,A0027,Outdated open-source dependency with known flaw,Medium,4.6,FALSE,FALSE,Open,Cloud Posture Scanner,2026-06-15,2026-09-13,
+F00984,A0119,Certificate expiring within 30 days,Low,2.5,FALSE,FALSE,Open,Vulnerability Scanner,2025-10-19,2026-04-17,
+F00985,A0019,SQL injection in reporting query,Critical,9.4,TRUE,TRUE,Resolved,External Exposure Scan,2026-10-04,2026-10-11,2026-10-19
+F00986,A0055,Privilege escalation in OS kernel,High,8.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-08,2026-04-07,2026-03-19
+F00987,A0097,Missing security patch for database engine,High,8.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-05-15,2026-06-14,
+F00988,A0082,Deserialization flaw in message library,Critical,9.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-20,2026-09-27,2026-10-10
+F00989,A0099,Remote code execution in web framework,Critical,9.1,TRUE,FALSE,Open,Cloud Posture Scanner,2026-08-08,2026-08-15,
+F00990,A0052,Weak password policy on service account,Medium,4.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-24,2026-08-22,2026-08-12
+F00991,A0082,Missing security patch for database engine,High,7.5,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-02-19,2026-03-21,2026-04-13
+F00992,A0206,Storage bucket allows public read,Critical,8.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-07-04,2026-07-11,2026-07-28
+F00993,A0144,Outdated TLS configuration,Medium,4.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-11,2026-10-09,2026-08-27
+F00994,A0126,Insecure direct object reference,High,7.9,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-07-27,2026-08-26,2026-09-20
+F00995,A0039,Weak password policy on service account,Medium,5.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-07-22,2026-10-20,
+F00996,A0140,Insecure direct object reference,High,7.5,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-02-07,2026-03-09,2026-04-17
+F00997,A0073,Exposed administrative interface,High,7.8,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-06,2026-11-05,
+F00998,A0219,Cross-site scripting in customer portal,Medium,5.0,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-09-11,2026-12-10,
+F00999,A0188,Deserialization flaw in message library,Critical,9.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-18,2026-09-25,2026-10-23
+F01000,A0161,Storage bucket allows public read,Critical,9.1,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-09,2026-10-16,
+F01001,A0040,Exposed administrative interface,Low,2.6,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-20,2027-04-18,
+F01002,A0189,Exposed administrative interface,High,7.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-10-11,2026-11-10,2026-10-27
+F01003,A0174,Remote code execution in web framework,Critical,9.9,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-01-05,2026-01-12,2026-02-10
+F01004,A0155,Weak password policy on service account,Medium,5.3,TRUE,FALSE,Open,Cloud Posture Scanner,2026-10-09,2027-01-07,
+F01005,A0111,Deserialization flaw in message library,Critical,8.9,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-05-16,2026-05-23,
+F01006,A0020,Open management port reachable from internet,High,7.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-05-03,2026-06-02,2026-06-29
+F01007,A0098,Remote code execution in web framework,Critical,9.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-14,2026-04-21,2026-05-31
+F01008,A0069,Outdated TLS configuration,Medium,5.6,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-03-31,2026-06-29,
+F01009,A0148,SQL injection in reporting query,Medium,4.9,FALSE,FALSE,Open,External Exposure Scan,2026-06-15,2026-09-13,
+F01010,A0219,Unauthenticated API endpoint,High,7.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-20,2026-09-19,2026-10-24
+F01011,A0211,Storage bucket allows public read,Critical,8.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-03,2026-06-10,2026-07-20
+F01012,A0136,Outdated TLS configuration,Medium,5.2,FALSE,FALSE,Resolved,External Exposure Scan,2026-02-06,2026-05-07,2026-04-06
+F01013,A0036,Cross-site scripting in customer portal,Critical,8.7,TRUE,TRUE,Resolved,External Exposure Scan,2026-03-09,2026-03-16,2026-03-23
+F01014,A0221,Verbose error messages disclose stack traces,Low,3.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-05,2026-12-02,2026-09-14
+F01015,A0115,Storage bucket allows public read,Critical,9.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-01,2026-08-08,2026-08-23
+F01016,A0003,Outdated open-source dependency with known flaw,Medium,4.8,FALSE,FALSE,Open,External Exposure Scan,2026-08-29,2026-11-27,
+F01017,A0177,Unauthenticated API endpoint,Critical,8.6,TRUE,FALSE,Open,Vulnerability Scanner,2026-05-28,2026-06-04,
+F01018,A0003,SQL injection in reporting query,Critical,9.4,TRUE,FALSE,Open,Vulnerability Scanner,2025-10-31,2025-11-07,
+F01019,A0215,Privilege escalation in OS kernel,High,8.4,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-17,2026-06-16,2026-06-17
+F01020,A0217,Weak password policy on service account,Medium,6.1,TRUE,FALSE,Open,Cloud Posture Scanner,2026-09-24,2026-12-23,
+F01021,A0068,Cross-site scripting in customer portal,Medium,6.1,FALSE,FALSE,Resolved,External Exposure Scan,2026-07-01,2026-09-29,2026-09-17
+F01022,A0095,Weak password policy on service account,Medium,5.9,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-04,2026-09-02,2026-07-28
+F01023,A0001,Verbose error messages disclose stack traces,Low,3.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-04,2026-12-01,
+F01024,A0182,Certificate expiring within 30 days,Low,2.4,FALSE,FALSE,Open,Cloud Posture Scanner,2026-07-28,2027-01-24,
+F01025,A0047,Outdated TLS configuration,Medium,5.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-02-18,2026-05-19,2026-03-11
+F01026,A0041,Storage bucket allows public read,Critical,9.8,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-04-05,2026-04-12,2026-04-30
+F01027,A0199,Missing security patch for database engine,Low,2.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-08,2026-12-05,
+F01028,A0028,Privilege escalation in OS kernel,High,8.0,TRUE,FALSE,Open,External Exposure Scan,2026-04-21,2026-05-21,
+F01029,A0221,Storage bucket allows public read,Critical,9.5,FALSE,FALSE,Resolved,External Exposure Scan,2026-02-05,2026-02-12,2026-02-10
+F01030,A0129,Open management port reachable from internet,High,7.1,FALSE,FALSE,Resolved,External Exposure Scan,2026-07-02,2026-08-01,2026-08-13
+F01031,A0133,Unauthenticated API endpoint,High,7.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-27,2026-07-27,2026-08-19
+F01032,A0182,Remote code execution in web framework,Critical,8.8,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-08-22,2026-08-29,2026-10-01
+F01033,A0162,Privilege escalation in OS kernel,High,7.1,FALSE,FALSE,Open,Cloud Posture Scanner,2026-06-27,2026-07-27,
+F01034,A0177,Insecure direct object reference,High,8.3,TRUE,TRUE,Open,Cloud Posture Scanner,2026-06-01,2026-07-01,
+F01035,A0164,Privilege escalation in OS kernel,Critical,9.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-21,2026-06-28,2026-07-24
+F01036,A0020,Verbose error messages disclose stack traces,Low,3.5,FALSE,FALSE,Exception,Vulnerability Scanner,2025-11-19,2026-05-18,
+F01037,A0212,Verbose error messages disclose stack traces,Low,2.9,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-12,2026-11-08,2026-06-20
+F01038,A0032,Open management port reachable from internet,High,8.3,TRUE,TRUE,Open,External Exposure Scan,2026-02-22,2026-03-24,
+F01039,A0050,Cross-site scripting in customer portal,Medium,5.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-19,2026-11-17,
+F01040,A0033,Certificate expiring within 30 days,Low,2.3,FALSE,FALSE,In Progress,External Exposure Scan,2026-01-25,2026-07-24,
+F01041,A0179,Cross-site scripting in customer portal,Medium,5.2,FALSE,FALSE,Resolved,External Exposure Scan,2025-10-24,2026-01-22,2025-12-15
+F01042,A0083,Certificate expiring within 30 days,Low,2.3,FALSE,FALSE,Open,External Exposure Scan,2026-08-17,2027-02-13,
+F01043,A0170,Unauthenticated API endpoint,High,8.4,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-01-24,2026-02-23,2026-02-28
+F01044,A0205,Certificate expiring within 30 days,Low,3.3,FALSE,FALSE,In Progress,External Exposure Scan,2026-01-20,2026-07-19,
+F01045,A0142,Privilege escalation in OS kernel,Critical,8.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-22,2026-08-29,2026-09-20
+F01046,A0016,Weak password policy on service account,Medium,4.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-01-23,2026-04-23,2026-04-11
+F01047,A0072,Container image uses end-of-life base image,Medium,5.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-04,2026-06-02,2026-06-02
+F01048,A0195,Missing HTTP security headers,Low,2.6,TRUE,FALSE,In Progress,Vulnerability Scanner,2026-02-27,2026-08-26,
+F01049,A0179,Outdated open-source dependency with known flaw,Medium,6.0,FALSE,FALSE,Open,Vulnerability Scanner,2025-12-08,2026-03-08,
+F01050,A0189,Open management port reachable from internet,High,7.5,TRUE,TRUE,Open,Vulnerability Scanner,2026-10-03,2026-11-02,
+F01051,A0208,Cross-site scripting in customer portal,Medium,5.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-01,2026-10-30,2026-10-26
+F01052,A0091,Deserialization flaw in message library,Medium,4.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-10-05,2027-01-03,2026-10-13
+F01053,A0027,Unauthenticated API endpoint,High,7.6,FALSE,FALSE,Open,External Exposure Scan,2026-10-02,2026-11-01,
+F01054,A0127,Remote code execution in web framework,Critical,9.0,TRUE,FALSE,Exception,Vulnerability Scanner,2026-06-15,2026-06-22,
+F01055,A0042,Missing HTTP security headers,Low,3.2,TRUE,FALSE,Open,External Exposure Scan,2026-04-29,2026-10-26,
+F01056,A0084,Outdated TLS configuration,Medium,5.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-19,2026-12-18,
+F01057,A0127,Weak password policy on service account,Medium,4.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-16,2026-11-14,2026-10-26
+F01058,A0102,Container image uses end-of-life base image,Medium,6.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-03-14,2026-06-12,2026-07-18
+F01059,A0031,Unauthenticated API endpoint,High,7.8,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-05-15,2026-06-14,
+F01060,A0214,Unauthenticated API endpoint,High,7.8,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-02-28,2026-03-30,2026-03-14
+F01061,A0080,Missing security patch for database engine,High,7.6,TRUE,TRUE,Resolved,External Exposure Scan,2026-05-29,2026-06-28,2026-08-01
+F01062,A0213,SQL injection in reporting query,Critical,9.2,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-14,2026-10-21,
+F01063,A0083,Weak password policy on service account,Low,3.6,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-03-05,2026-09-01,2026-07-14
+F01064,A0074,Outdated TLS configuration,Medium,4.9,FALSE,FALSE,Open,External Exposure Scan,2026-09-04,2026-12-03,
+F01065,A0159,Privilege escalation in OS kernel,High,7.4,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-21,2026-11-20,
+F01066,A0063,Missing security patch for database engine,High,7.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-12,2026-11-11,
+F01067,A0184,Outdated open-source dependency with known flaw,Medium,5.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-02-10,2026-05-11,
+F01068,A0085,Exposed administrative interface,High,8.2,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-05,2026-11-04,
+F01069,A0177,Weak password policy on service account,Medium,5.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-08,2026-12-07,2026-10-22
+F01070,A0180,Insecure direct object reference,High,7.1,FALSE,FALSE,Open,External Exposure Scan,2026-05-11,2026-06-10,
+F01071,A0166,Container image uses end-of-life base image,Low,2.4,FALSE,FALSE,Open,Cloud Posture Scanner,2026-07-19,2027-01-15,
+F01072,A0128,Certificate expiring within 30 days,Low,2.9,FALSE,FALSE,Open,Cloud Posture Scanner,2026-03-16,2026-09-12,
+F01073,A0005,Weak password policy on service account,Medium,4.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-07,2026-08-05,2026-09-04
+F01074,A0106,Unauthenticated API endpoint,High,8.5,FALSE,FALSE,Open,Cloud Posture Scanner,2026-01-17,2026-02-16,
+F01075,A0101,Verbose error messages disclose stack traces,Low,3.2,TRUE,TRUE,Open,Vulnerability Scanner,2026-09-23,2027-03-22,
+F01076,A0036,Verbose error messages disclose stack traces,Low,3.8,FALSE,FALSE,Open,External Exposure Scan,2026-04-21,2026-10-18,
+F01077,A0120,Cross-site scripting in customer portal,Medium,4.8,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-10,2026-10-08,2026-10-28
+F01078,A0063,Missing security patch for database engine,High,8.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-05,2026-07-05,2026-07-17
+F01079,A0211,Weak password policy on service account,Medium,5.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-06,2026-11-04,
+F01080,A0145,Verbose error messages disclose stack traces,Low,2.4,FALSE,FALSE,Open,External Exposure Scan,2025-12-22,2026-06-20,
+F01081,A0202,Open management port reachable from internet,High,7.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-18,2026-05-18,2026-04-26
+F01082,A0182,Exposed administrative interface,High,8.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-12,2026-09-11,2026-09-22
+F01083,A0037,SQL injection in reporting query,Critical,9.2,TRUE,TRUE,In Progress,External Exposure Scan,2026-08-18,2026-08-25,
+F01084,A0187,Certificate expiring within 30 days,Low,2.9,FALSE,FALSE,Open,External Exposure Scan,2026-04-17,2026-10-14,
+F01085,A0036,Unauthenticated API endpoint,Low,2.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-02-05,2026-08-04,2026-08-05
+F01086,A0093,Deserialization flaw in message library,Critical,9.9,FALSE,FALSE,Open,Cloud Posture Scanner,2026-06-18,2026-06-25,
+F01087,A0088,Verbose error messages disclose stack traces,Low,3.4,FALSE,FALSE,In Progress,External Exposure Scan,2026-09-15,2027-03-14,
+F01088,A0020,Remote code execution in web framework,Critical,8.8,FALSE,FALSE,Exception,Vulnerability Scanner,2026-06-30,2026-07-07,
+F01089,A0039,Unauthenticated API endpoint,High,8.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-13,2026-10-13,2026-10-28
+F01090,A0213,Cross-site scripting in customer portal,Medium,4.7,FALSE,FALSE,Open,External Exposure Scan,2026-09-02,2026-12-01,
+F01091,A0128,Deserialization flaw in message library,Critical,9.2,FALSE,FALSE,Resolved,External Exposure Scan,2026-09-20,2026-09-27,2026-10-17
+F01092,A0069,Storage bucket allows public read,Critical,8.6,FALSE,FALSE,Open,Vulnerability Scanner,2026-04-30,2026-05-07,
+F01093,A0173,Remote code execution in web framework,Critical,9.6,TRUE,FALSE,Resolved,External Exposure Scan,2026-03-16,2026-03-23,2026-03-27
+F01094,A0141,Outdated open-source dependency with known flaw,Medium,5.9,TRUE,FALSE,Open,Cloud Posture Scanner,2026-02-02,2026-05-03,
+F01095,A0016,Missing HTTP security headers,Low,3.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-18,2027-01-14,2026-07-30
+F01096,A0173,Outdated TLS configuration,Medium,5.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-23,2026-12-22,2026-10-04
+F01097,A0127,Verbose error messages disclose stack traces,Low,2.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-09,2027-02-05,2026-09-25
+F01098,A0109,Certificate expiring within 30 days,Low,2.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-28,2027-01-24,2026-09-11
+F01099,A0170,Container image uses end-of-life base image,Medium,6.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-24,2026-12-23,
+F01100,A0099,Container image uses end-of-life base image,Medium,4.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-12,2026-08-10,2026-09-03
+F01101,A0119,Verbose error messages disclose stack traces,Critical,9.2,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-09-16,2026-09-23,2026-10-06
+F01102,A0141,Exposed administrative interface,High,8.3,TRUE,TRUE,Open,Cloud Posture Scanner,2026-10-26,2026-11-25,
+F01103,A0066,Container image uses end-of-life base image,Medium,6.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-02-04,2026-05-05,2026-02-28
+F01104,A0022,Weak password policy on service account,Medium,5.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-07-04,2026-10-02,
+F01105,A0020,Weak password policy on service account,Low,3.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-21,2026-12-18,2026-10-18
+F01106,A0075,Outdated open-source dependency with known flaw,Medium,5.6,TRUE,FALSE,Open,Cloud Posture Scanner,2026-10-06,2027-01-04,
+F01107,A0205,Container image uses end-of-life base image,Critical,9.6,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-09-02,2026-09-09,
+F01108,A0086,Exposed administrative interface,High,7.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-04,2026-08-03,2026-08-09
+F01109,A0029,Missing security patch for database engine,High,7.2,TRUE,FALSE,Resolved,Cloud Posture Scanner,2025-12-25,2026-01-24,2026-01-01
+F01110,A0176,Outdated TLS configuration,Medium,5.6,FALSE,FALSE,Open,Cloud Posture Scanner,2026-07-23,2026-10-21,
+F01111,A0155,SQL injection in reporting query,Critical,8.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-01-15,2026-01-22,2026-01-17
+F01112,A0186,Remote code execution in web framework,Critical,9.3,TRUE,FALSE,Resolved,External Exposure Scan,2026-03-08,2026-03-15,2026-04-13
+F01113,A0111,Deserialization flaw in message library,Critical,8.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-07-26,2026-08-02,
+F01114,A0160,Remote code execution in web framework,Critical,8.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-10-27,2026-11-03,2026-10-30
+F01115,A0116,Privilege escalation in OS kernel,High,8.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-29,2026-04-28,2026-05-26
+F01116,A0081,Missing security patch for database engine,High,8.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-22,2026-09-21,2026-09-06
+F01117,A0106,Exposed administrative interface,High,8.1,TRUE,TRUE,Open,Cloud Posture Scanner,2026-07-03,2026-08-02,
+F01118,A0048,Unauthenticated API endpoint,High,7.4,FALSE,FALSE,Open,External Exposure Scan,2026-03-12,2026-04-11,
+F01119,A0060,Remote code execution in web framework,Critical,9.0,TRUE,FALSE,Open,Vulnerability Scanner,2025-11-18,2025-11-25,
+F01120,A0062,Storage bucket allows public read,Critical,8.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-23,2026-09-30,
+F01121,A0048,Exposed administrative interface,High,8.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-11,2026-09-10,2026-10-16
+F01122,A0105,Open management port reachable from internet,High,8.5,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-05-18,2026-06-17,2026-06-10
+F01123,A0026,Verbose error messages disclose stack traces,Low,3.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-09,2027-02-05,2026-10-15
+F01124,A0211,Outdated open-source dependency with known flaw,Medium,5.7,TRUE,FALSE,Resolved,External Exposure Scan,2026-03-10,2026-06-08,2026-05-07
+F01125,A0108,Unauthenticated API endpoint,High,8.0,FALSE,FALSE,Resolved,Cloud Posture Scanner,2025-11-25,2025-12-25,2026-01-27
+F01126,A0005,Outdated TLS configuration,Medium,5.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-26,2026-08-24,2026-07-28
+F01127,A0207,Insecure direct object reference,High,8.2,TRUE,FALSE,In Progress,External Exposure Scan,2026-05-29,2026-06-28,
+F01128,A0118,Certificate expiring within 30 days,Low,3.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-14,2026-12-11,2026-10-24
+F01129,A0120,Weak password policy on service account,Critical,9.5,TRUE,FALSE,In Progress,External Exposure Scan,2026-05-21,2026-05-28,
+F01130,A0115,Missing HTTP security headers,Low,3.1,FALSE,FALSE,Resolved,External Exposure Scan,2026-07-01,2026-12-28,2026-07-13
+F01131,A0090,Exposed administrative interface,High,8.2,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-01-23,2026-02-22,2026-03-23
+F01132,A0003,Open management port reachable from internet,Critical,9.9,TRUE,FALSE,Open,Vulnerability Scanner,2026-10-06,2026-10-13,
+F01133,A0028,Verbose error messages disclose stack traces,Low,2.7,TRUE,FALSE,Open,Vulnerability Scanner,2026-10-05,2027-04-03,
+F01134,A0072,Outdated open-source dependency with known flaw,Medium,6.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-25,2026-12-24,
+F01135,A0157,Outdated open-source dependency with known flaw,Medium,5.4,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-18,2026-12-17,
+F01136,A0169,Outdated TLS configuration,Medium,4.7,FALSE,FALSE,Open,External Exposure Scan,2026-06-22,2026-09-20,
+F01137,A0189,Weak password policy on service account,Medium,4.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-06,2026-11-04,2026-08-14
+F01138,A0145,Open management port reachable from internet,High,7.2,FALSE,FALSE,Open,Vulnerability Scanner,2026-07-10,2026-08-09,
+F01139,A0166,Unauthenticated API endpoint,Low,3.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-15,2027-04-13,
+F01140,A0180,Certificate expiring within 30 days,Low,3.2,TRUE,FALSE,Open,External Exposure Scan,2026-10-02,2027-03-31,
+F01141,A0219,Deserialization flaw in message library,Critical,8.8,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-04-06,2026-04-13,
+F01142,A0061,Container image uses end-of-life base image,Medium,5.7,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-20,2026-12-19,
+F01143,A0062,Missing HTTP security headers,Low,3.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-05,2027-02-01,
+F01144,A0046,Container image uses end-of-life base image,Medium,5.8,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-10,2026-09-08,2026-08-21
+F01145,A0051,Insecure direct object reference,High,7.2,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-10-19,2026-11-18,2026-10-23
+F01146,A0114,Verbose error messages disclose stack traces,Low,3.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-12,2027-02-08,2026-09-11
+F01147,A0121,Certificate expiring within 30 days,Low,2.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-03-20,2026-09-16,2026-08-03
+F01148,A0033,Remote code execution in web framework,High,8.5,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-24,2026-04-23,2026-05-28
+F01149,A0023,Deserialization flaw in message library,Critical,9.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-27,2026-10-04,2026-10-01
+F01150,A0157,Unauthenticated API endpoint,Critical,9.4,FALSE,FALSE,Open,External Exposure Scan,2026-07-13,2026-07-20,
+F01151,A0029,Cross-site scripting in customer portal,Medium,4.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-02-05,2026-05-06,2026-02-27
+F01152,A0065,Outdated TLS configuration,High,7.0,TRUE,FALSE,Resolved,External Exposure Scan,2025-12-18,2026-01-17,2026-01-26
+F01153,A0159,Missing security patch for database engine,High,8.3,FALSE,FALSE,Open,External Exposure Scan,2026-10-28,2026-11-27,
+F01154,A0014,Privilege escalation in OS kernel,High,7.6,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-05-21,2026-06-20,
+F01155,A0045,Privilege escalation in OS kernel,High,7.7,TRUE,TRUE,In Progress,External Exposure Scan,2026-07-06,2026-08-05,
+F01156,A0181,Remote code execution in web framework,Critical,9.1,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-16,2026-08-23,2026-08-27
+F01157,A0196,Verbose error messages disclose stack traces,Medium,5.4,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-09-18,2026-12-17,2026-11-01
+F01158,A0177,Missing security patch for database engine,High,8.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-18,2026-06-17,2026-07-08
+F01159,A0193,Unauthenticated API endpoint,High,8.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-11,2026-04-10,2026-04-12
+F01160,A0026,Missing HTTP security headers,Low,3.4,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-05,2027-04-03,
+F01161,A0220,Missing security patch for database engine,High,7.2,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-19,2026-09-18,2026-09-27
+F01162,A0083,Outdated TLS configuration,Medium,5.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-05-07,2026-08-05,
+F01163,A0062,Outdated TLS configuration,Medium,6.0,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-06-23,2026-09-21,
+F01164,A0061,Open management port reachable from internet,High,7.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-04-19,2026-05-19,
+F01165,A0009,SQL injection in reporting query,High,8.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2025-11-20,2025-12-20,2025-11-26
+F01166,A0007,Cross-site scripting in customer portal,Medium,5.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-16,2026-11-14,2026-09-07
+F01167,A0201,Missing HTTP security headers,Low,3.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-11,2027-03-10,
+F01168,A0108,Insecure direct object reference,High,8.5,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-09-17,2026-10-17,2026-09-23
+F01169,A0137,Certificate expiring within 30 days,Low,3.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-02-28,2026-08-27,2026-05-11
+F01170,A0211,Missing security patch for database engine,High,8.1,TRUE,FALSE,Open,External Exposure Scan,2026-10-11,2026-11-10,
+F01171,A0130,Privilege escalation in OS kernel,Low,3.4,FALSE,FALSE,Open,Cloud Posture Scanner,2026-04-05,2026-10-02,
+F01172,A0183,Remote code execution in web framework,Critical,9.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-13,2026-10-20,
+F01173,A0065,SQL injection in reporting query,Critical,9.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-19,2026-04-26,2026-05-03
+F01174,A0172,Cross-site scripting in customer portal,Medium,4.8,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-29,2026-09-27,2026-09-24
+F01175,A0201,SQL injection in reporting query,Critical,9.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-10-03,2026-10-10,2026-10-23
+F01176,A0158,Certificate expiring within 30 days,Low,3.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-27,2027-02-23,2026-10-26
+F01177,A0217,Missing security patch for database engine,High,7.0,FALSE,FALSE,Open,External Exposure Scan,2026-09-25,2026-10-25,
+F01178,A0061,Container image uses end-of-life base image,Medium,5.3,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-03-07,2026-06-05,
+F01179,A0175,Privilege escalation in OS kernel,High,7.8,FALSE,FALSE,Open,Vulnerability Scanner,2026-07-12,2026-08-11,
+F01180,A0127,Cross-site scripting in customer portal,Medium,5.6,TRUE,FALSE,Resolved,External Exposure Scan,2026-09-30,2026-12-29,2026-10-06
+F01181,A0203,Storage bucket allows public read,Critical,9.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-30,2026-09-06,2026-10-14
+F01182,A0052,Missing HTTP security headers,Low,3.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-04-17,2026-10-14,2026-08-08
+F01183,A0086,Exposed administrative interface,High,7.2,FALSE,FALSE,Open,Cloud Posture Scanner,2026-06-17,2026-07-17,
+F01184,A0161,Weak password policy on service account,Medium,4.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-04,2026-12-03,
+F01185,A0188,Outdated TLS configuration,Medium,5.3,FALSE,FALSE,Open,External Exposure Scan,2026-05-15,2026-08-13,
+F01186,A0040,Outdated open-source dependency with known flaw,Medium,4.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-22,2026-08-20,2026-05-29
+F01187,A0037,Open management port reachable from internet,High,7.1,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-27,2026-10-27,2026-10-28
+F01188,A0202,Container image uses end-of-life base image,Low,2.9,FALSE,FALSE,Open,External Exposure Scan,2026-08-31,2027-02-27,
+F01189,A0020,Weak password policy on service account,Medium,5.9,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-18,2026-12-17,
+F01190,A0010,Cross-site scripting in customer portal,Medium,4.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-05-15,2026-08-13,2026-07-18
+F01191,A0202,Outdated open-source dependency with known flaw,Medium,5.7,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-07-21,2026-10-19,2026-10-09
+F01192,A0057,Unauthenticated API endpoint,High,7.1,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-02-15,2026-03-17,2026-04-17
+F01193,A0080,Verbose error messages disclose stack traces,Low,2.8,FALSE,FALSE,Open,Cloud Posture Scanner,2026-03-20,2026-09-16,
+F01194,A0129,Storage bucket allows public read,Critical,9.2,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-08-10,2026-08-17,2026-09-24
+F01195,A0216,Privilege escalation in OS kernel,High,7.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-10-04,2026-11-03,2026-10-31
+F01196,A0219,Insecure direct object reference,Critical,9.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-27,2026-05-04,2026-06-06
+F01197,A0120,Verbose error messages disclose stack traces,Low,2.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-21,2027-02-17,
+F01198,A0182,Certificate expiring within 30 days,Low,2.4,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-27,2027-03-26,
+F01199,A0201,Weak password policy on service account,Medium,4.8,FALSE,FALSE,Open,External Exposure Scan,2026-07-21,2026-10-19,
+F01200,A0136,Deserialization flaw in message library,Critical,9.4,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-06-17,2026-06-24,2026-07-01
+F01201,A0028,Remote code execution in web framework,Critical,9.5,TRUE,FALSE,Resolved,External Exposure Scan,2026-04-01,2026-04-08,2026-04-14
+F01202,A0185,Deserialization flaw in message library,Low,3.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-09,2026-12-06,
+F01203,A0105,Missing HTTP security headers,Low,2.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-14,2027-02-10,2026-08-28
+F01204,A0117,Missing security patch for database engine,High,8.5,FALSE,FALSE,Exception,Vulnerability Scanner,2026-03-03,2026-04-02,
+F01205,A0048,Missing HTTP security headers,Low,3.2,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-09-25,2027-03-24,
+F01206,A0055,Outdated open-source dependency with known flaw,High,7.8,FALSE,FALSE,Open,External Exposure Scan,2026-08-30,2026-09-29,
+F01207,A0219,Exposed administrative interface,High,7.2,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-14,2026-08-13,2026-08-20
+F01208,A0146,Certificate expiring within 30 days,Low,3.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-21,2027-03-20,
+F01209,A0083,Storage bucket allows public read,Critical,9.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-28,2026-05-05,2026-05-07
+F01210,A0089,Storage bucket allows public read,Critical,8.5,FALSE,FALSE,Open,External Exposure Scan,2026-09-26,2026-10-03,
+F01211,A0103,Missing security patch for database engine,High,7.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-23,2026-04-22,2026-06-01
+F01212,A0099,Outdated open-source dependency with known flaw,Medium,4.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2025-10-22,2026-01-20,2025-11-08
+F01213,A0082,Deserialization flaw in message library,Critical,9.5,TRUE,FALSE,Open,External Exposure Scan,2025-10-31,2025-11-07,
+F01214,A0125,Exposed administrative interface,Medium,4.7,FALSE,FALSE,Resolved,External Exposure Scan,2026-10-11,2027-01-09,2026-10-30
+F01215,A0142,Privilege escalation in OS kernel,High,7.4,TRUE,FALSE,In Progress,Vulnerability Scanner,2026-09-24,2026-10-24,
+F01216,A0167,Remote code execution in web framework,Critical,9.3,FALSE,FALSE,Resolved,External Exposure Scan,2026-07-06,2026-07-13,2026-08-15
+F01217,A0049,Unauthenticated API endpoint,High,7.2,TRUE,TRUE,Open,Vulnerability Scanner,2026-09-01,2026-10-01,
+F01218,A0019,Missing HTTP security headers,Low,2.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-06-10,2026-12-07,2026-07-07
+F01219,A0159,Unauthenticated API endpoint,High,8.1,TRUE,FALSE,Open,External Exposure Scan,2026-09-20,2026-10-20,
+F01220,A0036,Exposed administrative interface,High,7.0,TRUE,FALSE,Resolved,External Exposure Scan,2026-05-12,2026-06-11,2026-05-19
+F01221,A0092,Certificate expiring within 30 days,Low,3.2,FALSE,FALSE,Open,External Exposure Scan,2026-04-13,2026-10-10,
+F01222,A0103,Container image uses end-of-life base image,Medium,5.2,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-25,2026-11-23,
+F01223,A0105,Missing security patch for database engine,High,7.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-01-02,2026-02-01,2026-03-04
+F01224,A0005,Missing security patch for database engine,High,7.8,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-01-17,2026-02-16,2026-02-14
+F01225,A0085,Open management port reachable from internet,High,8.1,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-15,2026-07-15,2026-08-17
+F01226,A0030,Container image uses end-of-life base image,Low,2.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-23,2027-02-19,
+F01227,A0032,Verbose error messages disclose stack traces,High,7.3,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-09-03,2026-10-03,2026-10-22
+F01228,A0209,Weak password policy on service account,Medium,4.9,FALSE,FALSE,Open,External Exposure Scan,2026-09-17,2026-12-16,
+F01229,A0157,SQL injection in reporting query,Critical,8.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-11,2026-08-18,2026-09-23
+F01230,A0115,Exposed administrative interface,High,7.3,TRUE,FALSE,Resolved,External Exposure Scan,2026-02-09,2026-03-11,2026-04-03
+F01231,A0217,Cross-site scripting in customer portal,Medium,5.6,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-11,2027-01-09,
+F01232,A0127,Outdated TLS configuration,Medium,5.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-10-02,2026-12-31,2026-10-09
+F01233,A0098,Missing HTTP security headers,Low,3.4,FALSE,FALSE,Open,External Exposure Scan,2026-09-10,2027-03-09,
+F01234,A0004,Open management port reachable from internet,High,7.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-27,2026-07-27,2026-08-01
+F01235,A0172,Cross-site scripting in customer portal,Medium,6.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-01-29,2026-04-29,
+F01236,A0032,Cross-site scripting in customer portal,Medium,4.6,FALSE,FALSE,Open,Cloud Posture Scanner,2025-12-15,2026-03-15,
+F01237,A0096,Open management port reachable from internet,High,8.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-02-27,2026-03-29,
+F01238,A0166,Deserialization flaw in message library,Critical,8.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-05-25,2026-06-01,2026-05-31
+F01239,A0024,Certificate expiring within 30 days,Low,3.4,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-07-09,2027-01-05,
+F01240,A0217,Missing security patch for database engine,Medium,6.0,FALSE,FALSE,Resolved,External Exposure Scan,2025-12-26,2026-03-26,2026-01-30
+F01241,A0148,Insecure direct object reference,High,7.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-23,2026-04-22,2026-04-24
+F01242,A0030,Storage bucket allows public read,Critical,8.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-27,2026-10-04,
+F01243,A0155,Storage bucket allows public read,Critical,9.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-09,2026-07-16,2026-07-23
+F01244,A0044,Storage bucket allows public read,Critical,9.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-01-30,2026-02-06,2026-02-18
+F01245,A0153,Privilege escalation in OS kernel,High,7.9,FALSE,FALSE,Open,Cloud Posture Scanner,2026-06-02,2026-07-02,
+F01246,A0072,Open management port reachable from internet,High,7.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-04,2026-09-03,
+F01247,A0105,Exposed administrative interface,High,8.1,FALSE,FALSE,In Progress,External Exposure Scan,2026-10-12,2026-11-11,
+F01248,A0022,Weak password policy on service account,Medium,4.6,TRUE,FALSE,Open,External Exposure Scan,2026-06-03,2026-09-01,
+F01249,A0101,Missing HTTP security headers,Low,3.5,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-06-29,2026-12-26,
+F01250,A0031,Exposed administrative interface,High,7.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-01-19,2026-02-18,2026-03-21
+F01251,A0167,Outdated open-source dependency with known flaw,Medium,5.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-25,2026-11-23,
+F01252,A0169,Open management port reachable from internet,High,7.9,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-08-16,2026-09-15,2026-08-23
+F01253,A0218,Insecure direct object reference,High,7.1,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-09-23,2026-10-23,
+F01254,A0041,Outdated open-source dependency with known flaw,Critical,9.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-11,2026-09-18,2026-10-11
+F01255,A0189,Container image uses end-of-life base image,Low,2.9,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-04-22,2026-10-19,2026-06-01
+F01256,A0116,Outdated open-source dependency with known flaw,Medium,4.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2025-11-24,2026-02-22,2026-03-11
+F01257,A0103,Weak password policy on service account,High,7.4,TRUE,TRUE,In Progress,External Exposure Scan,2026-09-07,2026-10-07,
+F01258,A0055,Outdated TLS configuration,Medium,4.7,FALSE,FALSE,Open,External Exposure Scan,2026-10-02,2026-12-31,
+F01259,A0074,Certificate expiring within 30 days,Low,3.4,FALSE,FALSE,Open,External Exposure Scan,2026-08-21,2027-02-17,
+F01260,A0172,Privilege escalation in OS kernel,High,7.7,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-09-13,2026-10-13,
+F01261,A0033,Storage bucket allows public read,Critical,9.3,TRUE,TRUE,Resolved,External Exposure Scan,2026-02-10,2026-02-17,2026-03-23
+F01262,A0001,Unauthenticated API endpoint,High,7.1,TRUE,TRUE,In Progress,Vulnerability Scanner,2026-05-17,2026-06-16,
+F01263,A0220,Remote code execution in web framework,High,8.3,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-01-28,2026-02-27,2026-03-17
+F01264,A0103,Missing HTTP security headers,Low,3.4,FALSE,FALSE,Open,External Exposure Scan,2026-09-11,2027-03-10,
+F01265,A0133,Missing HTTP security headers,Low,3.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-05,2026-10-02,2026-04-25
+F01266,A0088,Privilege escalation in OS kernel,High,8.1,FALSE,FALSE,Open,External Exposure Scan,2026-09-17,2026-10-17,
+F01267,A0153,Outdated open-source dependency with known flaw,Low,3.0,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-10-21,2027-04-19,
+F01268,A0151,Cross-site scripting in customer portal,Medium,5.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-26,2026-08-24,2026-09-23
+F01269,A0212,Open management port reachable from internet,High,7.9,TRUE,FALSE,Open,External Exposure Scan,2026-09-30,2026-10-30,
+F01270,A0080,Missing HTTP security headers,Medium,4.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-12,2026-11-10,
+F01271,A0176,Container image uses end-of-life base image,Medium,4.6,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-17,2026-09-15,2026-08-05
+F01272,A0028,Verbose error messages disclose stack traces,Low,3.2,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-15,2026-12-12,2026-07-11
+F01273,A0072,Unauthenticated API endpoint,High,7.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-24,2026-09-23,2026-10-08
+F01274,A0146,Storage bucket allows public read,Critical,9.9,TRUE,FALSE,Resolved,Vulnerability Scanner,2025-11-24,2025-12-01,2025-12-05
+F01275,A0138,Exposed administrative interface,High,8.1,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-05-11,2026-06-10,2026-05-15
+F01276,A0018,Open management port reachable from internet,High,7.6,FALSE,FALSE,Open,Cloud Posture Scanner,2026-05-28,2026-06-27,
+F01277,A0073,Container image uses end-of-life base image,Medium,5.6,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-04-20,2026-07-19,
+F01278,A0023,SQL injection in reporting query,Critical,8.8,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-07-22,2026-07-29,2026-08-28
+F01279,A0129,Cross-site scripting in customer portal,Medium,4.7,FALSE,FALSE,In Progress,External Exposure Scan,2026-10-12,2027-01-10,
+F01280,A0172,SQL injection in reporting query,Critical,9.4,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-08,2026-08-15,
+F01281,A0120,Verbose error messages disclose stack traces,Critical,9.1,TRUE,FALSE,Exception,Cloud Posture Scanner,2026-08-03,2026-08-10,
+F01282,A0190,Outdated TLS configuration,Medium,5.4,FALSE,FALSE,Open,External Exposure Scan,2026-05-05,2026-08-03,
+F01283,A0110,Exposed administrative interface,High,7.2,FALSE,FALSE,Resolved,Cloud Posture Scanner,2025-12-24,2026-01-23,2026-01-02
+F01284,A0116,Open management port reachable from internet,High,7.7,TRUE,TRUE,Open,Cloud Posture Scanner,2026-07-07,2026-08-06,
+F01285,A0034,Open management port reachable from internet,High,7.5,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-26,2026-11-25,
+F01286,A0166,Container image uses end-of-life base image,Medium,5.1,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-06,2026-09-04,
+F01287,A0077,Remote code execution in web framework,Critical,8.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-19,2026-04-26,2026-05-01
+F01288,A0043,Cross-site scripting in customer portal,Medium,4.9,FALSE,FALSE,In Progress,Vulnerability Scanner,2025-12-16,2026-03-16,
+F01289,A0068,Insecure direct object reference,High,8.3,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-08-08,2026-09-07,2026-09-28
+F01290,A0197,Insecure direct object reference,High,8.0,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-10-10,2026-11-09,2026-10-19
+F01291,A0117,Missing HTTP security headers,Low,3.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-04-02,2026-09-29,2026-06-28
+F01292,A0180,Exposed administrative interface,High,7.9,TRUE,TRUE,Resolved,Vulnerability Scanner,2026-03-02,2026-04-01,2026-05-04
+F01293,A0116,Exposed administrative interface,Low,2.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-29,2027-02-25,
+F01294,A0105,Open management port reachable from internet,High,8.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-09,2026-09-08,2026-08-31
+F01295,A0051,Weak password policy on service account,Medium,6.1,FALSE,FALSE,Exception,Vulnerability Scanner,2026-03-28,2026-06-26,
+F01296,A0194,Verbose error messages disclose stack traces,Low,2.9,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-02-02,2026-08-01,
+F01297,A0100,Insecure direct object reference,High,8.0,FALSE,FALSE,In Progress,External Exposure Scan,2026-09-29,2026-10-29,
+F01298,A0168,Unauthenticated API endpoint,High,7.7,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-04-07,2026-05-07,
+F01299,A0108,Privilege escalation in OS kernel,High,7.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-23,2026-10-23,
+F01300,A0094,Open management port reachable from internet,High,7.7,FALSE,FALSE,Open,Vulnerability Scanner,2026-01-09,2026-02-08,
+F01301,A0138,Missing HTTP security headers,Low,3.3,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-09-25,2027-03-24,2026-10-06
+F01302,A0019,Deserialization flaw in message library,Critical,8.6,FALSE,FALSE,Resolved,External Exposure Scan,2025-11-27,2025-12-04,2025-12-13
+F01303,A0055,Weak password policy on service account,Medium,6.0,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-17,2026-11-15,
+F01304,A0156,Certificate expiring within 30 days,Low,2.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-16,2027-03-15,
+F01305,A0182,Weak password policy on service account,Critical,9.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-10,2026-06-17,2026-06-25
+F01306,A0020,Exposed administrative interface,High,7.6,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-09-20,2026-10-20,
+F01307,A0177,Outdated TLS configuration,Medium,4.7,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-04-28,2026-07-27,
+F01308,A0072,Storage bucket allows public read,Critical,9.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-07,2026-07-14,2026-07-10
+F01309,A0051,Storage bucket allows public read,Critical,8.6,FALSE,FALSE,In Progress,Cloud Posture Scanner,2026-09-27,2026-10-04,
+F01310,A0012,Missing HTTP security headers,Low,3.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-08-16,2027-02-12,
+F01311,A0212,Verbose error messages disclose stack traces,Low,3.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-09-13,2027-03-12,2026-10-23
+F01312,A0199,Outdated open-source dependency with known flaw,Medium,5.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-14,2026-09-12,2026-07-11
+F01313,A0037,Verbose error messages disclose stack traces,Low,2.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-01-23,2026-07-22,2026-03-23
+F01314,A0020,Container image uses end-of-life base image,Medium,5.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-19,2026-10-17,2026-08-28
+F01315,A0164,Remote code execution in web framework,Medium,5.1,FALSE,FALSE,Open,Cloud Posture Scanner,2026-04-22,2026-07-21,
+F01316,A0029,Certificate expiring within 30 days,Low,3.6,FALSE,FALSE,Open,External Exposure Scan,2026-08-25,2027-02-21,
+F01317,A0070,Verbose error messages disclose stack traces,Low,2.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-05-26,2026-11-22,2026-06-26
+F01318,A0166,Missing security patch for database engine,Low,3.6,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-17,2027-04-15,
+F01319,A0208,SQL injection in reporting query,Critical,9.8,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-10-15,2026-10-22,2026-10-17
+F01320,A0008,Container image uses end-of-life base image,Medium,5.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-07-29,2026-10-27,2026-08-25
+F01321,A0169,Weak password policy on service account,Medium,5.6,TRUE,FALSE,Open,External Exposure Scan,2025-12-15,2026-03-15,
+F01322,A0155,Outdated TLS configuration,Medium,5.7,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-01-10,2026-04-10,2026-03-28
+F01323,A0020,Missing HTTP security headers,Low,3.3,FALSE,FALSE,Open,Vulnerability Scanner,2026-09-16,2027-03-15,
+F01324,A0108,Cross-site scripting in customer portal,Medium,5.5,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-03-17,2026-06-15,2026-04-17
+F01325,A0149,Container image uses end-of-life base image,Medium,4.7,FALSE,FALSE,In Progress,External Exposure Scan,2026-06-28,2026-09-26,
+F01326,A0054,Privilege escalation in OS kernel,High,7.9,TRUE,TRUE,Open,Cloud Posture Scanner,2026-09-23,2026-10-23,
+F01327,A0074,Verbose error messages disclose stack traces,Low,2.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-02,2026-08-29,2026-06-21
+F01328,A0200,Container image uses end-of-life base image,Low,2.4,FALSE,FALSE,Open,Cloud Posture Scanner,2026-05-05,2026-11-01,
+F01329,A0128,SQL injection in reporting query,Critical,9.0,TRUE,TRUE,Open,External Exposure Scan,2026-07-26,2026-08-02,
+F01330,A0147,Deserialization flaw in message library,Critical,9.2,FALSE,FALSE,In Progress,External Exposure Scan,2026-07-27,2026-08-03,
+F01331,A0199,Privilege escalation in OS kernel,High,8.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-06-27,2026-07-27,2026-08-02
+F01332,A0174,Verbose error messages disclose stack traces,Low,3.3,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-28,2027-04-26,
+F01333,A0179,Container image uses end-of-life base image,High,7.1,FALSE,FALSE,In Progress,External Exposure Scan,2026-08-29,2026-09-28,
+F01334,A0110,Deserialization flaw in message library,Critical,8.9,FALSE,FALSE,Open,Vulnerability Scanner,2026-06-12,2026-06-19,
+F01335,A0113,Deserialization flaw in message library,Critical,9.3,TRUE,FALSE,Resolved,External Exposure Scan,2026-08-01,2026-08-08,2026-09-06
+F01336,A0005,Insecure direct object reference,Critical,9.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-18,2026-08-25,2026-09-17
+F01337,A0124,Cross-site scripting in customer portal,Medium,6.1,FALSE,FALSE,Exception,External Exposure Scan,2026-07-28,2026-10-26,
+F01338,A0043,Remote code execution in web framework,Critical,9.6,TRUE,FALSE,Open,Cloud Posture Scanner,2026-09-19,2026-09-26,
+F01339,A0196,Open management port reachable from internet,High,7.2,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-04-26,2026-05-26,2026-05-23
+F01340,A0113,SQL injection in reporting query,Critical,9.4,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-05-18,2026-05-25,2026-06-22
+F01341,A0130,Remote code execution in web framework,Critical,9.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-12,2026-04-19,2026-04-25
+F01342,A0164,Outdated TLS configuration,Medium,5.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2025-12-03,2026-03-03,2026-01-07
+F01343,A0034,Remote code execution in web framework,Critical,9.3,FALSE,FALSE,In Progress,Cloud Posture Scanner,2025-11-29,2025-12-06,
+F01344,A0161,Container image uses end-of-life base image,Medium,5.0,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-06,2026-10-04,2026-07-15
+F01345,A0162,Insecure direct object reference,High,7.7,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-03-28,2026-04-27,2026-04-16
+F01346,A0046,Open management port reachable from internet,Critical,9.5,TRUE,TRUE,Open,Vulnerability Scanner,2026-02-17,2026-02-24,
+F01347,A0220,Remote code execution in web framework,Low,2.9,FALSE,FALSE,Resolved,Vulnerability Scanner,2025-12-19,2026-06-17,2026-02-12
+F01348,A0016,SQL injection in reporting query,Critical,9.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-30,2026-08-06,2026-09-09
+F01349,A0181,Weak password policy on service account,Medium,5.1,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-02-17,2026-05-18,
+F01350,A0213,Insecure direct object reference,High,8.2,TRUE,TRUE,Resolved,Vulnerability Scanner,2025-10-04,2025-11-03,2025-10-22
+F01351,A0156,Deserialization flaw in message library,Critical,9.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-03-07,2026-03-14,
+F01352,A0047,Unauthenticated API endpoint,High,7.8,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-06-28,2026-07-28,2026-08-13
+F01353,A0205,Missing security patch for database engine,High,8.1,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-15,2026-05-15,2026-04-27
+F01354,A0209,Open management port reachable from internet,High,8.2,FALSE,FALSE,Open,Cloud Posture Scanner,2025-12-20,2026-01-19,
+F01355,A0069,Privilege escalation in OS kernel,High,7.4,TRUE,FALSE,Resolved,Vulnerability Scanner,2025-12-24,2026-01-23,2026-01-25
+F01356,A0091,SQL injection in reporting query,Critical,9.0,FALSE,FALSE,Open,Cloud Posture Scanner,2026-09-23,2026-09-30,
+F01357,A0076,Exposed administrative interface,High,7.8,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-07-16,2026-08-15,
+F01358,A0047,Insecure direct object reference,High,8.2,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-07-30,2026-08-29,2026-09-15
+F01359,A0140,SQL injection in reporting query,Critical,9.8,TRUE,FALSE,Resolved,External Exposure Scan,2026-09-18,2026-09-25,2026-10-25
+F01360,A0161,Exposed administrative interface,High,7.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-04-15,2026-05-15,2026-06-21
+F01361,A0062,Outdated TLS configuration,Medium,5.2,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-07-23,2026-10-21,2026-07-26
+F01362,A0083,Unauthenticated API endpoint,High,8.1,TRUE,FALSE,Open,External Exposure Scan,2026-03-27,2026-04-26,
+F01363,A0094,Certificate expiring within 30 days,Low,3.2,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-07-13,2027-01-09,
+F01364,A0149,Remote code execution in web framework,Critical,8.7,TRUE,FALSE,Resolved,External Exposure Scan,2025-11-19,2025-11-26,2026-01-05
+F01365,A0125,Cross-site scripting in customer portal,Medium,4.8,FALSE,FALSE,Resolved,External Exposure Scan,2026-05-03,2026-08-01,2026-07-28
+F01366,A0103,Weak password policy on service account,Critical,9.2,TRUE,FALSE,Open,External Exposure Scan,2026-02-06,2026-02-13,
+F01367,A0095,Storage bucket allows public read,Critical,9.3,FALSE,FALSE,In Progress,Vulnerability Scanner,2025-12-17,2025-12-24,
+F01368,A0041,Missing HTTP security headers,Low,3.2,FALSE,FALSE,Open,Vulnerability Scanner,2026-08-14,2027-02-10,
+F01369,A0039,Cross-site scripting in customer portal,Medium,5.6,FALSE,FALSE,Resolved,External Exposure Scan,2025-12-25,2026-03-25,2026-04-25
+F01370,A0217,Missing security patch for database engine,High,7.1,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-15,2026-06-14,2026-06-21
+F01371,A0207,Outdated open-source dependency with known flaw,Medium,5.6,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-04-22,2026-07-21,2026-05-24
+F01372,A0118,Missing HTTP security headers,Low,3.5,FALSE,FALSE,Exception,Cloud Posture Scanner,2026-03-14,2026-09-10,
+F01373,A0007,Exposed administrative interface,High,8.2,TRUE,TRUE,Resolved,External Exposure Scan,2026-05-15,2026-06-14,2026-07-24
+F01374,A0061,Missing security patch for database engine,High,7.1,TRUE,FALSE,Open,External Exposure Scan,2026-02-21,2026-03-23,
+F01375,A0177,Storage bucket allows public read,Critical,9.2,FALSE,FALSE,Open,External Exposure Scan,2026-08-19,2026-08-26,
+F01376,A0012,Storage bucket allows public read,Critical,9.4,FALSE,FALSE,Resolved,Vulnerability Scanner,2026-08-11,2026-08-18,2026-09-20
+F01377,A0076,Verbose error messages disclose stack traces,Low,3.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-05-13,2026-11-09,2026-09-06
+F01378,A0210,SQL injection in reporting query,Critical,8.7,TRUE,TRUE,In Progress,External Exposure Scan,2026-05-05,2026-05-12,
+F01379,A0062,Storage bucket allows public read,Critical,8.8,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-04-30,2026-05-07,2026-06-05
+F01380,A0050,Remote code execution in web framework,Critical,9.6,TRUE,TRUE,Resolved,Cloud Posture Scanner,2026-08-10,2026-08-17,2026-08-23
+F01381,A0161,Cross-site scripting in customer portal,Medium,5.2,FALSE,FALSE,Open,External Exposure Scan,2026-02-27,2026-05-28,
+F01382,A0135,Insecure direct object reference,High,7.1,TRUE,FALSE,Open,Vulnerability Scanner,2026-10-14,2026-11-13,
+F01383,A0065,Insecure direct object reference,High,8.5,TRUE,FALSE,Resolved,Cloud Posture Scanner,2026-09-13,2026-10-13,2026-09-23
+F01384,A0214,Certificate expiring within 30 days,Low,2.5,FALSE,FALSE,In Progress,External Exposure Scan,2026-01-31,2026-07-30,
+F01385,A0076,Outdated TLS configuration,Medium,5.2,TRUE,FALSE,Resolved,Vulnerability Scanner,2026-01-30,2026-04-30,2026-04-11
+F01386,A0093,SQL injection in reporting query,Critical,8.9,FALSE,FALSE,Resolved,External Exposure Scan,2026-08-01,2026-08-08,2026-09-04
+F01387,A0204,Outdated open-source dependency with known flaw,Low,2.6,FALSE,FALSE,Open,External Exposure Scan,2026-06-25,2026-12-22,
+F01388,A0191,Weak password policy on service account,Medium,5.5,FALSE,FALSE,Resolved,Vulnerability Scanner,2025-11-25,2026-02-23,2025-12-24
+F01389,A0097,Outdated open-source dependency with known flaw,Critical,8.6,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-07-26,2026-08-02,2026-08-27
+F01390,A0080,Exposed administrative interface,High,8.4,FALSE,FALSE,Resolved,External Exposure Scan,2026-03-15,2026-04-14,2026-04-18
+F01391,A0132,Container image uses end-of-life base image,Low,3.4,FALSE,FALSE,Open,Cloud Posture Scanner,2026-05-02,2026-10-29,
+F01392,A0135,Exposed administrative interface,High,8.0,FALSE,FALSE,In Progress,Vulnerability Scanner,2026-09-11,2026-10-11,
+F01393,A0054,Weak password policy on service account,Medium,5.2,FALSE,FALSE,Open,External Exposure Scan,2026-03-29,2026-06-27,
+F01394,A0066,Outdated TLS configuration,Medium,5.6,FALSE,FALSE,Open,External Exposure Scan,2026-05-29,2026-08-27,
+F01395,A0193,Exposed administrative interface,High,8.4,FALSE,FALSE,Resolved,Cloud Posture Scanner,2026-01-07,2026-02-06,2026-01-15
+F01396,A0055,Verbose error messages disclose stack traces,Low,2.4,TRUE,TRUE,Open,Cloud Posture Scanner,2026-05-27,2026-11-23,
+F01397,A0101,Container image uses end-of-life base image,Medium,4.7,FALSE,FALSE,Exception,External Exposure Scan,2026-08-20,2026-11-18,
+F01398,A0030,Weak password policy on service account,Medium,5.6,FALSE,FALSE,Open,Vulnerability Scanner,2026-10-06,2027-01-04,
+F01399,A0104,Weak password policy on service account,Medium,6.0,FALSE,FALSE,Resolved,External Exposure Scan,2026-06-06,2026-09-04,2026-07-30
+F01400,A0063,Missing HTTP security headers,Low,2.8,FALSE,FALSE,Open,Cloud Posture Scanner,2026-10-06,2027-04-04,

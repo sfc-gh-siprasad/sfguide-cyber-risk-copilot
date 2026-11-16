@@ -1,0 +1,222 @@
+asset_id,asset_name,asset_type,environment,internet_facing,service_id,owner_team_id,criticality
+A0001,virtual-0001,Virtual Machine,Staging,TRUE,S001,,5
+A0002,database-0002,Database,Production,FALSE,S001,T02,5
+A0003,virtual-0003,Virtual Machine,Production,FALSE,S001,,4
+A0004,api-0004,API Endpoint,Staging,TRUE,S001,,5
+A0005,storage-0005,Storage Bucket,Production,FALSE,S001,T02,5
+A0006,container-0006,Container Image,Production,FALSE,S001,,5
+A0007,api-0007,API Endpoint,Production,TRUE,S001,T02,5
+A0008,virtual-0008,Virtual Machine,Development,TRUE,S002,T02,5
+A0009,storage-0009,Storage Bucket,Staging,FALSE,S002,T02,5
+A0010,virtual-0010,Virtual Machine,Staging,FALSE,S002,T02,5
+A0011,api-0011,API Endpoint,Development,TRUE,S002,T02,4
+A0012,storage-0012,Storage Bucket,Production,FALSE,S002,T02,5
+A0013,load-0013,Load Balancer,Staging,TRUE,S002,T02,5
+A0014,load-0014,Load Balancer,Production,TRUE,S002,T02,5
+A0015,load-0015,Load Balancer,Staging,TRUE,S002,T02,4
+A0016,virtual-0016,Virtual Machine,Production,FALSE,S002,T02,5
+A0017,virtual-0017,Virtual Machine,Development,FALSE,S002,T02,5
+A0018,api-0018,API Endpoint,Production,FALSE,S002,T02,5
+A0019,container-0019,Container Image,Staging,FALSE,S002,T02,4
+A0020,container-0020,Container Image,Development,FALSE,S002,T02,5
+A0021,storage-0021,Storage Bucket,Development,FALSE,S002,T02,5
+A0022,database-0022,Database,Production,FALSE,S003,T01,5
+A0023,load-0023,Load Balancer,Production,TRUE,S003,,5
+A0024,database-0024,Database,Production,TRUE,S003,T01,5
+A0025,load-0025,Load Balancer,Staging,TRUE,S003,T01,5
+A0026,api-0026,API Endpoint,Staging,TRUE,S003,T01,4
+A0027,virtual-0027,Virtual Machine,Staging,FALSE,S003,,4
+A0028,virtual-0028,Virtual Machine,Development,FALSE,S003,T01,4
+A0029,container-0029,Container Image,Staging,FALSE,S003,T01,5
+A0030,virtual-0030,Virtual Machine,Development,FALSE,S003,T01,5
+A0031,virtual-0031,Virtual Machine,Production,FALSE,S003,T01,4
+A0032,container-0032,Container Image,Production,FALSE,S004,T02,5
+A0033,database-0033,Database,Production,TRUE,S004,T02,5
+A0034,api-0034,API Endpoint,Production,TRUE,S004,T02,4
+A0035,database-0035,Database,Production,FALSE,S004,T02,3
+A0036,api-0036,API Endpoint,Staging,TRUE,S004,T02,4
+A0037,load-0037,Load Balancer,Production,TRUE,S004,T02,4
+A0038,api-0038,API Endpoint,Staging,FALSE,S005,T01,4
+A0039,load-0039,Load Balancer,Staging,FALSE,S005,T01,5
+A0040,container-0040,Container Image,Production,FALSE,S005,T01,4
+A0041,database-0041,Database,Staging,FALSE,S005,T01,4
+A0042,virtual-0042,Virtual Machine,Production,TRUE,S005,T01,3
+A0043,storage-0043,Storage Bucket,Production,FALSE,S005,T01,4
+A0044,load-0044,Load Balancer,Production,FALSE,S005,T01,4
+A0045,virtual-0045,Virtual Machine,Production,FALSE,S005,T01,4
+A0046,virtual-0046,Virtual Machine,Development,FALSE,S006,T03,5
+A0047,storage-0047,Storage Bucket,Production,FALSE,S006,T03,5
+A0048,load-0048,Load Balancer,Production,FALSE,S006,T03,5
+A0049,api-0049,API Endpoint,Production,TRUE,S006,T03,5
+A0050,load-0050,Load Balancer,Staging,TRUE,S006,T03,4
+A0051,api-0051,API Endpoint,Production,TRUE,S006,T03,5
+A0052,virtual-0052,Virtual Machine,Production,FALSE,S006,T03,5
+A0053,virtual-0053,Virtual Machine,Production,FALSE,S006,T03,5
+A0054,load-0054,Load Balancer,Production,FALSE,S006,T03,5
+A0055,virtual-0055,Virtual Machine,Staging,FALSE,S007,T03,4
+A0056,storage-0056,Storage Bucket,Development,FALSE,S007,T03,5
+A0057,virtual-0057,Virtual Machine,Production,FALSE,S007,T03,5
+A0058,load-0058,Load Balancer,Production,TRUE,S007,T03,5
+A0059,database-0059,Database,Staging,FALSE,S007,T03,5
+A0060,api-0060,API Endpoint,Development,TRUE,S007,,5
+A0061,api-0061,API Endpoint,Production,TRUE,S007,T03,5
+A0062,container-0062,Container Image,Production,FALSE,S007,T03,5
+A0063,container-0063,Container Image,Staging,FALSE,S007,T03,5
+A0064,load-0064,Load Balancer,Development,FALSE,S007,T03,5
+A0065,storage-0065,Storage Bucket,Production,FALSE,S007,T03,4
+A0066,api-0066,API Endpoint,Development,FALSE,S007,T03,5
+A0067,database-0067,Database,Development,TRUE,S008,T03,5
+A0068,virtual-0068,Virtual Machine,Production,FALSE,S008,T03,4
+A0069,storage-0069,Storage Bucket,Staging,FALSE,S008,T03,5
+A0070,virtual-0070,Virtual Machine,Development,FALSE,S008,T03,4
+A0071,api-0071,API Endpoint,Production,TRUE,S008,T03,5
+A0072,storage-0072,Storage Bucket,Production,FALSE,S008,T03,4
+A0073,storage-0073,Storage Bucket,Production,FALSE,S009,T04,4
+A0074,storage-0074,Storage Bucket,Production,FALSE,S009,T04,5
+A0075,load-0075,Load Balancer,Production,FALSE,S009,T04,5
+A0076,api-0076,API Endpoint,Production,TRUE,S009,T04,5
+A0077,storage-0077,Storage Bucket,Development,FALSE,S009,,4
+A0078,database-0078,Database,Production,FALSE,S009,T04,5
+A0079,container-0079,Container Image,Production,FALSE,S009,T04,5
+A0080,virtual-0080,Virtual Machine,Development,FALSE,S009,T04,5
+A0081,api-0081,API Endpoint,Production,TRUE,S009,T04,5
+A0082,storage-0082,Storage Bucket,Staging,FALSE,S009,T04,5
+A0083,storage-0083,Storage Bucket,Production,FALSE,S009,T04,4
+A0084,container-0084,Container Image,Development,TRUE,S009,T04,4
+A0085,container-0085,Container Image,Production,FALSE,S009,T04,5
+A0086,load-0086,Load Balancer,Development,TRUE,S009,T04,5
+A0087,load-0087,Load Balancer,Production,TRUE,S010,T04,3
+A0088,container-0088,Container Image,Development,FALSE,S010,T04,3
+A0089,storage-0089,Storage Bucket,Production,FALSE,S010,T04,2
+A0090,api-0090,API Endpoint,Development,FALSE,S010,T04,4
+A0091,api-0091,API Endpoint,Production,TRUE,S010,T04,3
+A0092,container-0092,Container Image,Production,TRUE,S010,T04,3
+A0093,load-0093,Load Balancer,Production,TRUE,S010,T04,4
+A0094,virtual-0094,Virtual Machine,Development,FALSE,S010,T04,3
+A0095,storage-0095,Storage Bucket,Production,FALSE,S010,T04,3
+A0096,storage-0096,Storage Bucket,Production,FALSE,S010,T04,3
+A0097,container-0097,Container Image,Production,FALSE,S011,T05,3
+A0098,database-0098,Database,Production,FALSE,S011,T05,4
+A0099,database-0099,Database,Production,FALSE,S011,T05,3
+A0100,load-0100,Load Balancer,Production,TRUE,S011,T05,5
+A0101,storage-0101,Storage Bucket,Production,FALSE,S011,T05,5
+A0102,container-0102,Container Image,Staging,FALSE,S011,T05,4
+A0103,database-0103,Database,Production,FALSE,S011,T05,3
+A0104,container-0104,Container Image,Production,FALSE,S011,T05,3
+A0105,api-0105,API Endpoint,Development,TRUE,S012,T05,5
+A0106,api-0106,API Endpoint,Production,TRUE,S012,T05,4
+A0107,virtual-0107,Virtual Machine,Staging,FALSE,S012,T05,4
+A0108,storage-0108,Storage Bucket,Development,FALSE,S012,T05,3
+A0109,api-0109,API Endpoint,Production,TRUE,S012,T05,5
+A0110,database-0110,Database,Production,FALSE,S012,T05,5
+A0111,container-0111,Container Image,Production,FALSE,S012,T05,3
+A0112,load-0112,Load Balancer,Production,TRUE,S012,T05,3
+A0113,storage-0113,Storage Bucket,Development,FALSE,S012,T05,4
+A0114,container-0114,Container Image,Production,FALSE,S013,T05,5
+A0115,load-0115,Load Balancer,Production,TRUE,S013,T05,5
+A0116,storage-0116,Storage Bucket,Staging,FALSE,S013,T05,4
+A0117,database-0117,Database,Staging,FALSE,S013,T05,5
+A0118,load-0118,Load Balancer,Development,TRUE,S013,T05,5
+A0119,virtual-0119,Virtual Machine,Production,FALSE,S013,T05,5
+A0120,database-0120,Database,Production,FALSE,S013,T05,4
+A0121,database-0121,Database,Staging,FALSE,S013,T05,5
+A0122,load-0122,Load Balancer,Production,TRUE,S013,T05,5
+A0123,database-0123,Database,Staging,FALSE,S013,T05,5
+A0124,virtual-0124,Virtual Machine,Staging,TRUE,S013,T05,4
+A0125,database-0125,Database,Development,FALSE,S013,T05,5
+A0126,api-0126,API Endpoint,Development,TRUE,S014,T06,4
+A0127,container-0127,Container Image,Production,FALSE,S014,T06,4
+A0128,virtual-0128,Virtual Machine,Production,TRUE,S014,T06,3
+A0129,container-0129,Container Image,Development,FALSE,S014,T06,3
+A0130,virtual-0130,Virtual Machine,Production,FALSE,S014,T06,4
+A0131,container-0131,Container Image,Production,FALSE,S015,T06,5
+A0132,load-0132,Load Balancer,Production,TRUE,S015,T06,5
+A0133,database-0133,Database,Production,FALSE,S015,T06,5
+A0134,load-0134,Load Balancer,Production,FALSE,S015,T06,5
+A0135,storage-0135,Storage Bucket,Development,FALSE,S015,T06,5
+A0136,load-0136,Load Balancer,Production,TRUE,S015,T06,5
+A0137,api-0137,API Endpoint,Production,FALSE,S015,T06,5
+A0138,storage-0138,Storage Bucket,Production,FALSE,S015,T06,4
+A0139,virtual-0139,Virtual Machine,Production,FALSE,S015,T06,5
+A0140,api-0140,API Endpoint,Production,TRUE,S015,T06,5
+A0141,api-0141,API Endpoint,Staging,TRUE,S015,T06,5
+A0142,api-0142,API Endpoint,Production,TRUE,S015,T06,5
+A0143,database-0143,Database,Staging,TRUE,S015,T06,4
+A0144,storage-0144,Storage Bucket,Staging,FALSE,S015,T06,5
+A0145,storage-0145,Storage Bucket,Production,FALSE,S016,,4
+A0146,database-0146,Database,Production,FALSE,S016,T06,3
+A0147,storage-0147,Storage Bucket,Staging,FALSE,S016,T06,4
+A0148,virtual-0148,Virtual Machine,Production,FALSE,S016,T06,5
+A0149,load-0149,Load Balancer,Development,TRUE,S016,T06,5
+A0150,database-0150,Database,Production,FALSE,S016,T06,3
+A0151,database-0151,Database,Production,FALSE,S016,T06,4
+A0152,container-0152,Container Image,Production,FALSE,S016,T06,5
+A0153,container-0153,Container Image,Production,FALSE,S016,T06,3
+A0154,load-0154,Load Balancer,Production,TRUE,S017,T07,5
+A0155,api-0155,API Endpoint,Staging,TRUE,S017,T07,5
+A0156,container-0156,Container Image,Production,FALSE,S017,T07,5
+A0157,database-0157,Database,Production,FALSE,S017,T07,5
+A0158,database-0158,Database,Production,FALSE,S017,T07,5
+A0159,database-0159,Database,Production,FALSE,S017,T07,5
+A0160,api-0160,API Endpoint,Production,TRUE,S017,,4
+A0161,database-0161,Database,Staging,TRUE,S017,T07,5
+A0162,api-0162,API Endpoint,Staging,FALSE,S017,T07,4
+A0163,load-0163,Load Balancer,Production,TRUE,S017,T07,5
+A0164,container-0164,Container Image,Production,FALSE,S017,T07,5
+A0165,load-0165,Load Balancer,Staging,TRUE,S017,T07,4
+A0166,load-0166,Load Balancer,Production,TRUE,S017,T07,5
+A0167,load-0167,Load Balancer,Production,FALSE,S018,T07,5
+A0168,container-0168,Container Image,Staging,FALSE,S018,T07,5
+A0169,load-0169,Load Balancer,Development,TRUE,S018,T07,5
+A0170,virtual-0170,Virtual Machine,Production,FALSE,S018,T07,4
+A0171,storage-0171,Storage Bucket,Production,FALSE,S018,T07,5
+A0172,container-0172,Container Image,Production,FALSE,S018,T07,5
+A0173,database-0173,Database,Development,FALSE,S018,T07,5
+A0174,virtual-0174,Virtual Machine,Development,FALSE,S018,T07,5
+A0175,load-0175,Load Balancer,Production,FALSE,S018,T07,5
+A0176,virtual-0176,Virtual Machine,Development,FALSE,S018,T07,5
+A0177,storage-0177,Storage Bucket,Production,FALSE,S018,T07,5
+A0178,storage-0178,Storage Bucket,Production,FALSE,S018,T07,5
+A0179,database-0179,Database,Production,TRUE,S018,T07,4
+A0180,api-0180,API Endpoint,Staging,TRUE,S019,T07,5
+A0181,load-0181,Load Balancer,Production,TRUE,S019,T07,4
+A0182,api-0182,API Endpoint,Production,TRUE,S019,T07,4
+A0183,database-0183,Database,Production,FALSE,S019,T07,5
+A0184,container-0184,Container Image,Production,FALSE,S019,T07,5
+A0185,database-0185,Database,Production,FALSE,S019,T07,5
+A0186,storage-0186,Storage Bucket,Staging,FALSE,S020,T08,4
+A0187,database-0187,Database,Staging,TRUE,S020,T08,4
+A0188,container-0188,Container Image,Staging,TRUE,S020,T08,5
+A0189,load-0189,Load Balancer,Production,TRUE,S020,T08,3
+A0190,storage-0190,Storage Bucket,Production,FALSE,S020,,5
+A0191,load-0191,Load Balancer,Staging,FALSE,S020,T08,4
+A0192,load-0192,Load Balancer,Development,TRUE,S020,T08,4
+A0193,database-0193,Database,Production,FALSE,S020,T08,3
+A0194,virtual-0194,Virtual Machine,Production,FALSE,S020,T08,3
+A0195,api-0195,API Endpoint,Production,TRUE,S021,,3
+A0196,database-0196,Database,Production,TRUE,S021,T08,3
+A0197,load-0197,Load Balancer,Development,TRUE,S021,T08,3
+A0198,load-0198,Load Balancer,Production,FALSE,S021,T08,4
+A0199,storage-0199,Storage Bucket,Staging,FALSE,S021,T08,2
+A0200,api-0200,API Endpoint,Development,TRUE,S021,T08,3
+A0201,container-0201,Container Image,Production,FALSE,S021,T08,3
+A0202,container-0202,Container Image,Production,FALSE,S022,T02,3
+A0203,api-0203,API Endpoint,Production,FALSE,S022,T02,3
+A0204,container-0204,Container Image,Production,FALSE,S022,T02,4
+A0205,api-0205,API Endpoint,Production,TRUE,S022,T02,3
+A0206,virtual-0206,Virtual Machine,Production,FALSE,S022,T02,3
+A0207,api-0207,API Endpoint,Production,TRUE,S022,T02,3
+A0208,load-0208,Load Balancer,Production,FALSE,S022,T02,3
+A0209,api-0209,API Endpoint,Development,TRUE,S022,T02,2
+A0210,api-0210,API Endpoint,Production,TRUE,S023,,4
+A0211,storage-0211,Storage Bucket,Staging,FALSE,S023,T04,4
+A0212,load-0212,Load Balancer,Production,TRUE,S023,T04,4
+A0213,container-0213,Container Image,Staging,FALSE,S023,T04,5
+A0214,database-0214,Database,Staging,FALSE,S023,T04,4
+A0215,api-0215,API Endpoint,Development,TRUE,S023,T04,5
+A0216,storage-0216,Storage Bucket,Production,FALSE,S024,T08,2
+A0217,api-0217,API Endpoint,Staging,TRUE,S024,T08,2
+A0218,container-0218,Container Image,Production,FALSE,S024,T08,3
+A0219,virtual-0219,Virtual Machine,Development,FALSE,S024,T08,2
+A0220,database-0220,Database,Development,TRUE,S024,T08,3
+A0221,database-0221,Database,Production,FALSE,S024,T08,3

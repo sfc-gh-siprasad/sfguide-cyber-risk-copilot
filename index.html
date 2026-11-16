@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cyber Risk Copilot | Snow Packs example</title>
+<meta name="description" content="An example that helps security leaders and control owners ask plain-English questions about cyber posture and get answers backed by data and policy.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="wrap">
+  <p class="eyebrow">Snow Packs example · Financial Services · Risk</p>
+  <h1>Ask your cyber posture a question and get an answer you can trace.</h1>
+  <p class="lead">A security leader preparing for a monthly review has thousands of open findings spread across scanners, asset lists and spreadsheets. Getting a simple answer, such as which critical services have overdue findings, usually means waiting for someone to build a report. This example shows how a governed, natural-language assistant could help leaders and control owners explore posture, exposure, ownership and remediation status on their own, with every number tied to data and every rule tied to a policy document.</p>
+  <p class="cta">
+    <a class="btn" href="https://github.com/sfc-gh-siprasad/sfguide-cyber-risk-copilot">View the repository</a>
+    <a class="btn ghost" href="https://github.com/sfc-gh-siprasad/sfguide-cyber-risk-copilot#quick-start-no-snowflake-account">Run it locally with sample data</a>
+  </p>
+  <p class="disclaimer" role="note"><strong>Illustrative example.</strong> All data is synthetic. The logic is illustrative and is not production, security or compliance advice. Not an official Snowflake product and not supported by Snowflake Support.</p>
+</header>
+
+<main class="wrap">
+  <section aria-labelledby="see">
+    <h2 id="see">See the finished result</h2>
+    <p>Three screens make up the app. Each caption names the Snowflake capability behind it when the app runs in your own account.</p>
+
+    <figure>
+      <img src="docs/images/overview.png" width="1280" height="1193" loading="lazy"
+           alt="Posture overview dashboard with six headline numbers, a severity chart, a monthly trend, an age chart and a table of services with the most open critical findings">
+      <figcaption><strong>Posture overview.</strong> Headline numbers such as open critical findings and SLA breach rate. In Snowflake mode these are computed by a <a href="https://docs.snowflake.com/en/user-guide/views-semantic/overview">semantic view</a>, so the app and the assistant share one definition of each metric.</figcaption>
+    </figure>
+
+    <figure>
+      <img src="docs/images/services.png" width="1280" height="1193" loading="lazy"
+           alt="Services table with open, critical and overdue counts and SLA breach rate, followed by a priority list of findings for the selected service">
+      <figcaption><strong>Services and findings.</strong> Drill from a service to its highest-priority open findings, including internet exposure and known-exploited flags. Reads from standard Snowflake tables created by the setup scripts.</figcaption>
+    </figure>
+
+    <figure>
+      <img src="docs/images/copilot.png" width="1280" height="1193" loading="lazy"
+           alt="Chat page where a question about Tier 1 services returns a ranked table, and a policy question returns cited policy text; both answers are labelled Sample AI response">
+      <figcaption><strong>Ask the copilot.</strong> In Snowflake mode a <a href="https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents">Cortex Agent</a> sends data questions to <a href="https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-analyst">Cortex Analyst</a> and policy questions to <a href="https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-overview">Cortex Search</a>. This screenshot is from sample mode, where answers are templated from the bundled data and labelled <em>Sample AI response</em>.</figcaption>
+    </figure>
+  </section>
+
+  <section aria-labelledby="how">
+    <h2 id="how">How it works</h2>
+    <ol class="steps">
+      <li><strong>Synthetic data.</strong> About 1,400 findings across 24 business services, 221 assets and 8 teams, plus 10 short policy documents. Generated with a fixed seed, so the numbers match every run.</li>
+      <li><strong>Semantic view.</strong> One <code>CYBER_POSTURE</code> semantic view defines metrics such as open critical findings and SLA breach rate once.</li>
+      <li><strong>Cortex Analyst and Cortex Search.</strong> Analyst turns questions into SQL over the semantic view. Search finds the relevant policy passages.</li>
+      <li><strong>Cortex Agent.</strong> Chooses the right tool for each question, or uses both, and returns the answer with its data and sources.</li>
+      <li><strong>Streamlit app.</strong> Runs locally on sample data with no account, or against Snowflake, including as Streamlit in Snowflake.</li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="try">
+    <h2 id="try">Try it</h2>
+    <ul class="facts">
+      <li><strong>No account:</strong> Python 3 with pip; about 5 minutes. Runs on bundled sample data.</li>
+      <li><strong>Your Snowflake account:</strong> about 15 minutes. Needs Cortex Analyst, Cortex Search and Cortex Agents in your region. Uses one XSMALL warehouse with 60-second auto-suspend; expected compute is small, and the README gives an estimate and a cleanup script.</li>
+      <li><strong>Least privilege:</strong> setup creates a dedicated role with only the grants the example needs.</li>
+    </ul>
+    <p><a class="btn" href="https://github.com/sfc-gh-siprasad/sfguide-cyber-risk-copilot">Open the repository</a></p>
+  </section>
+
+  <section aria-labelledby="limits">
+    <h2 id="limits">Good to know</h2>
+    <ul>
+      <li>Sample-mode answers are templated, not model output, and cover the suggested questions only.</li>
+      <li>The priority score on the findings page is a simple illustrative formula, not a recommended scoring method.</li>
+      <li>Results shown, such as the SLA breach rate, come from a synthetic data set and do not represent any real organisation.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>Owner: Siddharth Prasad · Last reviewed: November 2026 · Licensed under Apache 2.0. Provided as is, as an illustrative example.</p>
+</footer>
+</body>
+</html>

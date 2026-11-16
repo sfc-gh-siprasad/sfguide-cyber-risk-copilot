@@ -1,0 +1,25 @@
+service_id,service_name,line_of_business,tier,owner_team_id
+S001,Online Banking Portal,Retail Banking,1,T02
+S002,Mobile Banking App,Retail Banking,1,T02
+S003,Core Ledger,Retail Banking,1,T01
+S004,Account Opening,Retail Banking,2,T02
+S005,Branch Teller Platform,Retail Banking,2,T01
+S006,Real-Time Payments Hub,Payments,1,T03
+S007,Wire Transfer Gateway,Payments,1,T03
+S008,ACH Processing,Payments,2,T03
+S009,Card Authorization,Payments,1,T04
+S010,Card Dispute Portal,Payments,3,T04
+S011,Advisor Workstation,Wealth,2,T05
+S012,Client Portfolio Portal,Wealth,2,T05
+S013,Trade Order Router,Wealth,1,T05
+S014,Commercial Lending Origination,Corporate,2,T06
+S015,Treasury Management Portal,Corporate,1,T06
+S016,Trade Finance Platform,Corporate,2,T06
+S017,Identity Provider,Shared Platform,1,T07
+S018,API Gateway,Shared Platform,1,T07
+S019,Container Platform,Shared Platform,2,T07
+S020,Enterprise Data Platform,Shared Platform,2,T08
+S021,Reporting and BI,Shared Platform,3,T08
+S022,Customer Notification Service,Retail Banking,3,T02
+S023,Fraud Decision Service,Payments,1,T04
+S024,Document Management,Shared Platform,3,T08

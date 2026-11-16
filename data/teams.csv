@@ -1,0 +1,9 @@
+team_id,team_name,line_of_business
+T01,Core Banking Platform,Retail Banking
+T02,Digital Channels,Retail Banking
+T03,Payments Engineering,Payments
+T04,Card Services,Payments
+T05,Wealth Technology,Wealth
+T06,Corporate Banking Systems,Corporate
+T07,Cloud Platform,Shared Platform
+T08,Data and Analytics,Shared Platform
