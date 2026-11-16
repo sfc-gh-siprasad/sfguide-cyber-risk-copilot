@@ -89,6 +89,7 @@ python3 data/generate_data.py   # rewrites data/*.csv and sql/02_data.sql
 
 ## Known limitations
 
+- Tested in November 2026 on one AWS US West 2 account with Snowflake CLI 3.31, Streamlit 1.67 and Python 3.15: setup, data load, semantic view, search service, agent, the app in both modes, and cleanup.
 - Sample mode answers only the suggested questions and a few keyword matches; it is not a language model.
 - The priority score on the findings page is a simple illustrative formula.
 - Live mode parses the agent's REST response generically; if Cortex Agents change their response format, `app/snowflake_backend.py` may need an update.
